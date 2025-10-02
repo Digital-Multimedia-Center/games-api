@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Inspector</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .drop-zone {
+      border: 2px dashed #aaa;
+      padding: 40px;
+      text-align: center;
+      color: #555;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .drop-zone.dragover {
+      border-color: #333;
+      background: #fafafa;
+    }
+    .game {
+      display: flex;
+      background: white;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .game img {
+      width: 100px;
+      height: auto;
+      margin-right: 16px;
+      border-radius: 4px;
+    }
+    .game h2 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .tags {
+      margin: 6px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+    .summary {
+      font-size: 0.9em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Game Inspector</h1>
+  <div class="drop-zone" id="dropZone">
+    Drag & drop your <code>games_enriched.json</code> file here
+  </div>
+  <div id="games"></div>
+
+  <script>
+    const dropZone = document.getElementById("dropZone");
+    const container = document.getElementById("games");
+
+    // Drag visual feedback
+    dropZone.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropZone.classList.add("dragover");
+    });
+    dropZone.addEventListener("dragleave", () => {
+      dropZone.classList.remove("dragover");
+    });
+
+    // Handle dropped file
+    dropZone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropZone.classList.remove("dragover");
+      const file = e.dataTransfer.files[0];
+      if (file && file.type === "application/json") {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            const data = JSON.parse(event.target.result);
+            renderGames(data);
+          } catch (err) {
+            console.error("Invalid JSON file", err);
+          }
+        };
+        reader.readAsText(file);
+      } else {
+        alert("Please drop a valid JSON file.");
+      }
+    });
+
+    function renderGames(data) {
+      container.innerHTML = ""; // clear previous content
+
+      data.forEach(entry => {
+        const game = entry.game || {};
+        const dmc = game.dmc || {};
+        const igdb = game.igdb || {};
+
+        const gameDiv = document.createElement("div");
+        gameDiv.className = "game";
+
+        if (igdb.cover) {
+          const coverImg = document.createElement("img");
+          coverImg.src = igdb.cover;
+          coverImg.alt = igdb.title || dmc.title || "No title";
+          gameDiv.appendChild(coverImg);
+        }
+
+        const infoDiv = document.createElement("div");
+
+        const title = document.createElement("h2");
+        title.textContent = igdb.title || dmc.title || "Untitled";
+
+        if (dmc.edition) {
+          const edition = document.createElement("p");
+          edition.textContent = dmc.edition;
+          infoDiv.appendChild(edition);
+        }
+
+        if (Array.isArray(igdb.tags) && igdb.tags.length) {
+          const tags = document.createElement("div");
+          tags.className = "tags";
+          tags.textContent = igdb.tags.join(", ");
+          infoDiv.appendChild(tags);
+        }
+
+        if (igdb.summary) {
+          const summary = document.createElement("div");
+          summary.className = "summary";
+          summary.textContent = igdb.summary;
+          infoDiv.appendChild(summary);
+        }
+
+        infoDiv.insertBefore(title, infoDiv.firstChild);
+        gameDiv.appendChild(infoDiv);
+        container.appendChild(gameDiv);
+      });
+    }
+  </script>
+</body>
+</html>

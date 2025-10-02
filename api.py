@@ -10,8 +10,6 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-print(CLIENT_ID, CLIENT_SECRET)
-
 # Get a Twitch access token (expires in ~2 months)
 def get_access_token():
     url = "https://id.twitch.tv/oauth2/token"
@@ -77,6 +75,12 @@ def enrich_with_igdb(games_file, output_file):
                     "cover": "",
                     "other": {}
                 }
+                print(title)
+                print(results)
+                with open("debug.txt", "w") as f:
+                    f.write(str(title) + "\n")
+                    f.write(str(results) + "\n")
+
 
         except Exception as e:
             print(f"Error processing {title}: {e}")
