@@ -19,7 +19,6 @@ def get_access_token():
         "grant_type": "client_credentials"
     }
     response = requests.post(url, data=payload)
-    print(response)
     response.raise_for_status()
     return response.json()["access_token"]
 
@@ -51,6 +50,7 @@ def enrich_with_igdb(games_file, output_file):
 
             if results:
                 result = results[0]
+
                 igdb_data = {
                     "title": result.get("name", ""),
                     "summary": result.get("summary", ""),
@@ -68,22 +68,34 @@ def enrich_with_igdb(games_file, output_file):
                     }
                 }
             else:
+                title = title[0:title.find("/")]
+                query = f'search "{title}"; fields name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
+        
+                response = requests.post(IGDB_URL, headers=HEADERS, data=query)
+                result = response.json()[0]
+
                 igdb_data = {
-                    "title": "",
-                    "summary": "",
-                    "tags": [],
-                    "cover": "",
-                    "other": {}
+                    "title": result.get("name", ""),
+                    "summary": result.get("summary", ""),
+                    "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
+                    "cover": (
+                        f'https://images.igdb.com/igdb/image/upload/t_cover_big/{result["cover"]["image_id"]}.jpg'
+                        if result.get("cover") else ""
+                    ),
+                    "other": {
+                        "platforms": [p["name"] for p in result.get("platforms", [])] if result.get("platforms") else [],
+                        "release_year": (
+                            time.strftime("%Y", time.gmtime(result["first_release_date"]))
+                            if result.get("first_release_date") else None
+                        )
+                    }
                 }
-                print(title)
-                print(results)
-                with open("debug.txt", "w") as f:
-                    f.write(str(title) + "\n")
-                    f.write(str(results) + "\n")
-
-
+               
         except Exception as e:
-            print(f"Error processing {title}: {e}")
+            with open("debug.txt", "a") as file:
+                file.write(title + "\n")
+                file.write(str(e) + "\n")
+
             igdb_data = {
                 "title": "",
                 "summary": "",

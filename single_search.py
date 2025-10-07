@@ -31,12 +31,26 @@ def search_one_game(title):
     response.raise_for_status()
 
     results = response.json()
+
     if results:
         return results[0]
     else:
+        print(results)
         return {"error": f"No results found for {title}"}
 
 if __name__ == "__main__":
-    title = "Destiny / Bungie, Activision." 
+    title = "LEGO Indiana Jones: the original adventures / developed by TT Games."
+    # title = "LEGO Indiana Jones: the original adventures"
+    # title = "Sifu"
+    # title = "Destiny" 
+    title = "Cat quest / The Gentlebros."
+    title = "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions."
+
     result = search_one_game(title)
+
+    if "error" in result:
+        title = title[0:title.find("/")]
+        print("err")
+    result = search_one_game(title)
+
     print(result)
