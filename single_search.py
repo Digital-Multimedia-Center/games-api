@@ -26,14 +26,14 @@ def search_one_game(title):
         "Authorization": f"Bearer {ACCESS_TOKEN}"
     }
 
-    query = f'search "{title}"; fields name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
+    query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
     response = requests.post(IGDB_URL, headers=HEADERS, data=query)
     response.raise_for_status()
 
     results = response.json()
 
     if results:
-        return results[0]
+        return results
     else:
         print(results)
         return {"error": f"No results found for {title}"}
@@ -45,6 +45,8 @@ if __name__ == "__main__":
     # title = "Destiny" 
     title = "Cat quest / The Gentlebros."
     title = "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions."
+    title = "Mighty no. 9."
+    title = "sonic riders."
 
     result = search_one_game(title)
 
@@ -53,4 +55,6 @@ if __name__ == "__main__":
         print("err")
     result = search_one_game(title)
 
-    print(result)
+    for i in result:
+        print(i)
+        print("\n")

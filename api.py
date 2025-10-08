@@ -41,7 +41,7 @@ def enrich_with_igdb(games_file, output_file):
     for game in tqdm(games, desc="Enriching games with IGDB"):
         title = game["dmc"]["title"]
 
-        query = f'search "{title}"; fields name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
+        query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
 
         try:
             response = requests.post(IGDB_URL, headers=HEADERS, data=query)
@@ -52,6 +52,7 @@ def enrich_with_igdb(games_file, output_file):
                 result = results[0]
 
                 igdb_data = {
+                    "id": results.get("id", ""),
                     "title": result.get("name", ""),
                     "summary": result.get("summary", ""),
                     "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
@@ -131,7 +132,7 @@ def search_msu_catalog():
         params = {
             "lookfor": "genre:video+games",
             "type": "AllFields",
-            "field[]": ["edition", "title"],
+            "field[]": ["edition","authors", "title"],
             "limit": 100,
             "page": curr_page,
             "sort": "relevance",
@@ -152,6 +153,7 @@ def search_msu_catalog():
                 game = {
                     "dmc": {
                         "title": record.get("title", "N/A"),
+                        "authors": list(record["authors"]["corporate"]),
                         "edition": record.get("edition", "N/A")
                     }
                 }
@@ -175,5 +177,5 @@ def search_msu_catalog():
 
 
 if __name__ == "__main__":
-    # search_msu_catalog()
-    enrich_with_igdb("games.json", "games_enriched.json")
+    search_msu_catalog()
+    # enrich_with_igdb("games.json", "games_enriched.json")
