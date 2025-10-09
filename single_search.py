@@ -47,12 +47,13 @@ if __name__ == "__main__":
     title = "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions."
     title = "Mighty no. 9."
     title = "sonic riders."
+    title = "WWE WrestleMania 21. Become a legend."
 
     result = search_one_game(title)
 
     if "error" in result:
         title = title[0:title.find("/")]
-        print("err")
+        print("error with original title")
     result = search_one_game(title)
 
     for i in result:
