@@ -1,6 +1,7 @@
 import requests
 import os
 from dotenv import load_dotenv
+import json
 
 # Load credentials from .env file
 load_dotenv()
@@ -18,7 +19,16 @@ def get_access_token():
     response.raise_for_status()
     return response.json()["access_token"]
 
-def search_one_game(title):
+def compare_platforms(platform_from_dmc, igdb_results):
+    filter = list() 
+
+    for result in igdb_results:
+        if platform_from_dmc.lower() in [platform['name'].lower() for platform in result['platforms']]:
+            filter.append(result)
+
+    return filter
+
+def search_one_game(title, platform_from_dmc):
     ACCESS_TOKEN = get_access_token()
     IGDB_URL = "https://api.igdb.com/v4/games"
     HEADERS = {
@@ -31,6 +41,8 @@ def search_one_game(title):
     response.raise_for_status()
 
     results = response.json()
+
+    results = compare_platforms(platform_from_dmc, results)
 
     if results:
         return results
@@ -47,15 +59,17 @@ if __name__ == "__main__":
     title = "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions."
     title = "Mighty no. 9."
     title = "sonic riders."
-    title = "WWE WrestleMania 21. Become a legend."
+    title = "Portal 2"
 
-    result = search_one_game(title)
+    result = search_one_game(title, "playstation 3")
 
     if "error" in result:
         title = title[0:title.find("/")]
-        print("error with original title")
-    result = search_one_game(title)
+        print(f"error with original title, now trying with {title}")
+    result = search_one_game(title, "playstation 3")
 
     for i in result:
         print(i)
         print("\n")
+
+    print(compare_platforms("PlayStation 3", result))
