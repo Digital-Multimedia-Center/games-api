@@ -23,8 +23,9 @@ def compare_platforms(platform_from_dmc, igdb_results):
     filter = list() 
 
     for result in igdb_results:
-        if platform_from_dmc.lower() in [platform['name'].lower() for platform in result['platforms']]:
-            filter.append(result)
+        if "platforms" in result:
+            if platform_from_dmc.lower() in [platform['name'].lower() for platform in result['platforms']]:
+                filter.append(result)
 
     return filter
 
@@ -57,19 +58,19 @@ if __name__ == "__main__":
     # title = "Destiny" 
     title = "Cat quest / The Gentlebros."
     title = "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions."
-    title = "Mighty no. 9."
     title = "sonic riders."
     title = "Portal 2"
+    title = "Mighty no. 9."
 
-    result = search_one_game(title, "playstation 3")
+    result = search_one_game(title, "playstation 4")
 
     if "error" in result:
         title = title[0:title.find("/")]
         print(f"error with original title, now trying with {title}")
-    result = search_one_game(title, "playstation 3")
+
+        result = search_one_game(title, "playstation 3")
 
     for i in result:
         print(i)
         print("\n")
 
-    print(compare_platforms("PlayStation 3", result))
