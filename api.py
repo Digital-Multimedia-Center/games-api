@@ -10,6 +10,22 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
+def compare_platforms(platform_from_dmc, igdb_results):
+    """
+    Takes searched results and filters out results that aren't supported for the platform the DMC has it listed as
+    """
+
+    # TODO: someday, change it so that instead of string search it compares the int id values...
+
+    filter = list() 
+
+    for result in igdb_results:
+        if "platforms" in result:
+            if platform_from_dmc.lower() in [platform['name'].lower() for platform in result['platforms']]:
+                filter.append(result)
+
+    return filter
+
 # Get a Twitch access token (expires in ~2 months)
 def get_access_token():
     url = "https://id.twitch.tv/oauth2/token"
@@ -41,12 +57,14 @@ def enrich_with_igdb(games_file, output_file):
     for game in tqdm(games, desc="Enriching games with IGDB"):
         title = game["dmc"]["title"]
 
-        query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
+        query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
 
         try:
             response = requests.post(IGDB_URL, headers=HEADERS, data=query)
             response.raise_for_status()
             results = response.json()
+            
+            results = compare_platforms(game["dmc"]["edition"], results)
 
             if results:
                 result = results[0]
@@ -70,12 +88,14 @@ def enrich_with_igdb(games_file, output_file):
                 }
             else:
                 title = title[0:title.find("/")]
-                query = f'search "{title}"; fields name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 1;'
-        
+                query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
+
                 response = requests.post(IGDB_URL, headers=HEADERS, data=query)
+                results = compare_platforms(game["dmc"]["edition"], results)
                 result = response.json()[0]
 
                 igdb_data = {
+                    "id": results.get("id", ""),
                     "title": result.get("name", ""),
                     "summary": result.get("summary", ""),
                     "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
@@ -132,7 +152,7 @@ def search_msu_catalog():
         params = {
             "lookfor": "genre:video+games",
             "type": "AllFields",
-            "field[]": ["edition","authors", "title"],
+            "field[]": ["edition","authors", "title", "id"],
             "limit": 100,
             "page": curr_page,
             "sort": "relevance",
@@ -152,6 +172,7 @@ def search_msu_catalog():
             for record in data.get("records", []):
                 game = {
                     "dmc": {
+                        "id": record.get("id", "N/A"),
                         "title": record.get("title", "N/A"),
                         "authors": list(record["authors"]["corporate"]),
                         "edition": record.get("edition", "N/A")
@@ -177,5 +198,6 @@ def search_msu_catalog():
 
 
 if __name__ == "__main__":
-    search_msu_catalog()
-    # enrich_with_igdb("games.json", "games_enriched.json")
+    # search_msu_catalog()
+    enrich_with_igdb("games.json", "games_enriched.json")
+    pass

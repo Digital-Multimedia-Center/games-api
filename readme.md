@@ -19,3 +19,6 @@ game:
     summary: string      # game summary/description
     other: object?       # extra metadata (platforms, release year, etc.)
 ```
+
+current error rate : 0.13
+new error rate : 0.11
