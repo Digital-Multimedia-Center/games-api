@@ -1,6 +1,8 @@
 import requests
+from rapidfuzz import fuzz
 import json
 import time
+import string
 from tqdm import tqdm
 from dotenv import load_dotenv
 import os
@@ -10,21 +12,6 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-def compare_platforms(platform_from_dmc, igdb_results):
-    """
-    Takes searched results and filters out results that aren't supported for the platform the DMC has it listed as
-    """
-
-    # TODO: someday, change it so that instead of string search it compares the int id values...
-
-    filter = list() 
-
-    for result in igdb_results:
-        if "platforms" in result:
-            if platform_from_dmc.lower() in [platform['name'].lower() for platform in result['platforms']]:
-                filter.append(result)
-
-    return filter
 
 # Get a Twitch access token (expires in ~2 months)
 def get_access_token():
@@ -48,6 +35,66 @@ HEADERS = {
 }
 
 def enrich_with_igdb(games_file, output_file):
+    def build_query(title):
+        return f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
+
+    def is_pc_platform(name):
+        pc_keywords = ["windows", "pc", "macintosh", "dos", "cd-rom", "mac", "ibm"]
+        return any(k in name.lower() for k in pc_keywords)
+
+    def compare_platforms(platform_from_dmc, igdb_results, threshold=80):
+        """Return IGDB results whose platforms best match the DMC platform using fuzzy matching."""
+
+        # If it's clearly a PC/Mac platform, skip entirely
+        if is_pc_platform(platform_from_dmc):
+            return []
+
+        filtered = []
+
+        for result in igdb_results:
+            if "platforms" in result:
+                igdb_platforms = [p['name'] for p in result['platforms']]
+
+                # Compute fuzzy similarity scores for each IGDB platform
+                best_match, best_score = None, 0
+                for p in igdb_platforms:
+                    score = fuzz.ratio(platform_from_dmc.lower(), p.lower())
+                    if score > best_score:
+                        best_match, best_score = p, score
+
+                # Keep the result if match score is above threshold
+                if best_score >= threshold:
+                    filtered.append(result)
+
+        return filtered
+
+    def extract_igdb_data(result):
+        return {
+            "id": result.get("id", ""),
+            "title": result.get("name", ""),
+            "summary": result.get("summary", ""),
+            "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
+            "cover": (
+                f'https://images.igdb.com/igdb/image/upload/t_cover_big/{result["cover"]["image_id"]}.jpg'
+                if result.get("cover") else ""
+            ),
+            "other": {
+                "platforms": [p["name"] for p in result.get("platforms", [])] if result.get("platforms") else [],
+                "release_year": (
+                    time.strftime("%Y", time.gmtime(result["first_release_date"]))
+                    if result.get("first_release_date") else None
+                )
+            }
+        }
+
+    def fetch_igdb_results(title, edition):
+        query = build_query(title)
+        response = requests.post(IGDB_URL, headers=HEADERS, data=query)
+        response.raise_for_status()
+        results = response.json()
+        filter_by_platform = compare_platforms(edition, results)
+        return filter_by_platform if filter_by_platform else results
+
     # Load MSU catalog games
     with open(games_file, "r", encoding="utf-8") as f:
         games = json.load(f)
@@ -56,74 +103,27 @@ def enrich_with_igdb(games_file, output_file):
 
     for game in tqdm(games, desc="Enriching games with IGDB"):
         title = game["dmc"]["title"]
-
-        query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
+        edition = game["dmc"]["edition"]
 
         try:
-            response = requests.post(IGDB_URL, headers=HEADERS, data=query)
-            response.raise_for_status()
-            results = response.json()
-            
-            results = compare_platforms(game["dmc"]["edition"], results)
+            results = fetch_igdb_results(title, edition)
+
+            if not results:
+                # Retry using shorter title
+                short_title = title.split("/")[0]
+                results = fetch_igdb_results(short_title, edition)
 
             if results:
                 result = results[0]
-
-                igdb_data = {
-                    "id": results.get("id", ""),
-                    "title": result.get("name", ""),
-                    "summary": result.get("summary", ""),
-                    "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
-                    "cover": (
-                        f'https://images.igdb.com/igdb/image/upload/t_cover_big/{result["cover"]["image_id"]}.jpg'
-                        if result.get("cover") else ""
-                    ),
-                    "other": {
-                        "platforms": [p["name"] for p in result.get("platforms", [])] if result.get("platforms") else [],
-                        "release_year": (
-                            time.strftime("%Y", time.gmtime(result["first_release_date"]))
-                            if result.get("first_release_date") else None
-                        )
-                    }
-                }
+                igdb_data = extract_igdb_data(result)
             else:
-                title = title[0:title.find("/")]
-                query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
+                igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
 
-                response = requests.post(IGDB_URL, headers=HEADERS, data=query)
-                results = compare_platforms(game["dmc"]["edition"], results)
-                result = response.json()[0]
-
-                igdb_data = {
-                    "id": results.get("id", ""),
-                    "title": result.get("name", ""),
-                    "summary": result.get("summary", ""),
-                    "tags": [g["name"] for g in result.get("genres", [])] if result.get("genres") else [],
-                    "cover": (
-                        f'https://images.igdb.com/igdb/image/upload/t_cover_big/{result["cover"]["image_id"]}.jpg'
-                        if result.get("cover") else ""
-                    ),
-                    "other": {
-                        "platforms": [p["name"] for p in result.get("platforms", [])] if result.get("platforms") else [],
-                        "release_year": (
-                            time.strftime("%Y", time.gmtime(result["first_release_date"]))
-                            if result.get("first_release_date") else None
-                        )
-                    }
-                }
-               
         except Exception as e:
             with open("debug.txt", "a") as file:
-                file.write(title + "\n")
-                file.write(str(e) + "\n")
+                file.write(f"{title}\n{str(e)}\n")
 
-            igdb_data = {
-                "title": "",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {}
-            }
+            igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
 
         enriched_games.append({
             "game": {
@@ -175,7 +175,7 @@ def search_msu_catalog():
                         "id": record.get("id", "N/A"),
                         "title": record.get("title", "N/A"),
                         "authors": list(record["authors"]["corporate"]),
-                        "edition": record.get("edition", "N/A")
+                        "edition": record.get("edition", "N/A").lower().rstrip('.')
                     }
                 }
                 all_games.append(game)

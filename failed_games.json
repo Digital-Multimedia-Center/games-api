@@ -2,38 +2,6 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005541796",
-                "title": "Tom Clancy's Rainbow six.",
-                "authors": [
-                    "Saffire Corporation.",
-                    "Red Storm Entertainment (Firm),",
-                    "Nintendo of America Inc."
-                ],
-                "edition": "Nintendo 64."
-            },
-            "igdb": {
-                "title": "Tom Clancy's Rainbow Six: Vegas 2 / Tom Clancy's Ghost Recon: Advanced Warfighter 2",
-                "summary": "",
-                "tags": [
-                    "Shooter",
-                    "Simulator",
-                    "Strategy",
-                    "Tactical"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9chl.jpg",
-                "other": {
-                    "platforms": [
-                        "PlayStation 3",
-                        "Xbox 360"
-                    ],
-                    "release_year": "2012"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006388908",
                 "title": "The Talos principle : a philosophical puzzler / by Croteam ; written by Tom Jubert & Jonas Kyratzes.",
                 "authors": [
@@ -41,7 +9,7 @@
                     "Nighthawk Interactive (Firm)",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -55,10 +23,38 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541745",
+                "title": "Super Mario 64.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo 64"
+            },
+            "igdb": {
+                "id": 175964,
+                "title": "Super Mario 64 2",
+                "summary": "Super Mario 64 2 was the tentative title for a Mario game in development that served as the direct sequel to Super Mario 64, intended for release in 1999. It was going to be for the Nintendo 64DD, but was canceled early in production due to lack of progress and the commercial failure of the 64DD add-on. Only one demo level was ever made but was never publicly revealed. It is also possible that Super Mario Sunshine, Super Mario Galaxy, or Super Mario Galaxy 2 could have elements salvaged from the development of Super Mario 64 2, according to Nintendo during an E3 event. Luigi was also set to appear in this game, as was a rideable Yoshi. It can be assumed that Luigi would have been playable, as Shigeru Miyamoto had planned to make Super Mario 64 2 multiplayer \u2013 in fact, the first playable demo level was multiplayer.",
+                "tags": [
+                    "Platform"
+                ],
+                "cover": "",
+                "other": {
+                    "platforms": [
+                        "Nintendo 64",
+                        "64DD"
+                    ],
+                    "release_year": null
+                }
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005079388",
                 "title": "Super Mario : how Nintendo conquered America / Jeff Ryan.",
                 "authors": [],
-                "edition": "Paperback edition."
+                "edition": "paperback edition"
             },
             "igdb": {
                 "title": "",
@@ -75,7 +71,7 @@
                 "id": "hlm.ebs4839447e",
                 "title": "Game camp [electronic resource] : out-of-school language and literacy development / Jonathan deHaan, Editor.",
                 "authors": [],
-                "edition": "N/A"
+                "edition": "n/a"
             },
             "igdb": {
                 "title": "",
@@ -96,7 +92,7 @@
                     "SEGA Ent\u0101puraizesu.",
                     "Microsoft Game Studios."
                 ],
-                "edition": "Xbox."
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -104,57 +100,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006023808",
-                "title": "Snoopy's grand adventure / Activision Inc.",
-                "authors": [
-                    "Activision (Firm)",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Snoopy's Grand Adventure",
-                "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006789205",
-                "title": "Streets of rage 4 / Merge Games.",
-                "authors": [
-                    "Merge Games,"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "Streets of Rage 4",
-                "summary": "Streets of Rage 4 is an unreleased game developed as a sequel to Streets of Rage 3. There have been at least two attempts at creating Streets of Rage 4, the first eventually seeing release in the re-branded form of Fighting Force, however a more \"pure\" attempt at a sequel, developed in-house by Sega was due for release on the Sega Dreamcast at one stage.",
-                "tags": [
-                    "Hack and slash/Beat 'em up"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "Dreamcast"
-                    ],
-                    "release_year": null
-                }
             }
         }
     },
@@ -167,7 +112,7 @@
                     "Konami Digital Entertainment, Inc.",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -175,62 +120,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005923340",
-                "title": "Mighty No. 9.",
-                "authors": [
-                    "Deep Silver (Firm),",
-                    "Microsoft Corporation."
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "Mighty No.(9)",
-                "summary": "Well to celebrate Cirno day and for the \u2468Jam, i made this small little game about cirno.",
-                "tags": [
-                    "Platform"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": "2019"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005541941",
-                "title": "Portal 2 / Valve.",
-                "authors": [
-                    "Valve (Firm)",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "Playstation 3."
-            },
-            "igdb": {
-                "title": "Portal Maze 2",
-                "summary": "",
-                "tags": [
-                    "Shooter",
-                    "Platform",
-                    "Puzzle"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-                "other": {
-                    "platforms": [
-                        "Android"
-                    ],
-                    "release_year": "2021"
-                }
             }
         }
     },
@@ -243,7 +132,7 @@
                     "EA Sports (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -251,59 +140,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006093712",
-                "title": "Mighty no. 9.",
-                "authors": [
-                    "Deep Silver (Firm),",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Mighty No.(9)",
-                "summary": "Well to celebrate Cirno day and for the \u2468Jam, i made this small little game about cirno.",
-                "tags": [
-                    "Platform"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": "2019"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006749037",
-                "title": "Fallout 3.",
-                "authors": [
-                    "Bethesda Softworks (Firm),",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 3."
-            },
-            "igdb": {
-                "title": "Fallout 3: The Pitt & Fallout 3: Operation Anchorage",
-                "summary": "",
-                "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7yj5.jpg",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)",
-                        "Xbox 360"
-                    ],
-                    "release_year": null
-                }
             }
         }
     },
@@ -318,7 +154,7 @@
                     "Microsoft Corporation.",
                     "Hasbro, Inc."
                 ],
-                "edition": "Xbox one."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -338,7 +174,7 @@
                     "XSEED JKS Games (Firm),",
                     "Marvelous Entertainment Inc.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -358,7 +194,7 @@
                     "Sony Computer Entertainment.",
                     "Konami Digital Entertainment, Inc."
                 ],
-                "edition": "PlayStation 2."
+                "edition": "playstation 2"
             },
             "igdb": {
                 "title": "",
@@ -379,7 +215,7 @@
                     "CAPCOM Co.",
                     "Marvel Entertainment Group."
                 ],
-                "edition": "Xbox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
                 "title": "",
@@ -399,7 +235,7 @@
                     "Ubisoft (Firm)",
                     "Microsoft Game Studios."
                 ],
-                "edition": "Xbox 36."
+                "edition": "xbox 36"
             },
             "igdb": {
                 "title": "",
@@ -420,7 +256,7 @@
                     "Bethesda Softworks (Firm)",
                     "Microsoft Game Studios."
                 ],
-                "edition": "Xbox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
                 "title": "",
@@ -440,9 +276,10 @@
                     "Ubi Soft Entertainment (Firm)",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
+                "id": 130809,
                 "title": "Tom Clancy's Rainbow Six: Vegas 2 / Tom Clancy's Ghost Recon: Advanced Warfighter 2",
                 "summary": "",
                 "tags": [
@@ -471,7 +308,7 @@
                     "Media Molecule (Firm)",
                     "Sony Computer Entertainment,"
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
                 "title": "",
@@ -490,7 +327,7 @@
                 "authors": [
                     "Nintendo of America Inc."
                 ],
-                "edition": "Nintedo 64."
+                "edition": "nintedo 64"
             },
             "igdb": {
                 "title": "",
@@ -509,9 +346,10 @@
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
+                "id": 314564,
                 "title": "Mario Party Superstars: Mario's Rainbow Castle",
                 "summary": "",
                 "tags": [
@@ -530,36 +368,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005874092",
-                "title": "Hunting simulator.",
-                "authors": [
-                    "Microsoft Corporation.",
-                    "Maximum Games (Firm),"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "Hunting Simulator",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00005916932",
                 "title": "Assetto Corsa : your racing simulator / developed by Kunos Simulazioni.",
                 "authors": [
                     "505 Games (Firm),",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -579,7 +394,7 @@
                     "Nighthawk Interactive (Firm),",
                     "Microsoft Corporation."
                 ],
-                "edition": "XBox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -599,9 +414,10 @@
                     "Namco Bandai Games America (Firm)",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
+                "id": 162272,
                 "title": "Funfair Ride Simulator 3: Ride Pack 3",
                 "summary": "Funfair Ride Simulator 3: Ride Pack 3 includes three fairground thrill rides: Tiki Jump, Meteor, and Mixer.",
                 "tags": [
@@ -624,7 +440,7 @@
                     "Nighthawk Interactive (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -644,7 +460,7 @@
                     "Konami Digital Entertainment, Inc.",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -664,7 +480,7 @@
                     "Konami Digital Entertainment, Inc.,",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -685,7 +501,7 @@
                     "Maximum Games (Firm)",
                     "Bigben Interactive SA."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -705,7 +521,7 @@
                     "Nordic Games NA Inc.,",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -724,7 +540,7 @@
                 "authors": [
                     "Sony Computer Entertainment,"
                 ],
-                "edition": "PlayStation Portable."
+                "edition": "playstation portable"
             },
             "igdb": {
                 "title": "",
@@ -738,39 +554,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006388928",
-                "title": "Job simulator.",
-                "authors": [
-                    "Owlchemy Labs, Inc.,",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Dirty Jobs Simulator",
-                "summary": "Be ready to get your hands really dirty. In this game you will have to do things that others find too disgusting. Sewage, excrements and blood are just a few examples of what awaits you. You need to be careful or else you will catch an infection. Staying in the hospital means the end of work.",
-                "tags": [
-                    "Simulator",
-                    "Indie"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006389176",
                 "title": "That's you / Sony Interactive Entertainment LLC.",
                 "authors": [
                     "Sony Computer Entertainment.",
                     "Wish Studios Ltd."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -790,7 +580,7 @@
                     "Codemasters (Firm),",
                     "Deep Silver (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -809,7 +599,7 @@
                 "authors": [
                     "Milestone S.r.L.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -823,30 +613,6 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006782635",
-                "title": "Tennis world tour / developed by Breakpoint.",
-                "authors": [
-                    "Maximum Games (Firm),",
-                    "Breakpoint,",
-                    "Bigben Interactive SA,"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "World Tour Tennis",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006745571",
                 "title": "Sonic the hedgehog.",
                 "authors": [
@@ -854,9 +620,10 @@
                     "Havok (Firm)",
                     "Sega of America (Firm)"
                 ],
-                "edition": "Xbox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
+                "id": 316900,
                 "title": "Sonic The Hedgehog",
                 "summary": "",
                 "tags": [
@@ -880,7 +647,7 @@
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo Wii."
+                "edition": "nintendo wii"
             },
             "igdb": {
                 "title": "",
@@ -894,123 +661,16 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006755153",
-                "title": "Assassins creed IV: black flag.",
-                "authors": [
-                    "Ubi Soft Entertainment (Firm)",
-                    "Microsoft Game Studios."
-                ],
-                "edition": "Xbox 360."
-            },
-            "igdb": {
-                "title": "Assassin's Creed IV Black Flag + Assassin's Creed Rogue Double Pack",
-                "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tx9.jpg",
-                "other": {
-                    "platforms": [
-                        "PlayStation 3"
-                    ],
-                    "release_year": "2017"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005874090",
-                "title": "The dwarves / [developed by] King Art Games, Nordic Games.",
-                "authors": [
-                    "Microsoft Corporation.",
-                    "THQ Nordic (Firm)"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "A Game of Dwarves: Star Dwarves",
-                "summary": "Many Dwarven clans disappeared during the Magic War. One clan even went where no Dwarf has ever gone before; space. Now they have returned and brought with them new and strange technology for their Dwarven brethren.Dig deep and prosper!",
-                "tags": [
-                    "Strategy"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": "2012"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006843372",
-                "title": "Divinity: original sin II / [developed by] Larian Studios.",
-                "authors": [
-                    "Larian Studios,",
-                    "Bandai Namco Entertainment America Inc.,"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "Divinity: Original Sin II - Divine Edition",
-                "summary": "",
-                "tags": [
-                    "Role-playing (RPG)",
-                    "Turn-based strategy (TBS)"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cpv.jpg",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005962439",
-                "title": "The dwarves / THQ Nordic Inc.",
-                "authors": [
-                    "THQ (Firm),",
-                    "King Art Games.",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "A Game of Dwarves: Star Dwarves",
-                "summary": "Many Dwarven clans disappeared during the Magic War. One clan even went where no Dwarf has ever gone before; space. Now they have returned and brought with them new and strange technology for their Dwarven brethren.Dig deep and prosper!",
-                "tags": [
-                    "Strategy"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": "2012"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006389179",
                 "title": "Disgaea 4 complete + : [a Promise of Sardines edition] / Nippon Ichi Software, Inc.",
                 "authors": [
                     "Sony Computer Entertainment.",
                     "NIS America, Inc.,"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
+                "id": 205262,
                 "title": "Disgaea 4 Complete+: A Promise of Sardines Edition",
                 "summary": "When the Corrupternment threatens to disrupt the way of life in Hades, Valvatorez finds himself at the helm of a fiery revolution. The former tyrant will need to call upon new allies, recruit a formidable army, and learn a thing or two about political unrest if he hopes to take down the corrupt regime and bring salvation to all Prinny-kind!",
                 "tags": [
@@ -1034,7 +694,7 @@
                     "Namco Bandai Games America (Firm)",
                     "Namuko, Kabushiki Kaisha."
                 ],
-                "edition": "XBox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
                 "title": "",
@@ -1056,7 +716,7 @@
                     "Torn Banner Studios (Firm),",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -1076,7 +736,7 @@
                     "Nintendo of America Inc.",
                     "Atari, Inc."
                 ],
-                "edition": "Wii."
+                "edition": "wii"
             },
             "igdb": {
                 "title": "",
@@ -1090,40 +750,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006750021",
-                "title": "Plants vs. zombies / PopCap.",
-                "authors": [
-                    "PopCap Games (Firm)",
-                    "Microsoft Game Studios."
-                ],
-                "edition": "Xbox 360."
-            },
-            "igdb": {
-                "title": "Plants vs. Zombies",
-                "summary": "",
-                "tags": [
-                    "Strategy"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kkv.jpg",
-                "other": {
-                    "platforms": [
-                        "Sega Mega Drive/Genesis"
-                    ],
-                    "release_year": "2013"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006798755",
                 "title": "Gran Turismo 7 : the real driving simulator / developed by Polyphony Digital Inc.",
                 "authors": [
                     "Polyphony Digital Inc.,",
                     "Sony Interactive Entertainment America LLC,"
                 ],
-                "edition": "PlayStation 5."
+                "edition": "playstation 5"
             },
             "igdb": {
                 "title": "",
@@ -1142,7 +775,7 @@
                 "authors": [
                     "Sega of America (Firm)"
                 ],
-                "edition": "Dreamcast."
+                "edition": "dreamcast"
             },
             "igdb": {
                 "title": "",
@@ -1163,7 +796,7 @@
                     "Marvelous Entertainment Inc.",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1183,7 +816,7 @@
                     "Milestone S.r.L.",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1203,9 +836,10 @@
                     "Milestone S.r.L.,",
                     "Maximum Games (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
+                "id": 162272,
                 "title": "Funfair Ride Simulator 3: Ride Pack 3",
                 "summary": "Funfair Ride Simulator 3: Ride Pack 3 includes three fairground thrill rides: Tiki Jump, Meteor, and Mixer.",
                 "tags": [
@@ -1229,7 +863,7 @@
                     "KT Racing (Firm)",
                     "Bigben Interactive SA."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1249,7 +883,7 @@
                     "EA Sports (Firm),",
                     "Electronic Arts (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1269,7 +903,7 @@
                     "Saber Software Corporation,",
                     "Focus Home Interactive (Firm),"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -1289,7 +923,7 @@
                     "KT Racing (Firm),",
                     "Bigben Interactive SA,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -1297,30 +931,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006769024",
-                "title": "Monster Energy Supercross : the official videogame 2 / developed by Milestone S.r.L.",
-                "authors": [
-                    "Milestone S.r.L.,"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "Monster Energy Supercross: The Official Videogame 2 - Monster Energy Cup",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": "2019"
-                }
             }
         }
     },
@@ -1333,7 +943,7 @@
                     "Maximum Games (Firm),",
                     "Milestone S.r.L.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -1341,60 +951,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006782646",
-                "title": "Monster Energy Supercross : the official videogame / developed by Milestone S.r.L.",
-                "authors": [
-                    "Milestone S.r.L.,",
-                    "Feld Motor Sports, Inc.,"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "Monster Energy Supercross: The Official Videogame - Monster Energy Cup",
-                "summary": "Don't miss the opportunity to take part in one of the most exciting event of the season with the additional content Monster Energy Supercross - Monster Energy Cup!",
-                "tags": [
-                    "Racing",
-                    "Simulator",
-                    "Sport"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006789209",
-                "title": "Streets of Rage 4.",
-                "authors": [
-                    "Merge Games,",
-                    "Nintendo of America Inc.,"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "Streets of Rage 4",
-                "summary": "Streets of Rage 4 is an unreleased game developed as a sequel to Streets of Rage 3. There have been at least two attempts at creating Streets of Rage 4, the first eventually seeing release in the re-branded form of Fighting Force, however a more \"pure\" attempt at a sequel, developed in-house by Sega was due for release on the Sega Dreamcast at one stage.",
-                "tags": [
-                    "Hack and slash/Beat 'em up"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "Dreamcast"
-                    ],
-                    "release_year": null
-                }
             }
         }
     },
@@ -1407,7 +963,7 @@
                     "Sold Out (Firm)",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -1415,6 +971,36 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006063699",
+                "title": "LEGO pirates of the Caribbean. The video game / Traveller's Tales ; Disney ; Tt Games.",
+                "authors": [
+                    "Disney Interactive (Firm)",
+                    "TT Games (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "id": 284142,
+                "title": "LEGO Pirates of the Caribbean: The Video Game",
+                "summary": "",
+                "tags": [
+                    "Adventure"
+                ],
+                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ysc.jpg",
+                "other": {
+                    "platforms": [
+                        "Nintendo 3DS",
+                        "PlayStation Portable"
+                    ],
+                    "release_year": "2011"
+                }
             }
         }
     },
@@ -1426,7 +1012,7 @@
                 "authors": [
                     "Sega of America (Firm)"
                 ],
-                "edition": "Model no. HKT-7620."
+                "edition": "model no. hkt-7620"
             },
             "igdb": {
                 "title": "",
@@ -1434,31 +1020,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005541754",
-                "title": "Resident Evil 2.",
-                "authors": [
-                    "Capcom USA.",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "Playstation."
-            },
-            "igdb": {
-                "title": "Resident Evil 2 + Resident Evil 3 Bundle",
-                "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
             }
         }
     },
@@ -1471,7 +1032,7 @@
                     "Square Enix (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1491,7 +1052,7 @@
                     "Sold Out (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1505,35 +1066,12 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005985262",
-                "title": "This is the police.",
-                "authors": [
-                    "THQ (Firm),",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Police Car Driving - Police Chase",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006522833",
                 "title": "Dragonball. Xenoverse 2.",
                 "authors": [
                     "Namco Bandai Games America (Firm),"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -1552,7 +1090,7 @@
                 "authors": [
                     "Nintendo of America Inc."
                 ],
-                "edition": "Nintendo 64."
+                "edition": "nintendo 64"
             },
             "igdb": {
                 "title": "",
@@ -1572,7 +1110,7 @@
                     "Square Enix (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -1591,7 +1129,7 @@
                 "authors": [
                     "Arc System Works (Firm),"
                 ],
-                "edition": "PlayStation 5."
+                "edition": "playstation 5"
             },
             "igdb": {
                 "title": "",
@@ -1611,7 +1149,7 @@
                     "THQ (Firm),",
                     "Jellyvision,"
                 ],
-                "edition": "Xbox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
                 "title": "",
@@ -1631,7 +1169,7 @@
                     "LucasArts (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation."
+                "edition": "playstation"
             },
             "igdb": {
                 "title": "",
@@ -1651,9 +1189,10 @@
                     "Namco Bandai Games America (Firm)",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation."
+                "edition": "playstation"
             },
             "igdb": {
+                "id": 369999,
                 "title": "Tekken 3",
                 "summary": "",
                 "tags": [
@@ -1673,14 +1212,44 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541920",
+                "title": "Tekken 6.",
+                "authors": [
+                    "Namco Bandai Games America (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation 3"
+            },
+            "igdb": {
+                "id": 272551,
+                "title": "Tekken 6",
+                "summary": "",
+                "tags": [
+                    "Fighting"
+                ],
+                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lqq.jpg",
+                "other": {
+                    "platforms": [
+                        "PlayStation 4",
+                        "PlayStation 5"
+                    ],
+                    "release_year": "2023"
+                }
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006743262",
                 "title": "Pikmin 2.",
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo GameCube."
+                "edition": "nintendo gamecube"
             },
             "igdb": {
+                "id": 314788,
                 "title": "Pikmin 2: The Pikmin 2 Experience",
                 "summary": "",
                 "tags": [
@@ -1700,64 +1269,12 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006789208",
-                "title": "Streets of rage 4 / Merge Games.",
-                "authors": [
-                    "Merge Games,"
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Streets of Rage 4",
-                "summary": "Streets of Rage 4 is an unreleased game developed as a sequel to Streets of Rage 3. There have been at least two attempts at creating Streets of Rage 4, the first eventually seeing release in the re-branded form of Fighting Force, however a more \"pure\" attempt at a sequel, developed in-house by Sega was due for release on the Sega Dreamcast at one stage.",
-                "tags": [
-                    "Hack and slash/Beat 'em up"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "Dreamcast"
-                    ],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006803034",
-                "title": "Resident evil 2 / CAPCOM ; Simplygon Studios ; RE Engine.",
-                "authors": [
-                    "Capcom USA,",
-                    "Simplygon Studios (Firm),",
-                    "RE Engine (Firm),"
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Resident Evil 2 + Resident Evil 3 Bundle",
-                "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00005541808",
                 "title": "Starfox64.",
                 "authors": [
                     "Nintendo of America Inc."
                 ],
-                "edition": "Nintendo 64."
+                "edition": "nintendo 64"
             },
             "igdb": {
                 "title": "",
@@ -1776,7 +1293,7 @@
                 "authors": [
                     "Namco Bandai Games America (Firm)"
                 ],
-                "edition": "N/A"
+                "edition": "n/a"
             },
             "igdb": {
                 "title": "",
@@ -1795,7 +1312,7 @@
                 "authors": [
                     "Rockstar Games (Firm)"
                 ],
-                "edition": "Playstation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
                 "title": "",
@@ -1815,7 +1332,7 @@
                     "Milestone S.r.L.",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -1829,39 +1346,16 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006769032",
-                "title": "Hunting simulator / developed by Neopica.",
-                "authors": [
-                    "Nintendo of America Inc.",
-                    "Neopica (firm),",
-                    "Maximum Games (Firm),"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "Hunting Simulator",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006745570",
                 "title": "Sonic the hedgehog.",
                 "authors": [
                     "Sony Computer Entertainment.",
                     "Sega of America (Firm)"
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
+                "id": 316900,
                 "title": "Sonic The Hedgehog",
                 "summary": "",
                 "tags": [
@@ -1880,58 +1374,6 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006748774",
-                "title": "Bakugan battle brawlers / developed by NOWPRO.",
-                "authors": [
-                    "Activision (Firm)",
-                    "NOW Production Co. Ltd.,"
-                ],
-                "edition": "Xbox 360."
-            },
-            "igdb": {
-                "title": "Bakugan Battle Brawlers",
-                "summary": "",
-                "tags": [
-                    "Strategy",
-                    "Card & Board Game"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sdv.jpg",
-                "other": {
-                    "platforms": [
-                        "Nintendo DS"
-                    ],
-                    "release_year": "2009"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006850810",
-                "title": "Snoopy's grand adventure / Activision Inc.",
-                "authors": [
-                    "Activision (Firm),"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "Snoopy's Grand Adventure",
-                "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006939421",
                 "title": "Wario ware: smooth moves / Nintendo ; co-developed by Intelligent Systems.",
                 "authors": [
@@ -1939,7 +1381,7 @@
                     "Nintend\u014d Kabushiki Kaisha,",
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo Wii."
+                "edition": "nintendo wii"
             },
             "igdb": {
                 "title": "",
@@ -1959,7 +1401,7 @@
                     "Konami Digital Entertainment, Inc.,",
                     "Kojima Productions,"
                 ],
-                "edition": "PlayStation Vita."
+                "edition": "playstation vita"
             },
             "igdb": {
                 "title": "",
@@ -1973,40 +1415,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006740811",
-                "title": "LEGO racers 2 / developed by Attention to Detail Ltd.",
-                "authors": [
-                    "LEGO Media (Firm),",
-                    "ATD (Firm),"
-                ],
-                "edition": "PlayStation 2."
-            },
-            "igdb": {
-                "title": "LEGO Racers 2",
-                "summary": "",
-                "tags": [
-                    "Racing"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xvv.jpg",
-                "other": {
-                    "platforms": [
-                        "Game Boy Advance"
-                    ],
-                    "release_year": "2001"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006751085",
                 "title": "MLB2K13 / [developed by Visual Concepts].",
                 "authors": [
                     "2K Sports (Firm),",
                     "Visual Concepts (Firm),"
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
                 "title": "",
@@ -2025,7 +1440,7 @@
                 "authors": [
                     "NIS America, Inc.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -2033,31 +1448,6 @@
                 "tags": [],
                 "cover": "",
                 "other": {}
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00006748188",
-                "title": "The price is right / [developed by Ludia].",
-                "authors": [
-                    "Ubi Soft Entertainment (Firm),",
-                    "Ludia,"
-                ],
-                "edition": "Nintendo Wii."
-            },
-            "igdb": {
-                "title": "The Price Is Right",
-                "summary": "",
-                "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5f8p.jpg",
-                "other": {
-                    "platforms": [
-                        "Plug & Play"
-                    ],
-                    "release_year": null
-                }
             }
         }
     },
@@ -2072,7 +1462,7 @@
                     "Torn Banner Studios (Firm),",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -2092,7 +1482,7 @@
                     "Hudson Soft (Firm),",
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo 64."
+                "edition": "nintendo 64"
             },
             "igdb": {
                 "title": "",
@@ -2106,43 +1496,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006950932",
-                "title": "The Sims 4 / developed by Maxis.",
-                "authors": [
-                    "Maxis (Firm),",
-                    "Electronic Arts (Firm),"
-                ],
-                "edition": "Xbox One."
-            },
-            "igdb": {
-                "title": "The Sims 4: Sims' Night Out Bundle",
-                "summary": "",
-                "tags": [
-                    "Role-playing (RPG)",
-                    "Simulator",
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)",
-                        "Mac"
-                    ],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00005877974",
                 "title": "MXGP 3 : the official motorcross videogame.",
                 "authors": [
                     "Milestone S.r.L.",
                     "Microsoft Corporation."
                 ],
-                "edition": "Xbox One."
+                "edition": "xbox one"
             },
             "igdb": {
                 "title": "",
@@ -2162,9 +1522,10 @@
                     "Ubi Soft Entertainment (Firm),",
                     "Ludia,"
                 ],
-                "edition": "Nintendo Wii."
+                "edition": "nintendo wii"
             },
             "igdb": {
+                "id": 198761,
                 "title": "Hollywood Squares",
                 "summary": "",
                 "tags": [],
@@ -2187,7 +1548,7 @@
                     "Sierra On-Line, Inc.,",
                     "Activision (Firm),"
                 ],
-                "edition": "Xbox 360."
+                "edition": "xbox 360"
             },
             "igdb": {
                 "title": "",
@@ -2201,41 +1562,13 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005960808",
-                "title": "Portal knights / developed by Keen.",
-                "authors": [
-                    "Keen (Firm)",
-                    "505 Games (Firm)",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Portal Knights: Portal Pioneer Pack",
-                "summary": "Leave the familiar world behind and step into the fantastic unknown with Portal Knights! Play with your friends in this action-packed crafting adventure across 3D sandbox worlds. Craft your adventure. Forge your hero. Become the ultimate Portal Knight!",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "Nintendo Switch"
-                    ],
-                    "release_year": "2019"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006750707",
                 "title": "Dead or alive 5 : I'm a fighter.",
                 "authors": [
                     "Tecmo, Inc.",
                     "Sony Computer Entertainment."
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
                 "title": "",
@@ -2254,7 +1587,7 @@
                 "authors": [
                     "Bigben Interactive SA,"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -2268,36 +1601,12 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006792062",
-                "title": "Metroid dread.",
-                "authors": [
-                    "Nintendo of America Inc.,"
-                ],
-                "edition": "Nintendo Switch."
-            },
-            "igdb": {
-                "title": "Metroid Dread",
-                "summary": "",
-                "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co935n.jpg",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006741733",
                 "title": "PaRappaTheRapper 2.",
                 "authors": [
                     "Sony Computer Entertainment,"
                 ],
-                "edition": "PlayStation 2."
+                "edition": "playstation 2"
             },
             "igdb": {
                 "title": "",
@@ -2317,9 +1626,10 @@
                     "505 Games (Firm),",
                     "Klei Entertainment (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
+                "id": 167117,
                 "title": "Don't Starve: Mega Pack",
                 "summary": "",
                 "tags": [],
@@ -2334,39 +1644,12 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006930430",
-                "title": "Super Mario galaxy 2 / developed by Nintendo.",
-                "authors": [
-                    "Nintendo of America Inc.,"
-                ],
-                "edition": "Nintendo Wii."
-            },
-            "igdb": {
-                "title": "Super Mario Galaxy 2 2: Super Mario Galaxy 1",
-                "summary": "A short troll hack for Mario 64 based on the Bart Simpson concussion meme",
-                "tags": [
-                    "Platform",
-                    "Adventure"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [
-                        "Nintendo 64"
-                    ],
-                    "release_year": "2022"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006742621",
                 "title": "Fatal frame : based on a true story.",
                 "authors": [
                     "Tecmo, Inc.,"
                 ],
-                "edition": "Xbox."
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -2385,7 +1668,7 @@
                 "authors": [
                     "THQ (Firm),"
                 ],
-                "edition": "Xbox."
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -2405,7 +1688,7 @@
                     "Blizzard Entertainment (Firm)",
                     "Saffire Corporation."
                 ],
-                "edition": "Windows 95/98/NT/Power Macintosh ; Version 1.05."
+                "edition": "windows 95/98/nt/power macintosh ; version 1.05"
             },
             "igdb": {
                 "title": "",
@@ -2419,35 +1702,12 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006393470",
-                "title": "Hunting simulator / developed by Neopica.",
-                "authors": [
-                    "Sony Computer Entertainment.",
-                    "Maximum Games (Firm),"
-                ],
-                "edition": "PlayStation 4."
-            },
-            "igdb": {
-                "title": "Hunting Simulator",
-                "summary": "",
-                "tags": [],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006841009",
                 "title": "Advance wars 1 + 2 re-boot camp.",
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -2467,7 +1727,7 @@
                     "Squaresoft (Firm),",
                     "Square Enix (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -2487,7 +1747,7 @@
                     "Bugbear Entertainment Oy (Firm),",
                     "THQ Nordic (Firm),"
                 ],
-                "edition": "PlayStation 4."
+                "edition": "playstation 4"
             },
             "igdb": {
                 "title": "",
@@ -2504,7 +1764,7 @@
                 "id": "folio.in00006759915",
                 "title": "Bloodborne : original soundtrack.",
                 "authors": [],
-                "edition": "N/A"
+                "edition": "n/a"
             },
             "igdb": {
                 "title": "",
@@ -2524,7 +1784,7 @@
                     "Konami Digital Entertainment, Inc.,",
                     "Sony Computer Entertainment,"
                 ],
-                "edition": "PlayStation 3."
+                "edition": "playstation 3"
             },
             "igdb": {
                 "title": "",
@@ -2543,9 +1803,10 @@
                 "authors": [
                     "Bethesda Softworks (Firm),"
                 ],
-                "edition": "Games for Windows."
+                "edition": "games for windows"
             },
             "igdb": {
+                "id": 202170,
                 "title": "Fallout 3: The Pitt & Fallout 3: Operation Anchorage",
                 "summary": "",
                 "tags": [],
@@ -2568,7 +1829,7 @@
                 "authors": [
                     "Nintendo of America Inc."
                 ],
-                "edition": "[PC or Mac]."
+                "edition": "[pc or mac]"
             },
             "igdb": {
                 "title": "",
@@ -2582,45 +1843,16 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006749598",
-                "title": "Portal 2 / developed by Valve Corporation.",
-                "authors": [
-                    "Microsoft Corporation.",
-                    "Valve (Firm)",
-                    "Microsoft Game Studios."
-                ],
-                "edition": "Xbox 360."
-            },
-            "igdb": {
-                "title": "Portal Maze 2",
-                "summary": "",
-                "tags": [
-                    "Shooter",
-                    "Platform",
-                    "Puzzle"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-                "other": {
-                    "platforms": [
-                        "Android"
-                    ],
-                    "release_year": "2021"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006939419",
                 "title": "Fire emblem warriors / developed by Omega Force.",
                 "authors": [
                     "Omega Force (Firm),",
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
+                "id": 238324,
                 "title": "Fire Emblem Warriors: Fire Emblem Fates DLC Pack",
                 "summary": "",
                 "tags": [],
@@ -2643,7 +1875,7 @@
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "Nintendo GameCube."
+                "edition": "nintendo gamecube"
             },
             "igdb": {
                 "title": "",
@@ -2663,7 +1895,7 @@
                     "Eidos Interactive (Firm)",
                     "Squaresoft (Firm)"
                 ],
-                "edition": "[PC]."
+                "edition": "[pc]"
             },
             "igdb": {
                 "title": "",
@@ -2684,9 +1916,10 @@
                     "Nintendo of America Inc.",
                     "505 Games (Firm),"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
+                "id": 170873,
                 "title": "Portal Knights: Portal Pioneer Pack",
                 "summary": "Leave the familiar world behind and step into the fantastic unknown with Portal Knights! Play with your friends in this action-packed crafting adventure across 3D sandbox worlds. Craft your adventure. Forge your hero. Become the ultimate Portal Knight!",
                 "tags": [
@@ -2710,7 +1943,7 @@
                 "authors": [
                     "Nintend\u014d Kabushiki Kaisha,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -2730,7 +1963,7 @@
                     "Introversion Software.",
                     "Strategy First Inc.,"
                 ],
-                "edition": "PC CD-ROM."
+                "edition": "pc cd-rom"
             },
             "igdb": {
                 "title": "",
@@ -2749,7 +1982,7 @@
                 "authors": [
                     "Blizzard Entertainment (Firm)"
                 ],
-                "edition": "[PC or Macintosh]."
+                "edition": "[pc or macintosh]"
             },
             "igdb": {
                 "title": "",
@@ -2768,7 +2001,7 @@
                 "authors": [
                     "Blizzard Entertainment (Firm)"
                 ],
-                "edition": "[PC or Macintosh]."
+                "edition": "[pc or macintosh]"
             },
             "igdb": {
                 "title": "",
@@ -2789,7 +2022,7 @@
                     "Codemasters (Firm),",
                     "Broadsword Interactive Ltd.,"
                 ],
-                "edition": "PlayStation 2."
+                "edition": "playstation 2"
             },
             "igdb": {
                 "title": "",
@@ -2806,9 +2039,10 @@
                 "id": "folio.in00006373245",
                 "title": "Fantasy worlds / Benyamin Nuss.",
                 "authors": [],
-                "edition": "N/A"
+                "edition": "n/a"
             },
             "igdb": {
+                "id": 68687,
                 "title": "Fantasy World",
                 "summary": "You have your kingdom and some citizens. The aim is to improve your king, develop the economics and produce invincible armies that will beat enemies' armies and get their territories.",
                 "tags": [
@@ -2833,7 +2067,7 @@
                 "authors": [
                     "KOEI Corporation,"
                 ],
-                "edition": "Nintendo Switch."
+                "edition": "nintendo switch"
             },
             "igdb": {
                 "title": "",
@@ -2852,9 +2086,10 @@
                 "authors": [
                     "THQ (Firm)"
                 ],
-                "edition": "[PC]."
+                "edition": "[pc]"
             },
             "igdb": {
+                "id": 243183,
                 "title": "Tetris Worlds",
                 "summary": "",
                 "tags": [
@@ -2876,7 +2111,7 @@
                 "id": "folio.in00006900583",
                 "title": "Music from the video game series The Sims.",
                 "authors": [],
-                "edition": "Piano solo."
+                "edition": "piano solo"
             },
             "igdb": {
                 "title": "",

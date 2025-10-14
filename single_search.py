@@ -37,13 +37,13 @@ def search_one_game(title, platform_from_dmc):
         "Authorization": f"Bearer {ACCESS_TOKEN}"
     }
 
-    query = f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
+    query = f'search "{title}";fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date, rating; limit 5;'
     response = requests.post(IGDB_URL, headers=HEADERS, data=query)
     response.raise_for_status()
 
     results = response.json()
 
-    results = compare_platforms(platform_from_dmc, results)
+    # results = compare_platforms(platform_from_dmc, results)
 
     if results:
         return results
@@ -61,14 +61,9 @@ if __name__ == "__main__":
     title = "sonic riders."
     title = "Portal 2"
     title = "Mighty no. 9."
+    title = "super mario 64"
 
-    result = search_one_game(title, "playstation 4")
-
-    if "error" in result:
-        title = title[0:title.find("/")]
-        print(f"error with original title, now trying with {title}")
-
-        result = search_one_game(title, "playstation 3")
+    result = search_one_game(title, "GameCube.")
 
     for i in result:
         print(i)
