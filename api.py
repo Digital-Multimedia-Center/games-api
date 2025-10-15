@@ -2,7 +2,6 @@ import requests
 from rapidfuzz import fuzz
 import json
 import time
-import string
 from tqdm import tqdm
 from dotenv import load_dotenv
 import os
