@@ -26,11 +26,27 @@ HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
-# Fetch top 50 platforms
-query = 'fields *; where name ~ "xbox 36"*; limit 10;'
+query = """
+fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date, status, game_type;
+search "super mario 64";
+where status != (2,3,6) & game_type != (5, 12);
+limit 20;
+"""
+
+# response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=query)
+
+platforms = ["Nintendo 64", "Saturn", "GameCube", "Dreamcast", "Playstation 2", "Wii U", "Nintendo Switch", "playstation 3", "Xbox 360", "Xbox Series X", "Playstation 5"]
+
+
+query = """
+    fields *;
+    search "Xbox Series";
+    where platform_type = 1;
+    limit 100;
+    """
+
 response = requests.post("https://api.igdb.com/v4/platforms", headers=HEADERS, data=query)
 response.raise_for_status()
 
-# Pretty-print JSON
 platforms = response.json()
 print(json.dumps(platforms, indent=4, ensure_ascii=False))
