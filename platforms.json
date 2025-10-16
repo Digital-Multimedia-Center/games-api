@@ -1,0 +1,268 @@
+{
+    "Nintendo 64": [
+        {
+            "id": 4,
+            "abbreviation": "N64",
+            "alternative_name": "N64",
+            "created_at": 1297639288,
+            "generation": 5,
+            "name": "Nintendo 64",
+            "platform_logo": 260,
+            "platform_family": 5,
+            "slug": "n64",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/n64",
+            "versions": [
+                122,
+                51
+            ],
+            "websites": [
+                35
+            ],
+            "checksum": "bdd70b18-e2cb-0d2e-fc8b-6d5d08daee20",
+            "platform_type": 1
+        }
+    ],
+    "Saturn": [
+        {
+            "id": 32,
+            "abbreviation": "Saturn",
+            "alternative_name": "JVC Saturn, Hi-Saturn, Samsung Saturn, V-Saturn",
+            "created_at": 1302004506,
+            "generation": 5,
+            "name": "Sega Saturn",
+            "platform_logo": 49,
+            "platform_family": 3,
+            "slug": "saturn",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/saturn",
+            "versions": [
+                65
+            ],
+            "websites": [
+                6
+            ],
+            "checksum": "cdaf13fa-2d36-a314-5a4e-e729e9b7d408",
+            "platform_type": 1
+        }
+    ],
+    "GameCube": [
+        {
+            "id": 21,
+            "abbreviation": "NGC",
+            "alternative_name": "GCN",
+            "created_at": 1298032543,
+            "generation": 6,
+            "name": "Nintendo GameCube",
+            "platform_logo": 262,
+            "platform_family": 5,
+            "slug": "ngc",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ngc",
+            "versions": [
+                121,
+                125,
+                54
+            ],
+            "websites": [
+                292
+            ],
+            "checksum": "004197bf-ded6-6f88-0780-774a936d1d74",
+            "platform_type": 1
+        }
+    ],
+    "Dreamcast": [
+        {
+            "id": 23,
+            "abbreviation": "DC",
+            "alternative_name": "DC",
+            "created_at": 1300188004,
+            "generation": 6,
+            "name": "Dreamcast",
+            "platform_logo": 270,
+            "platform_family": 3,
+            "slug": "dc",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/dc",
+            "versions": [
+                16
+            ],
+            "websites": [
+                276
+            ],
+            "checksum": "8c936c6a-beaf-a199-c360-276e30d3b2e1",
+            "platform_type": 1
+        }
+    ],
+    "Playstation 2": [
+        {
+            "id": 8,
+            "abbreviation": "PS2",
+            "alternative_name": "PS2",
+            "created_at": 1297639288,
+            "generation": 6,
+            "name": "PlayStation 2",
+            "platform_logo": 254,
+            "platform_family": 1,
+            "slug": "ps2",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ps2",
+            "versions": [
+                58,
+                114
+            ],
+            "checksum": "edd15970-1e1f-6642-f792-debbe183b6f9",
+            "platform_type": 1
+        }
+    ],
+    "Wii U": [
+        {
+            "id": 41,
+            "abbreviation": "WiiU",
+            "alternative_name": "Project Cafe",
+            "created_at": 1317739102,
+            "generation": 8,
+            "name": "Wii U",
+            "platform_logo": 239,
+            "platform_family": 5,
+            "slug": "wiiu",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/wiiu",
+            "versions": [
+                73
+            ],
+            "websites": [
+                10
+            ],
+            "checksum": "f4aa89ef-5299-e9a5-e4e6-71957a0ad807",
+            "platform_type": 1
+        }
+    ],
+    "Nintendo Switch": [
+        {
+            "id": 130,
+            "abbreviation": "Switch",
+            "alternative_name": "NX",
+            "created_at": 1465978941,
+            "generation": 8,
+            "name": "Nintendo Switch",
+            "platform_logo": 606,
+            "platform_family": 5,
+            "slug": "switch",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/switch",
+            "versions": [
+                282,
+                173,
+                503
+            ],
+            "websites": [
+                16
+            ],
+            "checksum": "54ffcc6e-0d90-5924-6dfa-d03dc5f313a4",
+            "platform_type": 1
+        }
+    ],
+    "playstation 3": [
+        {
+            "id": 9,
+            "abbreviation": "PS3",
+            "alternative_name": "PS3",
+            "created_at": 1297639288,
+            "generation": 7,
+            "name": "PlayStation 3",
+            "platform_logo": 79,
+            "platform_family": 1,
+            "slug": "ps3",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ps3",
+            "versions": [
+                5,
+                4,
+                6
+            ],
+            "websites": [
+                3
+            ],
+            "checksum": "32ada501-fe9c-d1e5-0c7e-f6e2fc725ef8",
+            "platform_type": 1
+        }
+    ],
+    "Xbox 360": [
+        {
+            "id": 12,
+            "abbreviation": "X360",
+            "alternative_name": "X360",
+            "created_at": 1297639288,
+            "generation": 7,
+            "name": "Xbox 360",
+            "platform_logo": 622,
+            "platform_family": 2,
+            "slug": "xbox360",
+            "summary": "Xbox 360 brings you a total games and entertainment experience. The largest library of games, including titles that get you right into the thick of it with Kinect. Plus, your whole family can watch HD movies, TV shows, live events, music, sports and more—across all your devices. Xbox 360 is the center of your games and entertainment universe.",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/xbox360",
+            "versions": [
+                2,
+                3,
+                495,
+                83
+            ],
+            "websites": [
+                4
+            ],
+            "checksum": "438d1189-ff91-b903-3c3a-a78c43d4435a",
+            "platform_type": 1
+        }
+    ],
+    "Xbox Series": [
+        {
+            "id": 169,
+            "abbreviation": "Series X|S",
+            "alternative_name": "XSX",
+            "created_at": 1565273347,
+            "generation": 9,
+            "name": "Xbox Series X|S",
+            "platform_logo": 561,
+            "platform_family": 2,
+            "slug": "series-x-s",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/series-x-s",
+            "versions": [
+                489,
+                284
+            ],
+            "websites": [
+                238,
+                105,
+                36
+            ],
+            "checksum": "9a646ddc-871a-2739-039a-9a21f50095f8",
+            "platform_type": 1
+        }
+    ],
+    "Playstation 5": [
+        {
+            "id": 167,
+            "abbreviation": "PS5",
+            "alternative_name": "PS5",
+            "created_at": 1543501750,
+            "generation": 9,
+            "name": "PlayStation 5",
+            "platform_logo": 892,
+            "platform_family": 1,
+            "slug": "ps5",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ps5",
+            "versions": [
+                273,
+                724
+            ],
+            "websites": [
+                281
+            ],
+            "checksum": "53874689-0d86-1098-3299-4e9611491aed",
+            "platform_type": 1
+        }
+    ]
+}
