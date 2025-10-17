@@ -46,7 +46,7 @@
             "platform_type": 1
         }
     ],
-    "GameCube": [
+    "Nintendo GameCube": [
         {
             "id": 21,
             "abbreviation": "NGC",
@@ -91,6 +91,28 @@
                 276
             ],
             "checksum": "8c936c6a-beaf-a199-c360-276e30d3b2e1",
+            "platform_type": 1
+        }
+    ],
+    "Playstation": [
+        {
+            "id": 7,
+            "abbreviation": "PS1",
+            "alternative_name": "PSX, PSOne, PS",
+            "created_at": 1297639288,
+            "generation": 5,
+            "name": "PlayStation",
+            "platform_logo": 803,
+            "platform_family": 1,
+            "slug": "ps",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ps",
+            "versions": [
+                653,
+                654,
+                57
+            ],
+            "checksum": "66fca61c-9f53-48a0-3b46-e78dcc76938b",
             "platform_type": 1
         }
     ],
@@ -215,6 +237,33 @@
             "platform_type": 1
         }
     ],
+    "Xbox One": [
+        {
+            "id": 49,
+            "abbreviation": "XONE",
+            "alternative_name": "XONE",
+            "created_at": 1326545022,
+            "generation": 8,
+            "name": "Xbox One",
+            "platform_logo": 329,
+            "platform_family": 2,
+            "slug": "xboxone",
+            "summary": "Welcome to a new generation of games and entertainment. Where games push the boundaries of realism. And television obeys your every command. Where listening to music while playing a game is a snap. And you can jump from TV to movies to music to a game in an instant. Where your experience is custom tailored to you. And the entertainment you love is all in one place. Welcome to the all-in-one, Xbox One",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/xboxone",
+            "versions": [
+                78,
+                188,
+                185,
+                180
+            ],
+            "websites": [
+                12
+            ],
+            "checksum": "26a13c99-ca70-e636-5a03-a9ffa8aaae98",
+            "platform_type": 1
+        }
+    ],
     "Xbox Series": [
         {
             "id": 169,
@@ -238,6 +287,32 @@
                 36
             ],
             "checksum": "9a646ddc-871a-2739-039a-9a21f50095f8",
+            "platform_type": 1
+        }
+    ],
+    "Playstation 4": [
+        {
+            "id": 48,
+            "abbreviation": "PS4",
+            "alternative_name": "PS4",
+            "created_at": 1326544944,
+            "generation": 8,
+            "name": "PlayStation 4",
+            "platform_logo": 231,
+            "platform_family": 1,
+            "slug": "ps4--1",
+            "summary": "The PlayStation 4 system opens the door to an incredible journey through immersive new gaming worlds and a deeply connected gaming community. PS4 puts gamers first with an astounding launch line-up and over 180 games in development. Play amazing top-tier blockbusters and innovative indie hits on PS4. Developer inspired, gamer focused.",
+            "updated_at": 1718027289,
+            "url": "https://www.igdb.com/platforms/ps4--1",
+            "versions": [
+                17,
+                178,
+                179
+            ],
+            "websites": [
+                11
+            ],
+            "checksum": "366423b7-8afa-783e-9712-a9d66fc3bfef",
             "platform_type": 1
         }
     ],

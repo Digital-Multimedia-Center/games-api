@@ -26,7 +26,7 @@ HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
-platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Playstation 2", "Wii U", "Nintendo Switch", "playstation 3", "Xbox 360", "Xbox Series", "Playstation 5"]
+platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Playstation", "Playstation 2", "Wii U", "Nintendo Switch", "playstation 3", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5"]
 
 def build_query(platform):
     return f"""
