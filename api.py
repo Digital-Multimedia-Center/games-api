@@ -167,14 +167,27 @@ def search_msu_catalog():
 
         if response.status_code == 200:
             data = response.json()
-
             for record in data.get("records", []):
+
+                with open("platforms.json") as platform_data_file:
+                    platform_id = -1
+                    ratio = 80
+                    platform_data = json.load(platform_data_file)
+                    for meta_data in platform_data.values():
+                        comparison = fuzz.ratio(record.get("edition","N/A"), meta_data["name"])
+                        if comparison >= ratio:
+                            ratio = comparison
+                            platform_id = meta_data["id"]
+
                 game = {
                     "dmc": {
                         "id": record.get("id", "N/A"),
                         "title": record.get("title", "N/A"),
                         "authors": list(record["authors"]["corporate"]),
                         "edition": record.get("edition", "N/A").lower().rstrip('.')
+                    },
+                    "igdb": {
+                        "platform_id" :  platform_id
                     }
                 }
                 all_games.append(game)

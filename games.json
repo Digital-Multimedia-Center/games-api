@@ -1,6 +1,20 @@
 [
   {
     "dmc": {
+      "id": "folio.in00006940644",
+      "title": "The making of Karateka / [developed by] Digital Eclipse.",
+      "authors": [
+        "Clear River Games,",
+        "Digital Eclipse (Firm),"
+      ],
+      "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
+    }
+  },
+  {
+    "dmc": {
       "id": "folio.in00005541915",
       "title": "Sonic gems collection.",
       "authors": [
@@ -8,6 +22,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -20,6 +37,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -30,6 +50,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -42,6 +65,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -52,6 +78,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "[model no.] psp1001"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -62,6 +91,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -74,6 +106,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -84,6 +119,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -95,6 +133,9 @@
         "Microsoft Game Studios,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -107,6 +148,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -117,6 +161,9 @@
         "Bandai Namco Entertainment Europe Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -129,6 +176,23 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00007004983",
+      "title": "Final fantasy fables: chocobo tales / [developed by] Square Enix.",
+      "authors": [
+        "Nintendo of America Inc.",
+        "Capcom USA,"
+      ],
+      "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -141,6 +205,9 @@
         "Team17 (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -153,6 +220,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -164,6 +234,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -175,6 +248,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -186,6 +262,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -197,6 +276,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -208,6 +290,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -220,6 +305,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -231,6 +319,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -241,6 +332,9 @@
         "Activision (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -253,6 +347,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -265,6 +362,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -276,6 +376,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -286,6 +389,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -298,6 +404,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -310,6 +419,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -322,6 +434,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -333,6 +448,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -344,6 +462,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -355,6 +476,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -366,6 +490,9 @@
         "TT Games (Firm),"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -377,6 +504,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -387,6 +517,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -397,6 +530,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -409,6 +545,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -421,6 +560,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -433,6 +575,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -443,6 +588,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -454,6 +602,9 @@
         "Capcom USA."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -465,6 +616,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "sega saturn"
+    },
+    "igdb": {
+      "platform_id": 32
     }
   },
   {
@@ -475,6 +629,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -486,6 +643,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -497,6 +657,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -509,6 +672,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -522,6 +688,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -536,6 +705,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -546,6 +718,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "dreamcast"
+    },
+    "igdb": {
+      "platform_id": 23
     }
   },
   {
@@ -557,6 +732,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -568,6 +746,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -576,6 +757,9 @@
       "title": "Super Mario : how Nintendo conquered America / Jeff Ryan.",
       "authors": [],
       "edition": "paperback edition"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -584,6 +768,9 @@
       "title": "Carmageddon.",
       "authors": [],
       "edition": "[macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -592,6 +779,9 @@
       "title": "Game camp [electronic resource] : out-of-school language and literacy development / Jonathan deHaan, Editor.",
       "authors": [],
       "edition": "n/a"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -603,6 +793,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -615,6 +808,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -626,6 +822,9 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -638,6 +837,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -650,6 +852,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -660,6 +865,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -670,6 +878,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo 64 edition"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -681,6 +892,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -692,6 +906,9 @@
         "Pokémon USA, Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -703,6 +920,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -714,6 +934,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -725,6 +948,9 @@
         "Nighthawk Interactive (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -736,6 +962,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -747,6 +976,9 @@
         "Bungie (Firm)"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -758,6 +990,9 @@
         "Hudson Soft (Firm)"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -769,6 +1004,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -780,6 +1018,9 @@
         "Majesco Entertainment (Firm)"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -790,6 +1031,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -802,6 +1046,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -812,6 +1059,9 @@
         "Arc System Works (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -826,6 +1076,9 @@
         "Columbia Pictures."
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -836,6 +1089,9 @@
         "Merge Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -847,6 +1103,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -858,6 +1117,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -870,6 +1132,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -881,6 +1146,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -891,6 +1159,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -901,6 +1172,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -911,6 +1185,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -922,6 +1199,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -933,6 +1213,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -944,6 +1227,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -956,6 +1242,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -967,6 +1256,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -978,6 +1270,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -989,6 +1284,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1000,6 +1298,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1010,6 +1311,9 @@
         "Merge Games,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1021,6 +1325,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1033,6 +1340,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1044,6 +1354,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1056,6 +1369,9 @@
         "Id Software, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1067,6 +1383,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1078,6 +1397,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1089,6 +1411,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1099,6 +1424,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1112,6 +1440,9 @@
         "WB Games (Firm)"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1123,6 +1454,9 @@
         "Lionhead Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1133,6 +1467,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -1144,6 +1481,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1156,6 +1496,9 @@
         "Pokémon Company International,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1167,6 +1510,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1179,6 +1525,9 @@
         "Paramount Pictures, Inc."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1190,6 +1539,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1200,6 +1552,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1212,6 +1567,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1222,6 +1580,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -1233,6 +1594,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1246,6 +1610,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1257,6 +1624,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1268,6 +1638,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1278,6 +1651,9 @@
         "Haemimont Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1288,6 +1664,9 @@
         "Deep Silver (Firm)"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1298,6 +1677,9 @@
         "Deep Silver (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1309,6 +1691,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1319,6 +1704,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1331,6 +1719,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1342,6 +1733,9 @@
         "Square Enix (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1354,6 +1748,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1365,6 +1762,9 @@
         "Merge Games,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1377,6 +1777,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1389,6 +1792,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1400,6 +1806,9 @@
         "Geometric Interactive (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1411,6 +1820,9 @@
         "Caged Element (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1422,6 +1834,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -1432,6 +1847,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1443,6 +1861,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1454,6 +1875,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1465,6 +1889,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1476,6 +1903,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1487,6 +1917,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -1497,6 +1930,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -1508,6 +1944,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1518,6 +1957,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1529,6 +1971,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1541,6 +1986,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1552,6 +2000,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1563,6 +2014,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1573,6 +2027,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "dreamcast"
+    },
+    "igdb": {
+      "platform_id": 23
     }
   },
   {
@@ -1584,6 +2041,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1595,6 +2055,9 @@
         "Tecmo, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1608,6 +2071,9 @@
         "Hasbro, Inc."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1620,6 +2086,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1631,6 +2100,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1642,6 +2114,9 @@
         "Square Enix (Firm)"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1654,6 +2129,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1664,6 +2142,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1675,6 +2156,9 @@
         "Marvelous Entertainment Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -1687,6 +2171,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -1698,6 +2185,24 @@
         "Aksys Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00007007624",
+      "title": "Dr. Seuss how the Grinch stole Christmas / developed by Black Lantern Studios, Inc.",
+      "authors": [
+        "Nintendo of America Inc.,",
+        "DSI Games (Firm),",
+        "Black Lantern Studios, Inc.,"
+      ],
+      "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1708,6 +2213,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -1720,6 +2228,9 @@
         "Marvel Comics Group."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1732,6 +2243,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1744,6 +2258,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -1755,6 +2272,9 @@
         "Agetec, Inc."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1767,6 +2287,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1777,6 +2300,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -1787,6 +2313,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1799,6 +2328,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -1809,6 +2341,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -1820,6 +2355,9 @@
         "Konami Digital Entertainment, Inc."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -1832,6 +2370,9 @@
         "Marvel Entertainment Group."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1842,6 +2383,9 @@
         "Deep Silver (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1853,6 +2397,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1864,6 +2411,9 @@
         "Tecmo, Inc."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -1875,6 +2425,9 @@
         "KOEI Corporation,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1886,6 +2439,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -1898,6 +2454,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -1909,6 +2468,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -1919,6 +2481,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -1929,6 +2494,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1941,6 +2509,9 @@
         "Genius Sonority Inc."
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1951,6 +2522,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1963,6 +2537,9 @@
         "Pokémon USA, Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -1973,6 +2550,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -1984,6 +2564,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -1995,6 +2578,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -2006,6 +2592,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 36"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -2018,6 +2607,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -2029,6 +2621,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -2042,6 +2637,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2055,6 +2653,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2066,6 +2667,9 @@
         "Capcom USA,"
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2074,6 +2678,9 @@
       "title": "Star Trek: D-A-C.",
       "authors": [],
       "edition": "[pc or macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2087,6 +2694,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -2098,6 +2708,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -2109,6 +2722,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -2119,6 +2735,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2131,6 +2750,9 @@
         "Metro-Goldwyn-Mayer Film Co."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2142,6 +2764,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2154,6 +2779,9 @@
         "Acclaim Entertainment, Inc.,"
       ],
       "edition": "sega saturn"
+    },
+    "igdb": {
+      "platform_id": 32
     }
   },
   {
@@ -2167,6 +2795,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -2178,6 +2809,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2188,6 +2822,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2199,6 +2836,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2209,6 +2849,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2220,6 +2863,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -2230,6 +2876,9 @@
         "Wired Productions, Ltd.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2240,6 +2889,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintedo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -2251,6 +2903,9 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2262,6 +2917,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2272,6 +2930,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2282,6 +2943,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2292,6 +2956,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2302,6 +2969,39 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00007007630",
+      "title": "Pokémon heartgold version / developed by Game Freak.",
+      "authors": [
+        "Game Freak (Firm),",
+        "Nintendo of America Inc.,",
+        "Pokémon Company International,"
+      ],
+      "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": 4
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00007007664",
+      "title": "Pokémon conquest / [developed by] TECMO KOEI Games Co., Ltd.",
+      "authors": [
+        "Nintendo of America Inc.,",
+        "Pokémon Company International,",
+        "KOEI Corporation,"
+      ],
+      "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2312,6 +3012,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2323,6 +3026,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2334,6 +3040,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2344,6 +3053,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2354,6 +3066,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2365,6 +3080,9 @@
         "Nihon Farukomu Kabushiki Kaisha,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2375,6 +3093,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2385,6 +3106,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2396,6 +3120,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2407,6 +3134,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -2418,6 +3148,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2428,6 +3161,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2440,6 +3176,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2452,6 +3191,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2462,6 +3204,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2473,6 +3218,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2484,6 +3232,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2495,6 +3246,9 @@
         "Dusenberry Martin Racing (Firm)"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2506,6 +3260,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2518,6 +3275,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2529,6 +3289,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2540,6 +3303,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2551,6 +3317,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2562,6 +3331,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2573,6 +3345,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2586,6 +3361,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2597,6 +3375,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2608,6 +3389,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2619,6 +3403,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2631,6 +3418,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -2642,6 +3432,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2653,6 +3446,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2665,6 +3461,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "ps4"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2676,6 +3475,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2688,6 +3490,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2700,6 +3505,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2712,6 +3520,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2723,6 +3534,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2734,6 +3548,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2746,6 +3563,9 @@
         "Bigben Interactive SA."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2758,6 +3578,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2769,6 +3592,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2780,6 +3606,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2791,6 +3620,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2802,6 +3634,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2813,6 +3648,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2823,6 +3661,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2833,6 +3674,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -2844,6 +3688,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2855,6 +3702,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2866,6 +3716,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2878,6 +3731,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2889,6 +3745,9 @@
         "Wish Studios Ltd."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2900,6 +3759,9 @@
         "Playtonic Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2910,6 +3772,9 @@
         "Telltale Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2920,6 +3785,9 @@
         "2K Sports (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2930,6 +3798,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2941,6 +3812,9 @@
         "Deep Silver (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2952,6 +3826,9 @@
         "Behaviour Interactive, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2963,6 +3840,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -2973,6 +3853,9 @@
         "2K Sports (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2983,6 +3866,9 @@
         "Milestone S.r.L.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -2993,6 +3879,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3003,6 +3892,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3013,6 +3905,9 @@
         "Lion Castle Entertainment (firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3023,6 +3918,9 @@
         "Wired Productions, Ltd.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3034,6 +3932,9 @@
         "Anuman Interactive,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3045,6 +3946,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -3056,6 +3960,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3066,6 +3973,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3076,6 +3986,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3087,6 +4000,9 @@
         "Maximum Games (Firm)"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3098,6 +4014,9 @@
         "Microïds (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3109,6 +4028,9 @@
         "Bigben Interactive SA,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3120,6 +4042,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3132,6 +4057,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3142,6 +4070,9 @@
         "Focus Home Interactive (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3153,6 +4084,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3165,6 +4099,9 @@
         "Bigben Interactive SA,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3176,6 +4113,9 @@
         "GameMill Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3187,6 +4127,9 @@
         "Activision (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3198,6 +4141,9 @@
         "Sony Interactive Entertainment America LLC."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3209,6 +4155,9 @@
         "Double Fine,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3220,6 +4169,9 @@
         "Stage Clear Studios,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3230,6 +4182,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3241,6 +4196,9 @@
         "HAL Laboratory, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3251,6 +4209,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3264,6 +4225,9 @@
         "Nickelodeon (Firm)"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3276,6 +4240,9 @@
         "Toys for Bob (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3288,6 +4255,9 @@
         "Toys for Bob (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3299,6 +4269,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3309,6 +4282,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3320,6 +4296,9 @@
         "Konami of America Inc."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -3331,6 +4310,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "windows 95 & dos cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3341,6 +4323,9 @@
         "Interplay Productions,"
       ],
       "edition": "[windows or dos]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3352,6 +4337,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -3363,6 +4351,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -3374,6 +4365,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -3385,6 +4379,9 @@
         "Agetec, Inc."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -3397,6 +4394,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3408,6 +4408,9 @@
         "Activision (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3418,6 +4421,9 @@
         "Spry Fox LLC,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3430,6 +4436,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -3440,6 +4449,9 @@
         "505 Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3452,6 +4464,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3462,6 +4477,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3473,6 +4491,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3484,6 +4505,9 @@
         "Microïds (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3495,6 +4519,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3506,6 +4533,9 @@
         "Maddy Makes Games,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3517,6 +4547,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "players choice"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3529,6 +4562,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3540,6 +4576,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -3551,6 +4590,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3564,6 +4606,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3575,6 +4620,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3586,6 +4634,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3598,6 +4649,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3609,6 +4663,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3620,6 +4677,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3631,6 +4691,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3641,6 +4704,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3652,6 +4718,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3662,6 +4731,9 @@
         "Nicalis, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3672,6 +4744,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -3683,6 +4758,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -3694,6 +4772,9 @@
         "Merge Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3704,6 +4785,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3714,6 +4798,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3724,6 +4811,9 @@
         "Outright Games Limited,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -3735,6 +4825,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3745,6 +4838,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3756,6 +4852,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -3767,6 +4866,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3778,6 +4880,9 @@
         "THQ Nordic (Firm)"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3789,6 +4894,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3800,6 +4908,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3811,6 +4922,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3822,6 +4936,9 @@
         "Thatgamecompany (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3833,6 +4950,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -3843,6 +4963,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3855,6 +4978,9 @@
         "Nordic Games NA Inc."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3867,6 +4993,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -3879,6 +5008,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3890,6 +5022,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -3901,6 +5036,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -3912,6 +5050,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -3923,6 +5064,9 @@
         "Atari, Inc."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -3935,6 +5079,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -3945,6 +5092,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -3956,6 +5106,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -3968,6 +5121,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3981,6 +5137,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -3993,6 +5152,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4004,6 +5166,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4015,6 +5180,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4025,6 +5193,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4037,6 +5208,9 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -4047,6 +5221,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -4057,6 +5234,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4067,6 +5247,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4078,6 +5261,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4090,6 +5276,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4101,6 +5290,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4112,6 +5304,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4123,6 +5318,9 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4134,6 +5332,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4146,6 +5347,9 @@
         "Namuko, Kabushiki Kaisha."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4156,6 +5360,9 @@
         "Nordic Games NA Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4166,6 +5373,9 @@
         "Rising Star Games, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4177,6 +5387,9 @@
         "Id Software, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4190,6 +5403,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4200,6 +5416,9 @@
         "Activision (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4210,6 +5429,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4221,6 +5443,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -4232,6 +5457,9 @@
         "Tecmo, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4242,6 +5470,9 @@
         "Wired Productions, Ltd.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4253,6 +5484,9 @@
         "Capcom USA."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -4264,6 +5498,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -4275,6 +5512,9 @@
         "Aksys Games (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4285,6 +5525,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4297,6 +5540,9 @@
         "Activision (Firm)"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4309,6 +5555,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4320,6 +5569,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4331,6 +5583,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4342,6 +5597,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4354,6 +5612,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4367,6 +5628,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4378,6 +5642,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4388,6 +5655,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4398,6 +5668,9 @@
         "Nicalis, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4408,6 +5681,9 @@
         "Capcom USA,"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4418,6 +5694,9 @@
         "Capcom USA,"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4429,6 +5708,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4440,6 +5722,9 @@
         "Atari, Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4450,6 +5735,9 @@
         "2K Sports (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4461,6 +5749,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4472,6 +5763,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4484,6 +5778,9 @@
         "Rocksteady Studios Ltd."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4495,6 +5792,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4506,6 +5806,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -4517,6 +5820,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "game of the year edition"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4528,6 +5834,9 @@
         "Netherrealm Studios,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4539,6 +5848,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -4551,6 +5863,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -4561,6 +5876,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4573,6 +5891,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -4585,6 +5906,9 @@
         "WB Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4596,6 +5920,9 @@
         "505 Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4607,6 +5934,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4617,6 +5947,9 @@
         "2K Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4627,6 +5960,9 @@
         "Nintendō Kabushiki Kaisha,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4637,6 +5973,9 @@
         "Konami Digital Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4647,6 +5986,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -4657,6 +5999,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4668,6 +6013,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4679,6 +6027,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -4691,6 +6042,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4701,6 +6055,9 @@
         "Fangamer LLC,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4712,6 +6069,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4722,6 +6082,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -4732,6 +6095,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -4742,6 +6108,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -4752,6 +6121,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "dreamcast"
+    },
+    "igdb": {
+      "platform_id": 23
     }
   },
   {
@@ -4763,6 +6135,9 @@
         "LucasArts (Firm),"
       ],
       "edition": "windows, pc cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4775,6 +6150,9 @@
         "Namuko, Kabushiki Kaisha."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -4786,6 +6164,9 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4798,6 +6179,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -4811,6 +6195,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -4822,6 +6209,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4833,6 +6223,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4844,6 +6237,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4855,6 +6251,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4866,6 +6265,9 @@
         "Midway Home Entertainment, Inc.,"
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -4877,6 +6279,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -4888,6 +6293,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "pc cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4901,6 +6309,9 @@
         "TT Games (Firm)"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4913,6 +6324,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -4923,6 +6337,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -4933,6 +6350,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -4944,6 +6364,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -4955,6 +6378,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -4968,6 +6394,9 @@
         "20th Century Games (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -4980,6 +6409,9 @@
         "Volition, Inc.,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -4990,6 +6422,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5003,6 +6438,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5013,6 +6451,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5023,6 +6464,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5033,6 +6477,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5043,6 +6490,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5055,6 +6505,9 @@
         "CE Europe Ltd.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5065,6 +6518,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5075,6 +6531,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5086,6 +6545,9 @@
         "Quantic Dream (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5097,6 +6559,9 @@
         "Atlus U.S.A., Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5108,6 +6573,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5119,6 +6587,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5130,6 +6601,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5142,6 +6616,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5153,6 +6630,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5166,6 +6646,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5177,6 +6660,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5189,6 +6675,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5201,6 +6690,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5213,6 +6705,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5224,6 +6719,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5235,6 +6733,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5245,6 +6746,9 @@
         "Caged Element (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5257,6 +6761,9 @@
         "Bigben Interactive SA."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5268,6 +6775,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5279,6 +6789,9 @@
         "Microïds (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5289,6 +6802,9 @@
         "GameMill Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5299,6 +6815,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5310,6 +6829,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5321,6 +6843,9 @@
         "Focus Home Interactive (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5333,6 +6858,9 @@
         "Nickelodeon (Firm)"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5343,6 +6871,9 @@
         "Snail Games (firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5353,6 +6884,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5363,6 +6897,9 @@
         "Merge Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5374,6 +6911,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5385,6 +6925,9 @@
         "Bigben Interactive SA,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5396,6 +6939,9 @@
         "GameMill Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5408,6 +6954,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5419,6 +6968,9 @@
         "Soedesco (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5429,6 +6981,9 @@
         "Milestone S.r.L.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5440,6 +6995,9 @@
         "Milestone S.r.L.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5450,6 +7008,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5461,6 +7022,9 @@
         "Fun Box Media,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5472,6 +7036,9 @@
         "Feld Motor Sports, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5483,6 +7050,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5494,6 +7064,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5504,6 +7077,9 @@
         "Io Interactive (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5514,6 +7090,9 @@
         "Capcom USA,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5524,6 +7103,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5537,6 +7119,9 @@
         "Limited Run Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5548,6 +7133,9 @@
         "Microïds (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5558,6 +7146,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5568,6 +7159,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5578,6 +7172,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5589,6 +7186,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5599,6 +7199,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5611,6 +7214,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5622,6 +7228,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -5633,6 +7242,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5645,6 +7257,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5657,6 +7272,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5668,6 +7286,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5678,6 +7299,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5688,6 +7312,9 @@
         "PM Studios,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5698,6 +7325,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -5710,6 +7340,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -5720,6 +7353,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5731,6 +7367,9 @@
         "Bandai Namco Entertainment America Inc."
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5742,6 +7381,9 @@
         "PQube (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5753,6 +7395,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -5763,6 +7408,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -5773,6 +7421,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5784,6 +7435,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -5795,6 +7449,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5806,6 +7463,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5816,6 +7476,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5827,6 +7490,9 @@
         "Midway Home Entertainment, Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -5839,6 +7505,9 @@
         "National Football League."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -5849,6 +7518,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -5860,6 +7532,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5870,6 +7545,9 @@
         "Campo Santo (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5882,6 +7560,9 @@
         "Kalypso Media (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5893,6 +7574,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5903,6 +7587,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5914,6 +7601,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5926,6 +7616,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -5936,6 +7629,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5947,6 +7643,9 @@
         "Motion Twin (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -5958,6 +7657,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5971,6 +7673,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5981,6 +7686,9 @@
         "Idea Factory International, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -5992,6 +7700,9 @@
         "Tecmo, Inc."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6004,6 +7715,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6015,6 +7729,9 @@
         "Marvel Entertainment Group."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6025,6 +7742,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6037,6 +7757,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6048,6 +7771,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6060,6 +7786,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6073,6 +7802,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6084,6 +7816,9 @@
         "Young Horses,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6095,6 +7830,9 @@
         "Young Horses,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6106,6 +7844,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6116,6 +7857,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6127,6 +7871,9 @@
         "TT Games (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -6137,6 +7884,9 @@
         "Nicalis, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6148,6 +7898,9 @@
         "Sony Computer Entertainment Europe,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6159,6 +7912,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6169,6 +7925,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6180,6 +7939,9 @@
         "Beamdog,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6191,6 +7953,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6201,6 +7966,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "model no. hkt-7620"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6212,6 +7980,9 @@
         "TT Games (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6225,6 +7996,9 @@
         "Marvel Comics Group,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6236,6 +8010,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -6247,6 +8024,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -6258,6 +8038,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6269,6 +8052,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6280,6 +8066,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6291,6 +8080,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6302,6 +8094,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6313,6 +8108,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6324,6 +8122,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6336,6 +8137,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6348,6 +8152,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6361,6 +8168,9 @@
         "Serenity Forge (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6371,6 +8181,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6381,6 +8194,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6391,6 +8207,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6404,6 +8223,9 @@
         "Limited Run Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6416,6 +8238,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6427,6 +8252,9 @@
         "Tecmo, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6437,6 +8265,9 @@
         "GameMill Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6449,6 +8280,9 @@
         "Crayola (Firm)"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6460,6 +8294,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6470,6 +8307,9 @@
         "Nordic Games NA Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6480,6 +8320,9 @@
         "Rising Star Games, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6490,6 +8333,9 @@
         "Merge Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6501,6 +8347,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6512,6 +8361,23 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00007004982",
+      "title": "Mega Man Zero collection / [developed by] Capcom.",
+      "authors": [
+        "Nintendo of America Inc.,",
+        "Capcom USA."
+      ],
+      "edition": "nintendo ds"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6523,6 +8389,9 @@
         "Capcom USA."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -6534,6 +8403,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6546,6 +8418,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6557,6 +8432,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6568,6 +8446,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6580,6 +8461,9 @@
         "Techland,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6591,6 +8475,9 @@
         "Focus Home Interactive (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6602,6 +8489,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6614,6 +8504,9 @@
         "Gust Co. Ltd.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6624,6 +8517,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6635,6 +8531,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -6645,6 +8544,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6655,6 +8557,9 @@
         "Outright Games Limited,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6666,6 +8571,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6678,6 +8586,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6688,6 +8599,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -6698,6 +8612,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -6709,6 +8626,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "sega saturn"
+    },
+    "igdb": {
+      "platform_id": 32
     }
   },
   {
@@ -6721,6 +8641,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -6732,6 +8655,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -6744,6 +8670,9 @@
         "Warner Bros. Interactive Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6755,6 +8684,9 @@
         "Konami Digital Entertainment, Inc."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -6766,6 +8698,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6777,6 +8712,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6788,6 +8726,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6799,6 +8740,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6809,6 +8753,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -6823,6 +8770,9 @@
         "Rocksteady Studios Ltd."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6833,6 +8783,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6843,6 +8796,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -6854,6 +8810,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -6865,6 +8824,9 @@
         "Take 2 Interactive Software (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -6876,6 +8838,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6886,6 +8851,9 @@
         "Arc System Works (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -6897,6 +8865,9 @@
         "Jellyvision,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -6908,6 +8879,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6919,6 +8893,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -6930,6 +8907,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -6941,6 +8921,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -6952,6 +8935,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -6963,6 +8949,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -6974,6 +8963,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6985,6 +8977,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -6997,6 +8992,9 @@
         "Sony Interactive Entertainment America LLC."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7007,6 +9005,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -7018,6 +9019,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7029,6 +9033,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -7039,6 +9046,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7049,6 +9059,9 @@
         "Merge Games,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7060,6 +9073,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7070,6 +9086,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7081,6 +9100,9 @@
         "Turtle Rock Studios,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7092,6 +9114,9 @@
         "Double Fine,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7103,6 +9128,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7113,6 +9141,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7124,6 +9155,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7134,6 +9168,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7145,6 +9182,9 @@
         "CE Europe Ltd.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7156,6 +9196,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7168,6 +9211,9 @@
         "RE Engine (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7179,6 +9225,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7190,6 +9239,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7200,6 +9252,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7211,6 +9266,9 @@
         "Fangamer LLC,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7223,6 +9281,9 @@
         "Limited Run Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7233,6 +9294,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -7243,6 +9307,9 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "n/a"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7254,6 +9321,9 @@
         "GT Software (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7265,6 +9335,9 @@
         "Shiny Entertainment (Firm)"
       ],
       "edition": "sega saturn"
+    },
+    "igdb": {
+      "platform_id": 32
     }
   },
   {
@@ -7275,6 +9348,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "ninetendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -7285,6 +9361,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -7295,6 +9374,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7307,6 +9389,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -7318,6 +9403,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7329,6 +9417,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -7340,6 +9431,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7350,6 +9444,9 @@
         "Rockstar Games (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7361,6 +9458,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7372,6 +9472,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7382,6 +9485,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7394,6 +9500,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7405,6 +9514,9 @@
         "Marvel Entertainment Group."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7416,6 +9528,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -7428,6 +9543,9 @@
         "Fellow Traveller,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7440,6 +9558,9 @@
         "Fellow Traveller,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7451,6 +9572,9 @@
         "ISOMETRICORP,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7462,6 +9586,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7474,6 +9601,9 @@
         "Lucasfilm, Ltd.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -7484,6 +9614,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7495,6 +9628,9 @@
         "Kepler Interactive,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -7505,6 +9641,9 @@
         "Serenity Forge (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7516,6 +9655,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7527,6 +9669,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7537,6 +9682,9 @@
         "Fangamer LLC,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7547,6 +9695,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7558,6 +9709,9 @@
         "Fiction Fantasy Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7568,6 +9722,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7580,6 +9737,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -7591,6 +9751,9 @@
         "Natsume Inc."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -7603,6 +9766,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7614,6 +9780,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7625,6 +9794,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7636,6 +9808,9 @@
         "Oddworld Inhabitants, Inc.,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -7646,6 +9821,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7656,6 +9834,9 @@
         "Konami of America Inc.,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -7667,6 +9848,9 @@
         "Sega of America (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7677,6 +9861,9 @@
         "Natsume Inc.,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7688,6 +9875,9 @@
         "Now Production,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7699,6 +9889,9 @@
         "Rockstar Games (Firm)"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7710,6 +9903,9 @@
         "NOW Production Co. Ltd.,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7722,6 +9918,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7733,6 +9932,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7743,6 +9945,9 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7753,6 +9958,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7763,6 +9971,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -7773,6 +9984,9 @@
         "Konami Digital Entertainment, Inc.,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7785,6 +9999,9 @@
         "Arkane Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -7795,6 +10012,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7806,6 +10026,9 @@
         "Visual Concepts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7816,6 +10039,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7826,6 +10052,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7837,6 +10066,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7848,6 +10080,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -7858,6 +10093,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7870,6 +10108,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7880,6 +10121,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7890,6 +10134,9 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -7900,6 +10147,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -7910,6 +10160,9 @@
         "SEGA Entāpuraizesu,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7922,6 +10175,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7932,6 +10188,9 @@
         "Activision (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -7942,6 +10201,9 @@
         "Telltale Games (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -7953,6 +10215,9 @@
         "Tequila Works (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7965,6 +10230,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7975,6 +10243,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7987,6 +10258,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -7997,6 +10271,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8009,6 +10286,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8021,6 +10301,9 @@
         "Bamtang Games,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -8032,6 +10315,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -8045,6 +10331,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -8056,6 +10345,9 @@
         "Atlus U.S.A., Inc.,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8066,6 +10358,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8077,6 +10372,9 @@
         "TT Games (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -8088,6 +10386,9 @@
         "Arc System Works (Firm),"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8099,6 +10400,9 @@
         "Kojima Productions,"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8109,6 +10413,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8120,6 +10427,9 @@
         "ATD (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -8131,6 +10441,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8142,6 +10455,9 @@
         "Microsoft Game Studios,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8153,6 +10469,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8165,6 +10484,9 @@
         "THQ (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8176,6 +10498,9 @@
         "Visual Concepts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8186,6 +10511,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8197,6 +10525,9 @@
         "Havok (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8207,6 +10538,9 @@
         "Capcom USA,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8217,6 +10551,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8227,6 +10564,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8238,6 +10578,9 @@
         "Sony Interactive Entertainment America LLC."
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8248,6 +10591,9 @@
         "Capcom USA,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8258,6 +10604,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -8268,6 +10617,9 @@
         "Atlus U.S.A., Inc.,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -8279,6 +10631,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -8290,6 +10645,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8302,6 +10660,9 @@
         "Papaya Studios,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8313,6 +10674,9 @@
         "TT Games (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8324,6 +10688,9 @@
         "Codemasters (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8335,6 +10702,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8346,6 +10716,9 @@
         "Ludia,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8357,6 +10730,9 @@
         "Bethesda Softworks (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8367,6 +10743,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8378,6 +10757,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8391,6 +10773,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8402,6 +10787,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8413,6 +10801,9 @@
         "Treyarch (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8426,6 +10817,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8436,6 +10830,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8449,6 +10846,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8460,6 +10860,9 @@
         "Intelligent Systems (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8471,6 +10874,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8482,6 +10888,9 @@
         "Sold Out (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8492,6 +10901,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8503,6 +10915,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8516,6 +10931,9 @@
         "P Studio (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8527,6 +10945,9 @@
         "Level-5 Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8537,6 +10958,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8548,6 +10972,9 @@
         "Brace Yourself Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8558,6 +10985,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8569,6 +10999,9 @@
         "Vicious Cycle Software,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8580,6 +11013,9 @@
         "TT Games (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8591,6 +11027,9 @@
         "DC Comics, Inc.,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8602,6 +11041,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8612,6 +11054,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8622,6 +11067,9 @@
         "Telltale Games (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8633,6 +11081,9 @@
         "Badland Games,"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8644,6 +11095,9 @@
         "Focus Home Interactive (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8655,6 +11109,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8665,6 +11122,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8676,6 +11136,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -8687,6 +11150,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8698,6 +11164,9 @@
         "Retro Studios (firm),"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8709,6 +11178,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8720,6 +11192,9 @@
         "PQube (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8731,6 +11206,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8742,6 +11220,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -8753,6 +11234,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "players choice"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8764,6 +11248,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -8776,6 +11263,9 @@
         "Activision (Firm)"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8787,6 +11277,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -8798,6 +11291,9 @@
         "Kalypso Media (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8808,6 +11304,9 @@
         "505 Games (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8819,6 +11318,9 @@
         "Gathering (Firm),"
       ],
       "edition": "sega dreamcast"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8830,6 +11332,9 @@
         "Interplay Entertainment Corporation."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -8841,6 +11346,9 @@
         "Square Enix (Firm)"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -8852,6 +11360,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8864,6 +11375,9 @@
         "Electronic Arts (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8875,6 +11389,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -8886,6 +11403,9 @@
         "TT Games (Firm),"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8896,6 +11416,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -8906,6 +11429,9 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8917,6 +11443,9 @@
         "Ludia,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -8928,6 +11457,9 @@
         "CD Projekt S.A. (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -8941,6 +11473,9 @@
         "Red Engine Collective,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8952,6 +11487,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8962,6 +11500,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8973,6 +11514,9 @@
         "Nippon Ichi Software,"
       ],
       "edition": "playstation vita"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -8985,6 +11529,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -8995,6 +11542,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -9005,6 +11555,9 @@
         "Ubisoft (Firm)"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -9015,6 +11568,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9026,6 +11582,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9036,6 +11595,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9047,6 +11609,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9059,6 +11624,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9070,6 +11638,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9081,6 +11652,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9093,6 +11667,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -9104,6 +11681,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -9115,6 +11695,9 @@
         "Quantic Dream (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9127,6 +11710,9 @@
         "Havok (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9138,6 +11724,9 @@
         "Activision (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9150,6 +11739,9 @@
         "Game Designer Co. (Firm)"
       ],
       "edition": "n/a"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9160,6 +11752,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -9171,6 +11766,9 @@
         "Kalypso Media (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9182,6 +11780,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9194,6 +11795,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9205,6 +11809,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9216,6 +11823,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -9229,6 +11839,9 @@
         "Rising Star Games, Inc."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9239,6 +11852,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9250,6 +11866,9 @@
         "Stage Clear Studios,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9261,6 +11880,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9272,6 +11894,9 @@
         "Devolver Digital (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -9283,6 +11908,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -9295,6 +11923,9 @@
         "Atari, Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -9306,6 +11937,9 @@
         "Activision (Firm),"
       ],
       "edition": "games for windows"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9317,6 +11951,9 @@
         "Tecmo, Inc."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9328,6 +11965,9 @@
         "Tecmo, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9340,6 +11980,9 @@
         "Rising Star Games, Inc."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9350,6 +11993,9 @@
         "Bigben Interactive SA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9360,6 +12006,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9372,6 +12021,9 @@
         "Unreal Engine (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9383,6 +12035,9 @@
         "GameMill Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9395,6 +12050,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9407,6 +12065,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9419,6 +12080,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9430,6 +12094,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -9441,6 +12108,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9451,6 +12121,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9461,6 +12134,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9471,6 +12147,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -9484,6 +12163,9 @@
         "Marvel Entertainment, LLC."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9495,6 +12177,9 @@
         "Supergiant Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9507,6 +12192,9 @@
         "Private Division (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9518,6 +12206,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9530,6 +12221,9 @@
         "KOEI Corporation,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9541,6 +12235,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9553,6 +12250,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9564,6 +12264,9 @@
         "BioWare Corp.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9575,6 +12278,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9585,6 +12291,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9597,6 +12306,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9607,6 +12319,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9617,6 +12332,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9629,6 +12347,9 @@
         "Pokémon Company International,"
       ],
       "edition": "nintendo wii u"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9640,6 +12361,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9650,6 +12374,9 @@
         "Rockstar Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9660,6 +12387,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -9671,6 +12401,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9681,6 +12414,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9691,6 +12427,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9702,6 +12441,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -9713,6 +12455,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -9724,6 +12469,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -9734,6 +12482,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9744,6 +12495,9 @@
         "Deep Silver (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9755,6 +12509,9 @@
         "Nicalis, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9765,6 +12522,9 @@
         "Gearbox Software,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9776,6 +12536,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9787,6 +12550,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9798,6 +12564,9 @@
         "LucasArts (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9808,6 +12577,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9819,6 +12591,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9830,6 +12605,9 @@
         "Team Cherry,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -9841,6 +12619,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9852,6 +12633,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -9862,6 +12646,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -9872,6 +12659,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -9883,6 +12673,9 @@
         "Artech Digital Entertainments (Firm),"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -9893,6 +12686,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -9903,6 +12699,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -9915,6 +12714,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9926,6 +12728,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9937,6 +12742,9 @@
         "TT Games (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9949,6 +12757,9 @@
         "Havok (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9959,6 +12770,9 @@
         "Activision (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -9971,6 +12785,9 @@
         "Marvel Comics Group."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9981,6 +12798,9 @@
         "Telltale Games (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -9994,6 +12814,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10004,6 +12827,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10015,6 +12841,9 @@
         "LucasArts (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10027,6 +12856,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10038,6 +12870,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10052,6 +12887,9 @@
         "BlueTwelve Studio,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10063,6 +12901,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -10074,6 +12915,9 @@
         "Koch Media,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10085,6 +12929,9 @@
         "SEGA Entāpuraizesu,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10097,6 +12944,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10107,6 +12957,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10118,6 +12971,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10128,6 +12984,9 @@
         "Team Reptile,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10138,6 +12997,9 @@
         "Ubisoft (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10148,6 +13010,9 @@
         "Rockstar Games (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -10159,6 +13024,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10170,6 +13038,9 @@
         "Supergiant Games. developer, publisher."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10180,6 +13051,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10191,6 +13065,9 @@
         "ScottGames (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10203,6 +13080,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10214,6 +13094,9 @@
         "Focus Home Interactive (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10225,6 +13108,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10235,6 +13121,9 @@
         "Capcom USA,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10245,6 +13134,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -10255,6 +13147,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10266,6 +13161,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10277,6 +13175,9 @@
         "Namco Bandai Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10288,6 +13189,9 @@
         "Klei Entertainment (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10298,6 +13202,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10308,6 +13215,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10319,6 +13229,9 @@
         "Acquire Corp.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10329,6 +13242,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii u"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10340,6 +13256,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10351,6 +13270,9 @@
         "Sold Out (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10362,6 +13284,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10375,6 +13300,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10386,6 +13314,9 @@
         "Eidos Interactive (Firm),"
       ],
       "edition": "ibm pc & compatibles cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10394,6 +13325,9 @@
       "title": "Myst / Cyan Inc.",
       "authors": [],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10405,6 +13339,9 @@
         "Aspyr Media, Inc."
       ],
       "edition": "macintosh"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10415,6 +13352,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10426,6 +13366,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -10438,6 +13381,9 @@
         "GameMill Entertainment, Inc."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10450,6 +13396,9 @@
         "Nordic Games NA Inc."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10461,6 +13410,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10473,6 +13425,9 @@
         "Punchline (firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -10483,6 +13438,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10496,6 +13454,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10508,6 +13469,9 @@
         "Four Quarters Team (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10521,6 +13485,9 @@
         "Nickelodeon (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10533,6 +13500,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10544,6 +13514,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10555,6 +13528,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10565,6 +13541,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10575,6 +13554,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10586,6 +13568,9 @@
         "Motive Studio,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -10596,6 +13581,9 @@
         "Yacht Club Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10607,6 +13595,9 @@
         "Overkill (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10618,6 +13609,9 @@
         "Konami of America Inc.,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -10630,6 +13624,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10640,6 +13637,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -10651,6 +13651,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10662,6 +13665,9 @@
         "Gearbox Software,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10673,6 +13679,9 @@
         "Bluepoint Games, Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10683,6 +13692,9 @@
         "Blizzard Entertainment (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10694,6 +13706,9 @@
         "Nintendō Kabushiki Kaisha,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10705,6 +13720,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10715,6 +13733,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10727,6 +13748,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -10738,6 +13762,9 @@
         "Firaxis Games (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10748,6 +13775,9 @@
         "Capcom USA,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10759,6 +13789,9 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10770,6 +13803,9 @@
         "Konami Digital Entertainment, Inc.,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -10781,6 +13817,9 @@
         "Squaresoft (Firm),"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -10792,6 +13831,9 @@
         "Team Silent,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -10802,6 +13844,9 @@
         "Tecmo, Inc.,"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10813,6 +13858,9 @@
         "Konami of America Inc.,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -10823,6 +13871,9 @@
         "THQ (Firm),"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10833,6 +13884,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -10844,6 +13898,9 @@
         "Disney Interactive Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10854,6 +13911,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10865,6 +13925,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -10876,6 +13939,9 @@
         "CokeM Interactive,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -10886,6 +13952,9 @@
         "EA Sports (Firm),"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -10897,6 +13966,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10909,6 +13981,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10921,6 +13996,9 @@
         "PM Studios,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -10931,6 +14009,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -10942,6 +14023,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10953,6 +14037,9 @@
         "Limited Run Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -10963,6 +14050,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10974,6 +14064,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -10986,6 +14079,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -10997,6 +14093,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -11007,6 +14106,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11018,6 +14120,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11029,6 +14134,9 @@
         "Konami Digital Entertainment, Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11039,6 +14147,9 @@
         "Enhance Experience Inc,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11050,6 +14161,9 @@
         "Epic Games, Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11061,6 +14175,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11071,6 +14188,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -11081,6 +14201,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11094,6 +14217,9 @@
         "PGA Tour (Association)"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11106,6 +14232,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11116,6 +14245,9 @@
         "Westwood Studios,"
       ],
       "edition": "cd-rom for windows"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11127,6 +14259,9 @@
         "Saffire Corporation."
       ],
       "edition": "windows 95/98/nt/power macintosh ; version 1.05"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11139,6 +14274,9 @@
         "Interplay Entertainment Corporation,"
       ],
       "edition": "windows 95/98 cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11149,6 +14287,9 @@
         "Blizzard Entertainment (Firm),"
       ],
       "edition": "[windows/mac cd-rom]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11160,6 +14301,9 @@
         "Id Software, Inc."
       ],
       "edition": "macintosh"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11170,6 +14314,9 @@
         "MTV Networks."
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11181,6 +14328,9 @@
         "Square Enix (Firm)"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -11191,6 +14341,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "dreamcast"
+    },
+    "igdb": {
+      "platform_id": 23
     }
   },
   {
@@ -11201,6 +14354,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -11213,6 +14369,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11224,6 +14383,9 @@
         "Maximum Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11236,6 +14398,9 @@
         "THQ (Firm),"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11246,6 +14411,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -11259,6 +14427,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -11269,6 +14440,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11280,6 +14454,9 @@
         "Omega Force (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11290,6 +14467,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -11300,6 +14480,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11310,6 +14493,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11321,6 +14507,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11332,6 +14521,9 @@
         "Focus Entertainment (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11345,6 +14537,9 @@
         "Jump Over the Age,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11358,6 +14553,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11369,6 +14567,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11381,6 +14582,9 @@
         "ININ Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11394,6 +14598,9 @@
         "Jump Over the Age,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11406,6 +14613,9 @@
         "Havok (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11416,6 +14626,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11427,6 +14640,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11438,6 +14654,9 @@
         "Nintendō Kabushiki Kaisha,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11448,6 +14667,9 @@
         "Konami Digital Entertainment, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11459,6 +14681,9 @@
         "Annapurna Interactive (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11470,6 +14695,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11480,6 +14708,9 @@
         "Sunblink (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11490,6 +14721,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11501,6 +14735,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11512,6 +14749,9 @@
         "Double Dagger Studio,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11523,6 +14763,9 @@
         "HarperCollins (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11534,6 +14777,9 @@
         "Ryu Ga Gotoku Studio,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11545,6 +14791,9 @@
         "Turtle Rock Studios,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11556,6 +14805,9 @@
         "THQ Nordic (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11568,6 +14820,9 @@
         "Activision (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -11580,6 +14835,9 @@
         "Chucklefish,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11594,6 +14852,9 @@
         "Havok (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -11605,6 +14866,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11616,6 +14880,9 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11628,6 +14895,9 @@
         "HandyGames,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11640,6 +14910,9 @@
         "Warhorse Studios (Firm),"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -11648,6 +14921,9 @@
       "title": "Bloodborne : original soundtrack.",
       "authors": [],
       "edition": "n/a"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11658,6 +14934,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -11669,6 +14948,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -11680,6 +14962,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11691,6 +14976,9 @@
         "Omega Force (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11702,6 +14990,9 @@
         "Konami of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -11713,6 +15004,9 @@
         "Activision (Firm),"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11723,6 +15017,9 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "games for windows"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11733,6 +15030,9 @@
         "Blizzard Entertainment (Firm)"
       ],
       "edition": "[pc of macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11743,6 +15043,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "[pc or mac]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -11755,6 +15058,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -11766,6 +15072,9 @@
         "Firaxis Games (Firm),"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -11778,6 +15087,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -11790,6 +15102,9 @@
         "Games Farm,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -11801,6 +15116,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11811,6 +15129,9 @@
         "CAPCOM Co.,"
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -11822,6 +15143,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11832,6 +15156,9 @@
         "Aksys Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11844,6 +15171,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -11855,6 +15185,9 @@
         "Toplitz Productions GmbH,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11867,6 +15200,9 @@
         "Disney Interactive Studios."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -11880,6 +15216,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11890,6 +15229,9 @@
         "Super Rare Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11900,6 +15242,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11913,6 +15258,9 @@
         "Rundisc (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11924,6 +15272,9 @@
         "Asobo Studio,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -11934,6 +15285,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo 64"
+    },
+    "igdb": {
+      "platform_id": 4
     }
   },
   {
@@ -11944,6 +15298,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -11955,6 +15312,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11967,6 +15327,9 @@
         "Studio Pixel Punk,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -11978,6 +15341,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -11989,6 +15355,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12001,6 +15370,9 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12011,6 +15383,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12021,6 +15396,9 @@
         "Capcom USA,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12031,6 +15409,9 @@
         "XSEED JKS Games (Firm),"
       ],
       "edition": "playstation portable"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12042,6 +15423,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12052,6 +15436,9 @@
         "Atlus U.S.A., Inc.,"
       ],
       "edition": "playstation"
+    },
+    "igdb": {
+      "platform_id": 7
     }
   },
   {
@@ -12062,6 +15449,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -12073,6 +15463,9 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -12084,6 +15477,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12095,6 +15491,9 @@
         "Capcom USA,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -12107,6 +15506,9 @@
         "Sega of America (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12118,6 +15520,9 @@
         "PLAION GmbH,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12130,6 +15535,9 @@
         "Xbox Game Studios,"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12141,6 +15549,9 @@
         "Devolver Digital (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12152,6 +15563,9 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -12164,6 +15578,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12176,6 +15593,9 @@
         "Fireshine Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12187,6 +15607,9 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12198,6 +15621,9 @@
         "PM Studios,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12208,6 +15634,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12218,6 +15647,9 @@
         "Limited Run Games,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12228,6 +15660,9 @@
         "Capcom USA,"
       ],
       "edition": "xbox series x"
+    },
+    "igdb": {
+      "platform_id": 169
     }
   },
   {
@@ -12239,6 +15674,9 @@
         "Hazelight Studios,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12249,6 +15687,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12260,6 +15701,9 @@
         "iam8bit (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12271,6 +15715,9 @@
         "Shared Memory,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12282,6 +15729,9 @@
         "PQube (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12293,6 +15743,9 @@
         "FromSoftware,"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -12304,6 +15757,9 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -12315,6 +15771,9 @@
         "Vigil Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12326,6 +15785,9 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -12336,6 +15798,9 @@
         "Outright Games Limited,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12348,6 +15813,9 @@
         "Thunder Lotus Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12358,6 +15826,9 @@
         "Blizzard Entertainment (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12369,6 +15840,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12381,6 +15855,9 @@
         "Jack Nicklaus Productions,"
       ],
       "edition": "ibm pc at"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12392,6 +15869,9 @@
         "Squaresoft (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12402,6 +15882,9 @@
         "Electronic Arts (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12414,6 +15897,9 @@
         "505 Games (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12425,6 +15911,9 @@
         "Massive Monster (firm),"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12437,6 +15926,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12447,6 +15939,9 @@
         "Nintendō Kabushiki Kaisha,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12457,6 +15952,9 @@
         "KOEI Corporation,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12468,6 +15966,9 @@
         "Strategy First Inc.,"
       ],
       "edition": "pc cd-rom"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12478,6 +15979,9 @@
         "Blizzard Entertainment (Firm)"
       ],
       "edition": "[pc or macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12489,6 +15993,9 @@
         "NIS America, Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12500,6 +16007,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12511,6 +16021,9 @@
         "Nintendō Kabushiki Kaisha,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12522,6 +16035,9 @@
         "Sold Out (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12532,6 +16048,9 @@
         "Blizzard Entertainment (Firm)"
       ],
       "edition": "[pc or macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12540,6 +16059,9 @@
       "title": "Grim fandango / LucasArts Entertainment Company presents.",
       "authors": [],
       "edition": "[windows version]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12551,6 +16073,9 @@
         "Square Enix (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -12562,6 +16087,9 @@
         "2K Games, Inc.,"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12572,6 +16100,9 @@
         "Square Enix (Firm),"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12582,6 +16113,9 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "playstation 5"
+    },
+    "igdb": {
+      "platform_id": 167
     }
   },
   {
@@ -12594,6 +16128,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12604,6 +16141,9 @@
         "Blizzard Entertainment (Firm)"
       ],
       "edition": "[pc or macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12615,6 +16155,9 @@
         "Lionhead Studios."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -12626,6 +16169,9 @@
         "Vigil Games (Firm)"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12636,6 +16182,9 @@
         "Blizzard Entertainment (Firm),"
       ],
       "edition": "windows 2000/98/95/nt"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12648,6 +16197,9 @@
         "Broadsword Interactive Ltd.,"
       ],
       "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
     }
   },
   {
@@ -12659,6 +16211,9 @@
         "Humble Games (Firm),"
       ],
       "edition": "playstation 4"
+    },
+    "igdb": {
+      "platform_id": 48
     }
   },
   {
@@ -12670,6 +16225,9 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12680,6 +16238,9 @@
         "Minnesota Educational Computing Corporation."
       ],
       "edition": "[pc or mac]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12690,6 +16251,9 @@
         "Gearbox Software,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12702,6 +16266,9 @@
         "Namco Bandai Games (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12714,6 +16281,9 @@
         "DC Comics, Inc."
       ],
       "edition": "[pc or macintosh]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12724,6 +16294,9 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
     }
   },
   {
@@ -12736,6 +16309,9 @@
         "Digital Extremes (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12744,6 +16320,9 @@
       "title": "Fantasy worlds / Benyamin Nuss.",
       "authors": [],
       "edition": "n/a"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12755,6 +16334,9 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox 360"
+    },
+    "igdb": {
+      "platform_id": 12
     }
   },
   {
@@ -12765,6 +16347,9 @@
         "KOEI Corporation,"
       ],
       "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
     }
   },
   {
@@ -12777,6 +16362,9 @@
         "Valve (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -12787,6 +16375,9 @@
         "THQ (Firm)"
       ],
       "edition": "[pc]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12798,6 +16389,9 @@
         "Eidos Interactive (Firm),"
       ],
       "edition": "[pc edition]"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   },
   {
@@ -12809,6 +16403,9 @@
         "Private Division (Firm),"
       ],
       "edition": "xbox one"
+    },
+    "igdb": {
+      "platform_id": 49
     }
   },
   {
@@ -12821,6 +16418,9 @@
         "Havok (Firm)"
       ],
       "edition": "playstation 3"
+    },
+    "igdb": {
+      "platform_id": 9
     }
   },
   {
@@ -12829,6 +16429,9 @@
       "title": "Music from the video game series The Sims.",
       "authors": [],
       "edition": "piano solo"
+    },
+    "igdb": {
+      "platform_id": -1
     }
   }
 ]
