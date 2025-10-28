@@ -47,7 +47,7 @@ for platform in platforms:
     response.raise_for_status()
 
     # Save 
-    all_results[platform] = response.json()
+    all_results[platform] = response.json()[0]
 
 # Write to one combined JSON file
 with open("platforms.json", "w", encoding="utf-8") as f:
