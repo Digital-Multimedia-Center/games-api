@@ -39,7 +39,7 @@ def enrich_with_igdb(games_file, output_file):
             return f"""
             fields name, category, platforms, status, game_type, rating;
             search "{title}";
-            where platforms = ({platform}) & game_type != (5);
+            where platforms = ({platform}) & game_type != (5, 12) & (status != (2,3,6) | status = null);
             limit 100;
             """
         else:
