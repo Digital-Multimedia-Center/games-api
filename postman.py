@@ -33,20 +33,18 @@ where status != (2,3,6) & game_type != (5, 12);
 limit 20;
 """
 
-# response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=query)
-
-platforms = ["Nintendo 64", "Saturn", "GameCube", "Dreamcast", "Playstation 2", "Wii U", "Nintendo Switch", "playstation 3", "Xbox 360", "Xbox Series X", "Playstation 5"]
-
-
 query = """
-    fields *;
-    search "Xbox Series";
-    where platform_type = 1;
-    limit 100;
-    """
+fields name, category, platforms, status, game_type, rating;
+search "Super Mario 64.";
+where platforms = (4) & game_type != (5, 12) & status != (2,3,6);
+limit 100;
+"""
 
-response = requests.post("https://api.igdb.com/v4/platforms", headers=HEADERS, data=query)
+# ^ status here gets rid of all options, some games dont have status apparently?
+
+response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=query)
+
 response.raise_for_status()
 
-platforms = response.json()
-print(json.dumps(platforms, indent=4, ensure_ascii=False))
+results = response.json()
+print(json.dumps(results, indent=4, ensure_ascii=False))

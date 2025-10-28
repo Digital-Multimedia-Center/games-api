@@ -1,0 +1,45 @@
+[
+  {
+    "dmc": {
+      "id": "folio.in00006940644",
+      "title": "The making of Karateka / [developed by] Digital Eclipse.",
+      "authors": [
+        "Clear River Games,",
+        "Digital Eclipse (Firm),"
+      ],
+      "edition": "nintendo switch"
+    },
+    "igdb": {
+      "platform_id": 130
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005541915",
+      "title": "Sonic gems collection.",
+      "authors": [
+        "Sega of America (Firm)",
+        "Nintendo of America Inc."
+      ],
+      "edition": "nintendo gamecube"
+    },
+    "igdb": {
+      "platform_id": 21
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005541905",
+      "title": "Tom Clancy's Rainbow six: lockdown.",
+      "authors": [
+        "Red Storm Entertainment (Firm)",
+        "Ubi Soft Entertainment (Firm),",
+        "Sony Computer Entertainment."
+      ],
+      "edition": "playstation 2"
+    },
+    "igdb": {
+      "platform_id": 8
+    }
+  }
+]

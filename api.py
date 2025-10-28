@@ -34,38 +34,21 @@ HEADERS = {
 }
 
 def enrich_with_igdb(games_file, output_file):
-    def build_query(title):
-        return f'search "{title}"; fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date; limit 5;'
-
-    def is_pc_platform(name):
-        pc_keywords = ["windows", "pc", "macintosh", "dos", "cd-rom", "mac", "ibm"]
-        return any(k in name.lower() for k in pc_keywords)
-
-    def compare_platforms(platform_from_dmc, igdb_results, threshold=80):
-        """Return IGDB results whose platforms best match the DMC platform using fuzzy matching."""
-
-        # If it's clearly a PC/Mac platform, skip entirely
-        if is_pc_platform(platform_from_dmc):
-            return []
-
-        filtered = []
-
-        for result in igdb_results:
-            if "platforms" in result:
-                igdb_platforms = [p['name'] for p in result['platforms']]
-
-                # Compute fuzzy similarity scores for each IGDB platform
-                best_match, best_score = None, 0
-                for p in igdb_platforms:
-                    score = fuzz.ratio(platform_from_dmc.lower(), p.lower())
-                    if score > best_score:
-                        best_match, best_score = p, score
-
-                # Keep the result if match score is above threshold
-                if best_score >= threshold:
-                    filtered.append(result)
-
-        return filtered
+    def build_query(title, platform):
+        if platform != -1:
+            return f"""
+            fields name, category, platforms, status, game_type, rating;
+            search "{title}";
+            where platforms = ({platform}) & game_type != (5);
+            limit 100;
+            """
+        else:
+            return f"""
+            fields name, category, platforms, status, game_type, rating;
+            search "{title}";
+            where platforms = ({platform}) & game_type != (5, 12);
+            limit 100;
+            """
 
     def extract_igdb_data(result):
         return {
@@ -86,13 +69,12 @@ def enrich_with_igdb(games_file, output_file):
             }
         }
 
-    def fetch_igdb_results(title, edition):
-        query = build_query(title)
+    def fetch_igdb_results(title, platform):
+        query = build_query(title, platform)
         response = requests.post(IGDB_URL, headers=HEADERS, data=query)
         response.raise_for_status()
         results = response.json()
-        filter_by_platform = compare_platforms(edition, results)
-        return filter_by_platform if filter_by_platform else results
+        return results
 
     # Load MSU catalog games
     with open(games_file, "r", encoding="utf-8") as f:
@@ -102,21 +84,23 @@ def enrich_with_igdb(games_file, output_file):
 
     for game in tqdm(games, desc="Enriching games with IGDB"):
         title = game["dmc"]["title"]
-        edition = game["dmc"]["edition"]
+        platform = game["igdb"]["platform_id"]
 
         try:
-            results = fetch_igdb_results(title, edition)
+            results = fetch_igdb_results(title, platform)
 
             if not results:
-                # Retry using shorter title
+                # TODO : make this logic better...probably tokenize, currently shortens title
                 short_title = title.split("/")[0]
-                results = fetch_igdb_results(short_title, edition)
+                results = fetch_igdb_results(short_title, platform)
 
             if results:
-                result = results[0]
-                igdb_data = extract_igdb_data(result)
+                igdb_data = max(results, key=lambda r: fuzz.ratio(r.get("name", ""), title))
+
+
             else:
                 igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
+
 
         except Exception as e:
             with open("debug.txt", "a") as file:
@@ -211,5 +195,5 @@ def search_msu_catalog():
 
 if __name__ == "__main__":
     # search_msu_catalog()
-    enrich_with_igdb("games.json", "games_enriched.json")
+    enrich_with_igdb("games.json", "temp.json")
     pass
