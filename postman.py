@@ -35,8 +35,8 @@ limit 20;
 
 query = """
 fields name, category, platforms, status, game_type, rating;
-search "Mario strikers charged.";
-where platforms = (5) & game_type != (5, 12) & (status != (2,3,6) | status = null);
+search "Overcooked!";
+where platforms = (49) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
 limit 100;
 """
 

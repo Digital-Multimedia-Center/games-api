@@ -39,14 +39,14 @@ def enrich_with_igdb(games_file, output_file):
             return f"""
             fields id, name, summary, category, platforms, status, game_type, rating, cover.image_id, genres.name;
             search "{title}";
-            where platforms = ({platform}) & game_type != (5, 12) & (status != (2,3,6) | status = null);
+            where platforms = ({platform}) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
             limit 100;
             """
         else:
             return f"""
             fields id, name, summary, category, platforms, status, game_type, rating, cover.image_id, genres.name;
             search "{title}";
-            where platforms = ({platform}) & game_type != (5, 12);
+            where game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
             limit 100;
             """
 
