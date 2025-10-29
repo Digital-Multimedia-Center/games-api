@@ -1,6 +1,11 @@
+import argparse
 import json
 
-with open("games_enriched.json", 'r') as enriched:
+parser = argparse.ArgumentParser(description='Tests json file for missing vals')
+parser.add_argument('filename')
+args = parser.parse_args()
+
+with open(args.filename, 'r') as enriched:
     data = json.load(enriched)
     count = 0
     failed_games = []
@@ -14,5 +19,5 @@ with open("games_enriched.json", 'r') as enriched:
 with open("failed_games.json", 'w') as f:
     json.dump(failed_games, f, indent=4)
 
-print(count / len(data))
+print("Percentage of games that failed", count / len(data))
 
