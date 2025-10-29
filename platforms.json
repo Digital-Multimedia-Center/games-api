@@ -146,6 +146,30 @@
         "checksum": "f4aa89ef-5299-e9a5-e4e6-71957a0ad807",
         "platform_type": 1
     },
+    "Wii": {
+        "id": 5,
+        "abbreviation": "Wii",
+        "alternative_name": "Revolution",
+        "created_at": 1297639288,
+        "generation": 7,
+        "name": "Wii",
+        "platform_logo": 326,
+        "platform_family": 5,
+        "slug": "wii",
+        "updated_at": 1718027289,
+        "url": "https://www.igdb.com/platforms/wii",
+        "versions": [
+            283,
+            730,
+            731,
+            72
+        ],
+        "websites": [
+            275
+        ],
+        "checksum": "874eb898-0730-6912-1b3d-1faa56ac318d",
+        "platform_type": 1
+    },
     "Nintendo Switch": {
         "id": 130,
         "abbreviation": "Switch",
