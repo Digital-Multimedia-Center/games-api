@@ -2,6 +2,83 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541815",
+                "title": "Shenmue = Shenm\u016b.",
+                "authors": [
+                    "Sega of America (Firm)"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006050366",
+                "title": "PlayStation portable / Sony.",
+                "authors": [
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "[model no.] psp1001"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007001679",
+                "title": "Rhythm heaven / developed by Nintendo.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo ds"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007004983",
+                "title": "Final fantasy fables: chocobo tales / [developed by] Square Enix.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Capcom USA,"
+                ],
+                "edition": "nintendo ds"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006388908",
                 "title": "The Talos principle : a philosophical puzzler / by Croteam ; written by Tom Jubert & Jonas Kyratzes.",
                 "authors": [
@@ -23,28 +100,150 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005541745",
-                "title": "Super Mario 64.",
+                "id": "folio.in00006749149",
+                "title": "Monster hunter tri.",
                 "authors": [
-                    "Nintendo of America Inc.,"
+                    "Capcom USA,",
+                    "Nintendo of America Inc."
                 ],
-                "edition": "nintendo 64"
+                "edition": "wii"
             },
             "igdb": {
-                "id": 175964,
-                "title": "Super Mario 64 2",
-                "summary": "Super Mario 64 2 was the tentative title for a Mario game in development that served as the direct sequel to Super Mario 64, intended for release in 1999. It was going to be for the Nintendo 64DD, but was canceled early in production due to lack of progress and the commercial failure of the 64DD add-on. Only one demo level was ever made but was never publicly revealed. It is also possible that Super Mario Sunshine, Super Mario Galaxy, or Super Mario Galaxy 2 could have elements salvaged from the development of Super Mario 64 2, according to Nintendo during an E3 event. Luigi was also set to appear in this game, as was a rideable Yoshi. It can be assumed that Luigi would have been playable, as Shigeru Miyamoto had planned to make Super Mario 64 2 multiplayer \u2013 in fact, the first playable demo level was multiplayer.",
-                "tags": [
-                    "Platform"
-                ],
+                "title": "",
+                "summary": "",
+                "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [
-                        "Nintendo 64",
-                        "64DD"
-                    ],
-                    "release_year": null
-                }
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052415",
+                "title": "Puzzle chronicles.",
+                "authors": [
+                    "Konami of America Inc.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006388886",
+                "title": "Cat quest / The Gentlebros.",
+                "authors": [
+                    "Gentlebros (Firm)",
+                    "PQube (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation 4"
+            },
+            "igdb": {
+                "id": 347866,
+                "cover": {
+                    "id": 464046,
+                    "image_id": "co9y26"
+                },
+                "name": "Cat Quest III: Tavern Tales",
+                "platforms": [
+                    169,
+                    48,
+                    6,
+                    167,
+                    49,
+                    130
+                ],
+                "game_type": 14
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007001652",
+                "title": "LEGO Marvel super heroes: universe in peril / developed by TT Games.",
+                "authors": [
+                    "WB Games (Firm),",
+                    "TT Games (Firm),"
+                ],
+                "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746415",
+                "title": "Mario strikers charged.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747177",
+                "title": "Blast works : build, trade, destroy.",
+                "authors": [
+                    "Majesco Entertainment (Firm),",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747204",
+                "title": "Bleach: shattered blade.",
+                "authors": [
+                    "Sega of America (Firm),",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -68,10 +267,66 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541702",
+                "title": "Carmageddon.",
+                "authors": [],
+                "edition": "[macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "hlm.ebs4839447e",
                 "title": "Game camp [electronic resource] : out-of-school language and literacy development / Jonathan deHaan, Editor.",
                 "authors": [],
                 "edition": "n/a"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541774",
+                "title": "The legend of Zelda: Ocarina of time.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo 64 edition"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541871",
+                "title": "Halo 2.",
+                "authors": [
+                    "Bungie (Firm)",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -106,6 +361,127 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006053200",
+                "title": "Atari classics: evolved.",
+                "authors": [
+                    "Atari, Inc.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053211",
+                "title": "Sega Genesis collection.",
+                "authors": [
+                    "Sega of America (Firm). publisher.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053217",
+                "title": "Activision hits remixed.",
+                "authors": [
+                    "Activision (Firm). publisher.",
+                    "Atari, Inc.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053508",
+                "title": "Gradius collection / Konami Digital Entertainment.",
+                "authors": [
+                    "Konami Digital Entertainment, Inc.,",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053512",
+                "title": "EA replay.",
+                "authors": [
+                    "Electronic Arts (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006064073",
+                "title": "Namco museum: battle collection.",
+                "authors": [
+                    "Namuko, Kabushiki Kaisha,",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005937010",
                 "title": "PES2017 : pro evolution soccer / developed by Konami Digital Entertainment Co., Ltd.",
                 "authors": [
@@ -126,6 +502,225 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006746416",
+                "title": "Battalion wars 2.",
+                "authors": [
+                    "Kuju Entertainment, Ltd.",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541916",
+                "title": "Pok\u00e9mon XD: Gale of darkness.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006051987",
+                "title": "LEGO Harry Potter: years 5-7.",
+                "authors": [
+                    "Warner Bros. Interactive Entertainment.",
+                    "TT Games (Firm)",
+                    "Sony Computer Entertainment.",
+                    "WB Games (Firm)"
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006741197",
+                "title": "Fable.",
+                "authors": [
+                    "Microsoft Corporation,",
+                    "Lionhead Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541899",
+                "title": "Battalion wars.",
+                "authors": [
+                    "Kuju Entertainment, Ltd.",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005873852",
+                "title": "Wii fit plus.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007001651",
+                "title": "Touch my katamari / developed by Namco Bandai Games.",
+                "authors": [
+                    "Namco Bandai Games America (Firm),"
+                ],
+                "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052398",
+                "title": "Shin megami tensei: P3P : persona 3 portable.",
+                "authors": [
+                    "Atlus U.S.A., Inc.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006075849",
+                "title": "Dissidia 012 (duodecim): final fantasy.",
+                "authors": [
+                    "Square Enix (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006075854",
+                "title": "The legend of heroes: trails in the sky.",
+                "authors": [
+                    "XSEED JKS Games (Firm),",
+                    "Nihon Farukomu Kabushiki Kaisha,",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746044",
+                "title": "The legend of Zelda: twilight princess.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006014722",
                 "title": "FIFA14.",
                 "authors": [
@@ -133,6 +728,77 @@
                     "Sony Computer Entertainment."
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747954",
+                "title": "Naruto: ultimate ninja storm / NAMCO BANDAI Games America.",
+                "authors": [
+                    "Namco Bandai Games America (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation 3"
+            },
+            "igdb": {
+                "id": 44661,
+                "cover": {
+                    "id": 161195,
+                    "image_id": "co3gdn"
+                },
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Fighting"
+                    }
+                ],
+                "name": "Naruto: Ultimate Ninja Storm - Limited Edition",
+                "platforms": [
+                    9
+                ],
+                "game_type": 0
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006075861",
+                "title": "Tactics ogre: let us cling together.",
+                "authors": [
+                    "Square Enix (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541943",
+                "title": "Epic Mickey.",
+                "authors": [
+                    "Disney Interactive (Firm)",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
             },
             "igdb": {
                 "title": "",
@@ -168,6 +834,72 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005962441",
+                "title": "Guilty gear XRD: sign / developed by ARC Systems Works.",
+                "authors": [
+                    "Aksys Games (Firm),",
+                    "Arc System Works (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation 4"
+            },
+            "igdb": {
+                "id": 315513,
+                "cover": {
+                    "id": 409085,
+                    "image_id": "co8rnh"
+                },
+                "name": "Guilty Gear Xrd: Sign - Character Colors Christmas Set",
+                "platforms": [
+                    48
+                ],
+                "game_type": 13
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746868",
+                "title": "Zack & Wiki: quest for Barbaros' treasure.",
+                "authors": [
+                    "Capcom USA,",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006749889",
+                "title": "Mario: Sports mix.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Square Enix (Firm)"
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006787000",
                 "title": "Fate extella : the umbral star.",
                 "authors": [
@@ -175,6 +907,27 @@
                     "Marvelous Entertainment Inc.,"
                 ],
                 "edition": "nintendo switch"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007007624",
+                "title": "Dr. Seuss how the Grinch stole Christmas / developed by Black Lantern Studios, Inc.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "DSI Games (Firm),",
+                    "Black Lantern Studios, Inc.,"
+                ],
+                "edition": "nintendo ds"
             },
             "igdb": {
                 "title": "",
@@ -229,6 +982,86 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541946",
+                "title": "Dead Island / Deep Silver.",
+                "authors": [
+                    "Deep Silver (Firm)"
+                ],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746062",
+                "title": "Pok\u00e9mon battle revolution / the Pok\u00e9mon Company.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Pok\u00e9mon USA, Inc.",
+                    "Genius Sonority Inc."
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006748544",
+                "title": "Sin & punishment: star successor.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006749817",
+                "title": "Pok\u00e9park Wii Pikachu's adventure / developed by Creatures Inc.",
+                "authors": [
+                    "Creatures (Firm)",
+                    "Nintendo of America Inc.",
+                    "Pok\u00e9mon USA, Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005705600",
                 "title": "Farcry 3.",
                 "authors": [
@@ -270,32 +1103,177 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006747593",
-                "title": "Tom Clancy's Rainbow six: Vegas 2.",
+                "id": "folio.in00005541867",
+                "title": "Psychonauts.",
                 "authors": [
-                    "Ubi Soft Entertainment (Firm)",
-                    "Sony Computer Entertainment."
+                    "Double Fine Productions, Inc.",
+                    "Majesco Sales, Inc.,",
+                    "Majesco Entertainment (Firm)",
+                    "Microsoft Corporation."
                 ],
-                "edition": "playstation 3"
+                "edition": "xbox"
             },
             "igdb": {
-                "id": 130809,
-                "title": "Tom Clancy's Rainbow Six: Vegas 2 / Tom Clancy's Ghost Recon: Advanced Warfighter 2",
+                "title": "",
                 "summary": "",
-                "tags": [
-                    "Shooter",
-                    "Simulator",
-                    "Strategy",
-                    "Tactical"
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541875",
+                "title": "P.N.03. : product number.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Capcom USA,"
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9chl.jpg",
-                "other": {
-                    "platforms": [
-                        "PlayStation 3",
-                        "Xbox 360"
-                    ],
-                    "release_year": "2012"
-                }
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541949",
+                "title": "Star Trek: D-A-C.",
+                "authors": [],
+                "edition": "[pc or macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053272",
+                "title": "God of war: ghost of Sparta.",
+                "authors": [
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006749891",
+                "title": "Goldeneye 007.",
+                "authors": [
+                    "Activision (Firm)",
+                    "Nintendo of America Inc.",
+                    "Metro-Goldwyn-Mayer Film Co."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006836120",
+                "title": "Walk it out.",
+                "authors": [
+                    "Konami Digital Entertainment, Inc.,",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541895",
+                "title": "King Arthur.",
+                "authors": [
+                    "Konami of America Inc.",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541932",
+                "title": "Wii sports resort.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746788",
+                "title": "Wii play.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -341,27 +1319,120 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006841946",
-                "title": "Mario party superstars / published by Nintendo.",
+                "id": "folio.in00005541879",
+                "title": "Prince of Persia: the sands of time.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Ubi Soft Entertainment (Firm),"
+                ],
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746149",
+                "title": "Fire emblem: radiant dawn.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746761",
+                "title": "Super paper Mario.",
                 "authors": [
                     "Nintendo of America Inc.,"
                 ],
-                "edition": "nintendo switch"
+                "edition": "wii"
             },
             "igdb": {
-                "id": 314564,
-                "title": "Mario Party Superstars: Mario's Rainbow Castle",
+                "title": "",
                 "summary": "",
-                "tags": [
-                    "Card & Board Game"
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007007630",
+                "title": "Pok\u00e9mon heartgold version / developed by Game Freak.",
+                "authors": [
+                    "Game Freak (Firm),",
+                    "Nintendo of America Inc.,",
+                    "Pok\u00e9mon Company International,"
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8q08.jpg",
-                "other": {
-                    "platforms": [
-                        "Nintendo Switch"
-                    ],
-                    "release_year": "2022"
-                }
+                "edition": "nintendo ds"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007007664",
+                "title": "Pok\u00e9mon conquest / [developed by] TECMO KOEI Games Co., Ltd.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "Pok\u00e9mon Company International,",
+                    "KOEI Corporation,"
+                ],
+                "edition": "nintendo ds"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541884",
+                "title": "Xyanide.",
+                "authors": [
+                    "Evolved Games (Firm),",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -408,32 +1479,6 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005923316",
-                "title": "Ride.",
-                "authors": [
-                    "Namco Bandai Games America (Firm)",
-                    "Microsoft Corporation."
-                ],
-                "edition": "xbox one"
-            },
-            "igdb": {
-                "id": 162272,
-                "title": "Funfair Ride Simulator 3: Ride Pack 3",
-                "summary": "Funfair Ride Simulator 3: Ride Pack 3 includes three fairground thrill rides: Tiki Jump, Meteor, and Mixer.",
-                "tags": [
-                    "Simulator"
-                ],
-                "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00005962191",
                 "title": "RBI Baseball 2017.",
                 "authors": [
@@ -441,6 +1486,27 @@
                     "Sony Computer Entertainment."
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005962221",
+                "title": "Flatout 4: total insanity / Strategy First ; KT Racing.",
+                "authors": [
+                    "Strategy First Inc.",
+                    "KT Racing.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "ps4"
             },
             "igdb": {
                 "title": "",
@@ -535,6 +1601,65 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006052406",
+                "title": "Blazblue: continuum shift II.",
+                "authors": [
+                    "Aksys Games (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052409",
+                "title": "Naruto shippuden: kizuna drive.",
+                "authors": [
+                    "Namco Bandai Games (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052411",
+                "title": "Hot shots golf: open tee 2.",
+                "authors": [
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006075868",
                 "title": "Gran Turismo : the real driving simulator.",
                 "authors": [
@@ -613,29 +1738,92 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006745571",
-                "title": "Sonic the hedgehog.",
+                "id": "folio.in00006747615",
+                "title": "Boom blox.",
                 "authors": [
-                    "Microsoft Game Studios.",
-                    "Havok (Firm)",
-                    "Sega of America (Firm)"
+                    "Electronic Arts (Firm),",
+                    "Nintendo of America Inc."
                 ],
-                "edition": "xbox 360"
+                "edition": "wii"
             },
             "igdb": {
-                "id": 316900,
-                "title": "Sonic The Hedgehog",
+                "title": "",
                 "summary": "",
-                "tags": [
-                    "Platform"
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006782635",
+                "title": "Tennis world tour / developed by Breakpoint.",
+                "authors": [
+                    "Maximum Games (Firm),",
+                    "Breakpoint,",
+                    "Bigben Interactive SA,"
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ubt.jpg",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": null
-                }
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 167299,
+                "genres": [
+                    {
+                        "id": 13,
+                        "name": "Simulator"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Sport"
+                    }
+                ],
+                "name": "Tennis World Tour 2: Legends Pack",
+                "platforms": [
+                    130
+                ],
+                "summary": "The Legends pack unlocks 2 players who left their mark on tennis history in the 2000s: Gustavo Kuerten and Marat Safin.",
+                "game_type": 1
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541762",
+                "title": "Command & conquer: red alert.",
+                "authors": [
+                    "Westwood Studios,",
+                    "Electronic Arts (Firm),"
+                ],
+                "edition": "windows 95 & dos cd-rom"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541764",
+                "title": "Fallout : a post nuclear role playing game.",
+                "authors": [
+                    "Interplay Productions,"
+                ],
+                "edition": "[windows or dos]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -661,6 +1849,128 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006802129",
+                "title": "Cuphead / developed by Studio MDHR.",
+                "authors": [
+                    "Studio MDHR,",
+                    "iam8bit (Firm),"
+                ],
+                "edition": "playstation 4"
+            },
+            "igdb": {
+                "id": 249963,
+                "name": "Cuphead: Limited Edition",
+                "platforms": [
+                    48,
+                    130
+                ],
+                "game_type": 3
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541742",
+                "title": "Goldeneye 007.",
+                "authors": [
+                    "Rare (Firm)",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "players choice"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541908",
+                "title": "Indigo prophecy.",
+                "authors": [
+                    "Quantic Dream (Firm)",
+                    "Atari, Inc.,",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006075881",
+                "title": "Lego Star Wars III: the Clone Wars.",
+                "authors": [
+                    "LucasArts (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541888",
+                "title": "Metroid prime 2:  echoes.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541914",
+                "title": "Sniper elite.",
+                "authors": [
+                    "Rebellion (Firm)",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006389179",
                 "title": "Disgaea 4 complete + : [a Promise of Sardines edition] / Nippon Ichi Software, Inc.",
                 "authors": [
@@ -670,17 +1980,11 @@
                 "edition": "playstation 4"
             },
             "igdb": {
-                "id": 205262,
-                "title": "Disgaea 4 Complete+: A Promise of Sardines Edition",
-                "summary": "When the Corrupternment threatens to disrupt the way of life in Hades, Valvatorez finds himself at the helm of a fiery revolution. The former tyrant will need to call upon new allies, recruit a formidable army, and learn a thing or two about political unrest if he hopes to take down the corrupt regime and bring salvation to all Prinny-kind!",
-                "tags": [
-                    "Strategy"
-                ],
+                "title": "",
+                "summary": "",
+                "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
+                "other": {}
             }
         }
     },
@@ -730,6 +2034,103 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541805",
+                "title": "Toy commander.",
+                "authors": [
+                    "Sega of America (Firm),"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541812",
+                "title": "ChuChu rocket!.",
+                "authors": [
+                    "Sega of America (Firm),"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541872",
+                "title": "Doom 3.",
+                "authors": [
+                    "Id Software, Inc.",
+                    "Microsoft Game Studios.",
+                    "Activision (Firm)"
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006739052",
+                "title": "Power stone / developed by Capcom.",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006740027",
+                "title": "Power stone 2.",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006747111",
                 "title": "Dragonball Z: budokai tenkaichi 3.",
                 "authors": [
@@ -737,6 +2138,46 @@
                     "Atari, Inc."
                 ],
                 "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747466",
+                "title": "No more Heroes.",
+                "authors": [
+                    "Ubi Soft Entertainment (Firm)",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750123",
+                "title": "Uncharted 2: among thieves / created and developed by Naughty Dog, Inc.",
+                "authors": [
+                    "Naughty Dog, Inc.",
+                    "Sony Computer Entertainment,"
+                ],
+                "edition": "game of the year edition"
             },
             "igdb": {
                 "title": "",
@@ -789,6 +2230,46 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541830",
+                "title": "Star wars: knights of the old republic.",
+                "authors": [
+                    "BioWare Corp.",
+                    "LucasArts (Firm),"
+                ],
+                "edition": "windows, pc cd-rom"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541921",
+                "title": "Baten Kaitos origins.",
+                "authors": [
+                    "Nintendo of America Inc.",
+                    "Namco Bandai Games America (Firm)"
+                ],
+                "edition": "gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006023826",
                 "title": "Nitro+ blasterz: heroines infinite duel.",
                 "authors": [
@@ -797,6 +2278,105 @@
                     "Sony Computer Entertainment."
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006064059",
+                "title": "Kingdom hearts: birth by sleep.",
+                "authors": [
+                    "Square Enix (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006749854",
+                "title": "Jeopardy : America's favorite quiz show.",
+                "authors": [
+                    "THQ (Firm)",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541907",
+                "title": "Age of empires III.",
+                "authors": [
+                    "Ensemble Studios.",
+                    "Microsoft Corporation,"
+                ],
+                "edition": "pc cd-rom"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750424",
+                "title": "The legend of Zelda: twilight princess.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541901",
+                "title": "Alien hominid.",
+                "authors": [
+                    "Behemoth (Firm)",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "gamecube"
             },
             "igdb": {
                 "title": "",
@@ -830,26 +2410,21 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006392989",
-                "title": "Ride 3 / developed by Milestone S.r.l.",
+                "id": "folio.in00006053270",
+                "title": "Bomberman Land.",
                 "authors": [
-                    "Milestone S.r.L.,",
-                    "Maximum Games (Firm),"
+                    "Hudson Soft (Firm). publisher.",
+                    "Konami Digital Entertainment, Inc. distributor.",
+                    "Sony Computer Entertainment."
                 ],
-                "edition": "playstation 4"
+                "edition": "playstation portable"
             },
             "igdb": {
-                "id": 162272,
-                "title": "Funfair Ride Simulator 3: Ride Pack 3",
-                "summary": "Funfair Ride Simulator 3: Ride Pack 3 includes three fairground thrill rides: Tiki Jump, Meteor, and Mixer.",
-                "tags": [
-                    "Simulator"
-                ],
+                "title": "",
+                "summary": "",
+                "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
+                "other": {}
             }
         }
     },
@@ -957,6 +2532,72 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006797676",
+                "title": "Touhou Kobuto. V, Burst battle / NIS America, Inc.",
+                "authors": [
+                    "NIS America, Inc.,"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 238037,
+                "name": "Touhou Kobuto V: Burst Battle - Koishi Komeiji",
+                "platforms": [
+                    130
+                ],
+                "game_type": 13
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006802127",
+                "title": "Cuphead / StudioMDHR Entertainment Inc.",
+                "authors": [
+                    "Studio MDHR,",
+                    "iam8bit (Firm),"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 249963,
+                "name": "Cuphead: Limited Edition",
+                "platforms": [
+                    48,
+                    130
+                ],
+                "game_type": 3
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006802171",
+                "title": "Mortal kombat 11 / developed by NetherRealm Studios ; WB Games.",
+                "authors": [
+                    "NetherRealm Studios (Firm),",
+                    "WB Games (Firm),",
+                    "Warner Bros. Interactive Entertainment,"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 305856,
+                "name": "Mortal Kombat 11: Double Feature Skin Pack",
+                "platforms": [
+                    48,
+                    49,
+                    130
+                ],
+                "game_type": 13
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005928420",
                 "title": "Prison architect : build and manage a maximum security prison.",
                 "authors": [
@@ -964,6 +2605,134 @@
                     "Microsoft Corporation."
                 ],
                 "edition": "xbox one"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053505",
+                "title": "God of war: chains of Olympus.",
+                "authors": [
+                    "Sony Computer Entertainment,"
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006773045",
+                "title": "Cat quest / the Gentlebros.",
+                "authors": [
+                    "Gentlebros (Firm),",
+                    "PQube (Firm),"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 347866,
+                "cover": {
+                    "id": 464046,
+                    "image_id": "co9y26"
+                },
+                "name": "Cat Quest III: Tavern Tales",
+                "platforms": [
+                    169,
+                    48,
+                    6,
+                    167,
+                    49,
+                    130
+                ],
+                "game_type": 14
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541893",
+                "title": "Metal slug 4 ; Metal slug 5 / Mega Enterprise.",
+                "authors": [
+                    "SNK Playmore (Firm)",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006051968",
+                "title": "Persona 2: innocent sin.",
+                "authors": [
+                    "Atlus U.S.A., Inc.,",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006053499",
+                "title": "LittleBigPlanet.",
+                "authors": [
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006063697",
+                "title": "Grand theft auto: Chinatown wars.",
+                "authors": [
+                    "Rockstar Games (Firm)",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
             },
             "igdb": {
                 "title": "",
@@ -987,20 +2756,11 @@
                 "edition": "playstation portable"
             },
             "igdb": {
-                "id": 284142,
-                "title": "LEGO Pirates of the Caribbean: The Video Game",
+                "title": "",
                 "summary": "",
-                "tags": [
-                    "Adventure"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ysc.jpg",
-                "other": {
-                    "platforms": [
-                        "Nintendo 3DS",
-                        "PlayStation Portable"
-                    ],
-                    "release_year": "2011"
-                }
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1053,6 +2813,66 @@
                     "Sony Computer Entertainment."
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052001",
+                "title": "Crisis core: final fantasy VII / Square Enix.",
+                "authors": [
+                    "Square Enix (Firm),",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00007004982",
+                "title": "Mega Man Zero collection / [developed by] Capcom.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "Capcom USA."
+                ],
+                "edition": "nintendo ds"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006063689",
+                "title": "Monster hunter: freedom unite.",
+                "authors": [
+                    "Capcom USA.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
             },
             "igdb": {
                 "title": "",
@@ -1124,6 +2944,83 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006052155",
+                "title": "Ultimate ghosts 'n goblins / developed by Capcom.",
+                "authors": [
+                    "Capcom USA.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747935",
+                "title": "Mario super sluggers.",
+                "authors": [
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006832765",
+                "title": "Mortal Kombat 1 / developed by NetherRealm Studios.",
+                "authors": [
+                    "NetherRealm Studios,",
+                    "Warner Bros. Interactive Entertainment,"
+                ],
+                "edition": "playstation 5"
+            },
+            "igdb": {
+                "id": 311071,
+                "cover": {
+                    "id": 401068,
+                    "image_id": "co8lgs"
+                },
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Fighting"
+                    },
+                    {
+                        "id": 33,
+                        "name": "Arcade"
+                    }
+                ],
+                "name": "Mortal Kombat 1: Invasions - Season of the Storms",
+                "platforms": [
+                    169,
+                    6,
+                    167,
+                    130
+                ],
+                "game_type": 7
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006842985",
                 "title": "Under night in-birth II : Sys : celes / developed by Arc System Works and French-Bread.",
                 "authors": [
@@ -1183,64 +3080,6 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00005541770",
-                "title": "Tekken 3.",
-                "authors": [
-                    "Namco Bandai Games America (Firm)",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "playstation"
-            },
-            "igdb": {
-                "id": 369999,
-                "title": "Tekken 3",
-                "summary": "",
-                "tags": [
-                    "Fighting"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajyh.jpg",
-                "other": {
-                    "platforms": [
-                        "PlayStation 4",
-                        "PlayStation 5"
-                    ],
-                    "release_year": "2025"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
-                "id": "folio.in00005541920",
-                "title": "Tekken 6.",
-                "authors": [
-                    "Namco Bandai Games America (Firm)",
-                    "Sony Computer Entertainment."
-                ],
-                "edition": "playstation 3"
-            },
-            "igdb": {
-                "id": 272551,
-                "title": "Tekken 6",
-                "summary": "",
-                "tags": [
-                    "Fighting"
-                ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lqq.jpg",
-                "other": {
-                    "platforms": [
-                        "PlayStation 4",
-                        "PlayStation 5"
-                    ],
-                    "release_year": "2023"
-                }
-            }
-        }
-    },
-    {
-        "game": {
-            "dmc": {
                 "id": "folio.in00006743262",
                 "title": "Pikmin 2.",
                 "authors": [
@@ -1249,20 +3088,41 @@
                 "edition": "nintendo gamecube"
             },
             "igdb": {
-                "id": 314788,
-                "title": "Pikmin 2: The Pikmin 2 Experience",
-                "summary": "",
-                "tags": [
-                    "Strategy",
-                    "Adventure"
+                "id": 353528,
+                "genres": [
+                    {
+                        "id": 11,
+                        "name": "Real Time Strategy (RTS)"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Strategy"
+                    }
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qg6.jpg",
-                "other": {
-                    "platforms": [
-                        "Nintendo GameCube"
-                    ],
-                    "release_year": "2020"
-                }
+                "name": "Pikmin 2",
+                "platforms": [
+                    21
+                ],
+                "game_type": 3
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750535",
+                "title": "Mario party 9.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1294,6 +3154,85 @@
                     "Namco Bandai Games America (Firm)"
                 ],
                 "edition": "n/a"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541739",
+                "title": "Quake.",
+                "authors": [
+                    "Id Software, Inc.",
+                    "GT Software (Firm)"
+                ],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541794",
+                "title": "Crazy taxi.",
+                "authors": [
+                    "Sega of America (Firm),"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541865",
+                "title": "Turok: evolution.",
+                "authors": [
+                    "Acclaim Entertainment, Inc.",
+                    "Microsoft Game Studios."
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541903",
+                "title": "Sid Meier's Pirates! : live the life / developed by Firaxis Games.",
+                "authors": [
+                    "Firaxis Games (Firm)",
+                    "2K Games, Inc.,"
+                ],
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -1346,28 +3285,124 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006745570",
-                "title": "Sonic the hedgehog.",
+                "id": "folio.in00006769032",
+                "title": "Hunting simulator / developed by Neopica.",
                 "authors": [
-                    "Sony Computer Entertainment.",
-                    "Sega of America (Firm)"
+                    "Nintendo of America Inc.",
+                    "Neopica (firm),",
+                    "Maximum Games (Firm),"
                 ],
-                "edition": "playstation 3"
+                "edition": "nintendo switch"
             },
             "igdb": {
-                "id": 316900,
-                "title": "Sonic The Hedgehog",
-                "summary": "",
-                "tags": [
-                    "Platform"
+                "id": 224220,
+                "genres": [
+                    {
+                        "id": 13,
+                        "name": "Simulator"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Sport"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Strategy"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Adventure"
+                    }
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ubt.jpg",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)"
-                    ],
-                    "release_year": null
-                }
+                "name": "Hunting Simulator 2: Beretta Weapon Pack",
+                "platforms": [
+                    130
+                ],
+                "summary": "This weapons pack includes 7 Beretta shotguns for hunting small game, such as ducks, pheasants and rabbits.",
+                "game_type": 13
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006841008",
+                "title": "A space for the unbound / published by Serenity Forge.",
+                "authors": [
+                    "Serenity Forge (Firm),"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 283586,
+                "cover": {
+                    "id": 386623,
+                    "image_id": "co8abj"
+                },
+                "name": "A Space for the Unbound: Special Edition",
+                "platforms": [
+                    48,
+                    167,
+                    130
+                ],
+                "game_type": 0
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006740965",
+                "title": "Amped : freestyle snowboarding.",
+                "authors": [
+                    "Microsoft Corporation,"
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750537",
+                "title": "Fortune Street.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006927707",
+                "title": "Power stone collection / developed by Capcom.",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1395,6 +3430,26 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006997377",
+                "title": "BlazBlue: continuum shift extend / developed by Arc System Works.",
+                "authors": [
+                    "Aksys Games (Firm),",
+                    "Arc System Works (Firm),"
+                ],
+                "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006997451",
                 "title": "Metal gear solid. HD collection : Sons of liberty : Snake eater / developed by Kojima Productions.",
                 "authors": [
@@ -1402,6 +3457,45 @@
                     "Kojima Productions,"
                 ],
                 "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006997485",
+                "title": "Ultimate Marvel vs. Capcom 3 / developed by Capcom.",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006748341",
+                "title": "Sonic and the Black Knight / Sega of America.",
+                "authors": [
+                    "Sega of America (Firm)",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
             },
             "igdb": {
                 "title": "",
@@ -1441,6 +3535,85 @@
                     "NIS America, Inc.,"
                 ],
                 "edition": "nintendo switch"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746922",
+                "title": "Resident evil : the umbrella chronicles / [developed by Capcom].",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006747109",
+                "title": "Disney princess: enchanted journey / [developed by] Papaya Studio.",
+                "authors": [
+                    "Disney Interactive (Firm),",
+                    "Havok (Firm),",
+                    "Papaya Studios,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006748188",
+                "title": "The price is right / [developed by Ludia].",
+                "authors": [
+                    "Ubi Soft Entertainment (Firm),",
+                    "Ludia,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750463",
+                "title": "Hasbro family game night fun pack / [developed by Electronic Arts].",
+                "authors": [
+                    "Electronic Arts (Firm),"
+                ],
+                "edition": "nintendo wii"
             },
             "igdb": {
                 "title": "",
@@ -1496,6 +3669,67 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006930429",
+                "title": "Metroid prime 3: corruption / developed by Retro Studios.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "Retro Studios (firm),"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541775",
+                "title": "Banjo-Kazooie.",
+                "authors": [
+                    "Rare (Firm)",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "players choice"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541906",
+                "title": "Doom 3 : limited collector's edition.",
+                "authors": [
+                    "Microsoft Game Studios.",
+                    "Id Software, Inc.",
+                    "Activision (Firm)"
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005877974",
                 "title": "MXGP 3 : the official motorcross videogame.",
                 "authors": [
@@ -1503,6 +3737,93 @@
                     "Microsoft Corporation."
                 ],
                 "edition": "xbox one"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005957824",
+                "title": "Grand ages: medieval.",
+                "authors": [
+                    "Sony Computer Entertainment.",
+                    "Kalypso Media (Firm)"
+                ],
+                "edition": "playstation 4"
+            },
+            "igdb": {
+                "id": 42950,
+                "genres": [
+                    {
+                        "id": 15,
+                        "name": "Strategy"
+                    }
+                ],
+                "name": "Grand Ages: Medieval - Limited Special Edition",
+                "platforms": [
+                    48
+                ],
+                "summary": "It is the year 1050 AD. At the beginning of the High Middle Ages development in Europe has seen an unprecedented level of progress and a rapidly growing population spreads across the length and breadth of the continent. New frontiers are explored, settlements founded and vast trading routes established. As the head of one of these small settlements, it falls upon you to lead your people towards greatness.\nExplore a vast world, gather resources, encounter other societies and use your trading expertise to expand and make your fortune. Found new cities, progress your nation with inventive technology and protect your trade routes against barbarian attacks until you are powerful enough to begin your conquest over Europe and forge a bold new empire.\n\nLimited Edition Includes:\n2 DLC's - Camelot and Ancient Worlds\nA 2-sided Tech Tree Poster",
+                "game_type": 0
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006740024",
+                "title": "Railroad tycoon II / developed by Gathering.",
+                "authors": [
+                    "PopTop Software (Firm),",
+                    "Gathering (Firm),"
+                ],
+                "edition": "sega dreamcast"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750790",
+                "title": "Lego Batman 2: DC super heroes / [developed by TT Games].",
+                "authors": [
+                    "Warner Bros. Interactive Entertainment,",
+                    "TT Games (Firm),"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006749926",
+                "title": "Who wants to be a millionaire / [developed by Ubisoft].",
+                "authors": [
+                    "Ubi Soft Entertainment (Firm),"
+                ],
+                "edition": "nintendo wii"
             },
             "igdb": {
                 "title": "",
@@ -1525,17 +3846,70 @@
                 "edition": "nintendo wii"
             },
             "igdb": {
-                "id": 198761,
-                "title": "Hollywood Squares",
+                "title": "",
                 "summary": "",
                 "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wta.jpg",
-                "other": {
-                    "platforms": [
-                        "Handheld Electronic LCD"
-                    ],
-                    "release_year": "1999"
-                }
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006997417",
+                "title": "Disgaea 3: absence of detention / developed by Nippon Ichi Software.",
+                "authors": [
+                    "NIS America, Inc.,",
+                    "Nippon Ichi Software,"
+                ],
+                "edition": "playstation vita"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006746094",
+                "title": "Rayman: raving rabbids / [developed by Ubisoft].",
+                "authors": [
+                    "Ubisoft (Firm),"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006748151",
+                "title": "Little king's story.",
+                "authors": [
+                    "XSEED JKS Games (Firm),",
+                    "Nintendo of America Inc."
+                ],
+                "edition": "wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1549,6 +3923,47 @@
                     "Activision (Firm),"
                 ],
                 "edition": "xbox 360"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006392884",
+                "title": "Kingdom hearts HD 1.5 + 2.5 ReMix / Disney ; developed by Square Enix.",
+                "authors": [
+                    "Disney Interactive Studios.",
+                    "Square Enix (Firm),",
+                    "Game Designer Co. (Firm)"
+                ],
+                "edition": "n/a"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006748100",
+                "title": "Dance dance revolution: hottest party 2 / published by Konami.",
+                "authors": [
+                    "Konami of America Inc.,",
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
             },
             "igdb": {
                 "title": "",
@@ -1582,12 +3997,118 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541930",
+                "title": "Call of duty: world at war.",
+                "authors": [
+                    "Treyarch (Firm)",
+                    "Activision (Firm),"
+                ],
+                "edition": "games for windows"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006393354",
                 "title": "Tour de France season 2019.",
                 "authors": [
                     "Bigben Interactive SA,"
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006786696",
+                "title": "Atelier Lydie & Suelle. The alchemists and the mysterious paintings / [developed by] Koei Tecmo America Corporation.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "Tecmo, Inc.,",
+                    "KOEI Corporation,"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 238146,
+                "cover": {
+                    "id": 389660,
+                    "image_id": "co8cnw"
+                },
+                "name": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings - Ilmeria",
+                "platforms": [
+                    130
+                ],
+                "game_type": 13
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006843391",
+                "title": "Pokk\u00e9n tournament / the Pok\u00e9mon Company.",
+                "authors": [
+                    "Namco Bandai Games (Firm),",
+                    "Nintendo of America Inc.,",
+                    "Pok\u00e9mon Company International,"
+                ],
+                "edition": "nintendo wii u"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006918952",
+                "title": "The Elder scrolls III: Morrowind.",
+                "authors": [
+                    "Bethesda Softworks (Firm),"
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006052402",
+                "title": "Metal gear solid: peace walker.",
+                "authors": [
+                    "Konami Digital Entertainment, Inc.",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation portable"
             },
             "igdb": {
                 "title": "",
@@ -1620,6 +4141,83 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006747555",
+                "title": "LEGO Indiana Jones: the original adventures / developed by TT Games.",
+                "authors": [
+                    "LucasArts (Firm),",
+                    "TT Games (Firm),"
+                ],
+                "edition": "xbox 360"
+            },
+            "igdb": {
+                "id": 142110,
+                "cover": {
+                    "id": 315219,
+                    "image_id": "co6r83"
+                },
+                "genres": [
+                    {
+                        "id": 8,
+                        "name": "Platform"
+                    },
+                    {
+                        "id": 25,
+                        "name": "Hack and slash/Beat 'em up"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Adventure"
+                    }
+                ],
+                "name": "LEGO Indiana Jones: The Original Adventures / Kung Fu Panda",
+                "platforms": [
+                    12
+                ],
+                "game_type": 3
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006843370",
+                "title": "Little nightmares II / developed by Tarsier Studios.",
+                "authors": [
+                    "Bandai Namco Entertainment America Inc.,",
+                    "Tarsier Studios,",
+                    "Sony Computer Entertainment."
+                ],
+                "edition": "playstation 4"
+            },
+            "igdb": {
+                "id": 154511,
+                "cover": {
+                    "id": 156867,
+                    "image_id": "co3d1f"
+                },
+                "genres": [
+                    {
+                        "id": 9,
+                        "name": "Puzzle"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Adventure"
+                    }
+                ],
+                "name": "Little Nightmares II: Deluxe Edition",
+                "platforms": [
+                    48,
+                    6,
+                    167
+                ],
+                "game_type": 3
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006875971",
                 "title": "Don't starve mega pack / published by 505 Games.",
                 "authors": [
@@ -1629,15 +4227,176 @@
                 "edition": "playstation 4"
             },
             "igdb": {
-                "id": 167117,
-                "title": "Don't Starve: Mega Pack",
+                "title": "",
                 "summary": "",
                 "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006927698",
+                "title": "PaRappa the rapper.",
+                "authors": [
+                    "Sony Computer Entertainment,"
+                ],
+                "edition": "playstation portable"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006930430",
+                "title": "Super Mario galaxy 2 / developed by Nintendo.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006932069",
+                "title": "Nintendo land / deveoped by Nintendo.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii u"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006957905",
+                "title": "Big bumpin' / Microsoft Game Studios.",
+                "authors": [
+                    "Burger King Corporation,",
+                    "King Games,",
+                    "Blitz Games,",
+                    "Microsoft Corporation,"
+                ],
+                "edition": "xbox"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541763",
+                "title": "Tomb raider.",
+                "authors": [
+                    "Core Design (Firm)",
+                    "Eidos Interactive (Firm),"
+                ],
+                "edition": "ibm pc & compatibles cd-rom"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541765",
+                "title": "Myst / Cyan Inc.",
+                "authors": [],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541828",
+                "title": "Escape from Monkey Island / LucasArts.",
+                "authors": [
+                    "LucasArts (Firm)",
+                    "Aspyr Media, Inc."
+                ],
+                "edition": "macintosh"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006871895",
+                "title": "XCOM: enemy within / developed by Firaxis Games.",
+                "authors": [
+                    "Firaxis Games (Firm),",
+                    "2K Games, Inc.,",
+                    "Sony Computer Entertainment,"
+                ],
+                "edition": "playstation 3"
+            },
+            "igdb": {
+                "id": 307236,
+                "genres": [
+                    {
+                        "id": 16,
+                        "name": "Turn-based strategy (TBS)"
+                    }
+                ],
+                "name": "XCOM: Enemy Within - Commander Edition",
+                "platforms": [
+                    9
+                ],
+                "summary": "Once upon a time XCOM: Enemy Within was going to be a simple add-on pack for Enemy Unknown, but it ended up adding so much to the core game that 2K opted to release it as part of a bundle that includes the main game and all the previous DLC. Enemy Unknown takes place on a modern Earth, under attack from an alien invasion.",
+                "game_type": 3
             }
         }
     },
@@ -1682,6 +4441,90 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006747232",
+                "title": "Mario kart Wii / developed by Nintendo.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006750057",
+                "title": "Brunswick zone cosmic bowling / [developed by CokeM Interactive].",
+                "authors": [
+                    "GameMill Entertainment, Inc.,",
+                    "CokeM Interactive,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006798781",
+                "title": "Bayonetta 3 / Nintendo ; developed by PlatinumGames Inc.",
+                "authors": [
+                    "Nintendo of America Inc.,",
+                    "PlatinumGames Inc.,",
+                    "Sega of America (Firm),"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 209839,
+                "cover": {
+                    "id": 268714,
+                    "image_id": "co5rca"
+                },
+                "name": "Bayonetta 3: Trinity Masquerade Edition",
+                "platforms": [
+                    130
+                ],
+                "game_type": 0
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541703",
+                "title": "Command & conquer.",
+                "authors": [
+                    "Westwood Studios,"
+                ],
+                "edition": "cd-rom for windows"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005541784",
                 "title": "StarCraft expansion set : brood war.",
                 "authors": [
@@ -1689,6 +4532,106 @@
                     "Saffire Corporation."
                 ],
                 "edition": "windows 95/98/nt/power macintosh ; version 1.05"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541810",
+                "title": "Baldur's gate II: shadows of Amn / developed by BioWare Corp.",
+                "authors": [
+                    "BioWare Corp.",
+                    "Black Isle Studios.",
+                    "Interplay Entertainment Corporation,"
+                ],
+                "edition": "windows 95/98 cd-rom"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541824",
+                "title": "StarCraft.",
+                "authors": [
+                    "Blizzard Entertainment (Firm),"
+                ],
+                "edition": "[windows/mac cd-rom]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541864",
+                "title": "Return to Castle Wolfenstein / Activision.",
+                "authors": [
+                    "Activision (Firm)",
+                    "Id Software, Inc."
+                ],
+                "edition": "macintosh"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541877",
+                "title": "MTV celebrity deathmatch.",
+                "authors": [
+                    "MTV Networks."
+                ],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006742525",
+                "title": "Dragon's lair 3D: return to the lair / [published by Ubi Soft Entertianment).",
+                "authors": [
+                    "Dragonstone Software (Firm),",
+                    "Ubi Soft Entertainment (Firm),",
+                    "THQ (Firm),"
+                ],
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -1721,6 +4664,62 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006939200",
+                "title": "Hello Kitty island adventure / developed by Sunblink (firm).",
+                "authors": [
+                    "Sunblink (Firm),"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 330200,
+                "genres": [
+                    {
+                        "id": 13,
+                        "name": "Simulator"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Adventure"
+                    }
+                ],
+                "name": "Hello Kitty Island Adventure: Deluxe Edition",
+                "platforms": [
+                    130
+                ],
+                "game_type": 0
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006939210",
+                "title": "Monster hunter: wilds / developed by Capcom.",
+                "authors": [
+                    "Capcom USA,"
+                ],
+                "edition": "playstation 5"
+            },
+            "igdb": {
+                "id": 369922,
+                "cover": {
+                    "id": 492249,
+                    "image_id": "coajtl"
+                },
+                "name": "Monster Hunter Wilds: Title Update 4",
+                "platforms": [
+                    169,
+                    6,
+                    167
+                ],
+                "game_type": 14
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006939212",
                 "title": "Final fantasy I, II, III, IV, V, VI collection / developed by Squaresoft.",
                 "authors": [
@@ -1741,6 +4740,36 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00006939214",
+                "title": "Little Kitty, big city / developed by Double Dagger Studio.",
+                "authors": [
+                    "Fangamer LLC,",
+                    "Double Dagger Studio,"
+                ],
+                "edition": "nintendo switch"
+            },
+            "igdb": {
+                "id": 360076,
+                "cover": {
+                    "id": 477882,
+                    "image_id": "coa8qi"
+                },
+                "name": "Little Kitty, Big City: Picture Purrfect",
+                "platforms": [
+                    169,
+                    48,
+                    6,
+                    167,
+                    49,
+                    130
+                ],
+                "game_type": 14
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006392874",
                 "title": "Wreckfest : drive hard. die last .",
                 "authors": [
@@ -1748,6 +4777,26 @@
                     "THQ Nordic (Firm),"
                 ],
                 "edition": "playstation 4"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541861",
+                "title": "Shenmue II.",
+                "authors": [
+                    "SEGA Ent\u0101puraizesu,",
+                    "Microsoft Corporation,"
+                ],
+                "edition": "xbox"
             },
             "igdb": {
                 "title": "",
@@ -1798,6 +4847,26 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541869",
+                "title": "Doom II / developed by Id Software.",
+                "authors": [
+                    "Id Software, Inc.",
+                    "Activision (Firm),"
+                ],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005541891",
                 "title": "Fallout 3.",
                 "authors": [
@@ -1806,18 +4875,30 @@
                 "edition": "games for windows"
             },
             "igdb": {
-                "id": 202170,
-                "title": "Fallout 3: The Pitt & Fallout 3: Operation Anchorage",
+                "title": "",
                 "summary": "",
                 "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7yj5.jpg",
-                "other": {
-                    "platforms": [
-                        "PC (Microsoft Windows)",
-                        "Xbox 360"
-                    ],
-                    "release_year": null
-                }
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541934",
+                "title": "Starcraft II: heart of the swarm / Blizzard Entertainment.",
+                "authors": [
+                    "Blizzard Entertainment (Firm)"
+                ],
+                "edition": "[pc of macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1843,27 +4924,19 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006939419",
-                "title": "Fire emblem warriors / developed by Omega Force.",
+                "id": "folio.in00006919213",
+                "title": "Brave story: new traveler.",
                 "authors": [
-                    "Omega Force (Firm),",
-                    "Nintendo of America Inc.,"
+                    "XSEED JKS Games (Firm),"
                 ],
-                "edition": "nintendo switch"
+                "edition": "playstation portable"
             },
             "igdb": {
-                "id": 238324,
-                "title": "Fire Emblem Warriors: Fire Emblem Fates DLC Pack",
+                "title": "",
                 "summary": "",
                 "tags": [],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co913u.jpg",
-                "other": {
-                    "platforms": [
-                        "Nintendo Switch",
-                        "New Nintendo 3DS"
-                    ],
-                    "release_year": "2017"
-                }
+                "cover": "",
+                "other": {}
             }
         }
     },
@@ -1876,6 +4949,66 @@
                     "Nintendo of America Inc.,"
                 ],
                 "edition": "nintendo gamecube"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006751020",
+                "title": "Jeopardy : [America's favorite quiz show] / [developed by THQ].",
+                "authors": [
+                    "THQ (Firm),",
+                    "Sony Computer Entertainment,"
+                ],
+                "edition": "playstation 3"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00006930428",
+                "title": "Super Mario galaxy / developed by Nintendo.",
+                "authors": [
+                    "Nintendo of America Inc.,"
+                ],
+                "edition": "nintendo wii"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00000093088",
+                "title": "Jack Nicklaus golf & course design / designed by Ned Martin, Sculptured Software.",
+                "authors": [
+                    "Accolade, Inc.,",
+                    "Sculptured Software, Inc.,",
+                    "Jack Nicklaus Productions,"
+                ],
+                "edition": "ibm pc at"
             },
             "igdb": {
                 "title": "",
@@ -1909,29 +5042,19 @@
     {
         "game": {
             "dmc": {
-                "id": "folio.in00006491637",
-                "title": "Portal knights / developed by Keen.",
+                "id": "folio.in00005541942",
+                "title": "Alice madness returns / Electronic Arts.",
                 "authors": [
-                    "Keen (Firm)",
-                    "Nintendo of America Inc.",
-                    "505 Games (Firm),"
+                    "Electronic Arts (Firm)"
                 ],
-                "edition": "nintendo switch"
+                "edition": "[pc]"
             },
             "igdb": {
-                "id": 170873,
-                "title": "Portal Knights: Portal Pioneer Pack",
-                "summary": "Leave the familiar world behind and step into the fantastic unknown with Portal Knights! Play with your friends in this action-packed crafting adventure across 3D sandbox worlds. Craft your adventure. Forge your hero. Become the ultimate Portal Knight!",
-                "tags": [
-                    "Adventure"
-                ],
+                "title": "",
+                "summary": "",
+                "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [
-                        "Nintendo Switch"
-                    ],
-                    "release_year": "2019"
-                }
+                "other": {}
             }
         }
     },
@@ -1977,6 +5100,25 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541923",
+                "title": "Starcraft II: wings of liberty / Blizzard Entertainment.",
+                "authors": [
+                    "Blizzard Entertainment (Firm)"
+                ],
+                "edition": "[pc or macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005541827",
                 "title": "Diablo II expansion set : Lord of destruction / developed by Blizzard Entertainment.",
                 "authors": [
@@ -1996,12 +5138,48 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541862",
+                "title": "Grim fandango / LucasArts Entertainment Company presents.",
+                "authors": [],
+                "edition": "[windows version]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00005541823",
                 "title": "Diablo II : exclusive gift set  / Blizzard Entertainment.",
                 "authors": [
                     "Blizzard Entertainment (Firm)"
                 ],
                 "edition": "[pc or macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541773",
+                "title": "Diablo II.",
+                "authors": [
+                    "Blizzard Entertainment (Firm),"
+                ],
+                "edition": "windows 2000/98/95/nt"
             },
             "igdb": {
                 "title": "",
@@ -2036,26 +5214,78 @@
     {
         "game": {
             "dmc": {
+                "id": "folio.in00005541777",
+                "title": "The Oregon Trail.",
+                "authors": [
+                    "Minnesota Educational Computing Corporation."
+                ],
+                "edition": "[pc or mac]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541883",
+                "title": "Batman: toxic chill / the Learning Company.",
+                "authors": [
+                    "Learning Company.",
+                    "Riverdeep Interactive Learning Limited.",
+                    "DC Comics, Inc."
+                ],
+                "edition": "[pc or macintosh]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541787",
+                "title": "Unreal tournament.",
+                "authors": [
+                    "GT Software (Firm)",
+                    "Epic Games, Inc.",
+                    "Digital Extremes (Firm)"
+                ],
+                "edition": "[pc]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
                 "id": "folio.in00006373245",
                 "title": "Fantasy worlds / Benyamin Nuss.",
                 "authors": [],
                 "edition": "n/a"
             },
             "igdb": {
-                "id": 68687,
-                "title": "Fantasy World",
-                "summary": "You have your kingdom and some citizens. The aim is to improve your king, develop the economics and produce invincible armies that will beat enemies' armies and get their territories.",
-                "tags": [
-                    "Role-playing (RPG)",
-                    "Strategy",
-                    "Adventure",
-                    "Indie"
-                ],
+                "title": "",
+                "summary": "",
+                "tags": [],
                 "cover": "",
-                "other": {
-                    "platforms": [],
-                    "release_year": null
-                }
+                "other": {}
             }
         }
     },
@@ -2089,19 +5319,31 @@
                 "edition": "[pc]"
             },
             "igdb": {
-                "id": 243183,
-                "title": "Tetris Worlds",
+                "title": "",
                 "summary": "",
-                "tags": [
-                    "Puzzle"
+                "tags": [],
+                "cover": "",
+                "other": {}
+            }
+        }
+    },
+    {
+        "game": {
+            "dmc": {
+                "id": "folio.in00005541803",
+                "title": "Deus ex.",
+                "authors": [
+                    "Ion Storm (Firm)",
+                    "Eidos Interactive (Firm),"
                 ],
-                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nd2.jpg",
-                "other": {
-                    "platforms": [
-                        "Game Boy Advance"
-                    ],
-                    "release_year": "2001"
-                }
+                "edition": "[pc edition]"
+            },
+            "igdb": {
+                "title": "",
+                "summary": "",
+                "tags": [],
+                "cover": "",
+                "other": {}
             }
         }
     },
