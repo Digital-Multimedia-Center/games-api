@@ -1,17 +1,18 @@
 import requests
 from rapidfuzz import fuzz
+import re
 import json
 import time
 from tqdm import tqdm
 from dotenv import load_dotenv
 import os
 import math
+from collections import deque
 
 # Load credentials from .env file
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-
 
 # Get a Twitch access token (expires in ~2 months)
 def get_access_token():
@@ -34,6 +35,24 @@ HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
+
+REQUEST_LIMIT = 4  # per second
+REQUEST_WINDOW = 1.0  # seconds
+request_times = deque()  # store timestamps of recent requests
+
+
+def rate_limit():
+    now = time.time()
+    request_times.append(now)
+    # Keep only timestamps within the last second
+    while request_times and request_times[0] < now - REQUEST_WINDOW:
+        request_times.popleft()
+
+    if len(request_times) >= REQUEST_LIMIT:
+        sleep_time = REQUEST_WINDOW - (now - request_times[0])
+        if sleep_time > 0:
+            time.sleep(sleep_time)
+
 def enrich_with_igdb(games_file, output_file):
     def build_query(title, platform):
         base_query = """
@@ -47,6 +66,57 @@ def enrich_with_igdb(games_file, output_file):
         conditions = f"{platform_filter}game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null)"
 
         return base_query.format(title=title, conditions=conditions)
+
+
+    def clean_title(raw_title: str) -> str:
+        title = raw_title.lower().strip()
+
+        # Remove common separators and metadata
+        title = re.split(r"[\/\(\[\;]", title)[0]
+
+        # Remove phrases like "by XYZ", "developed by", etc.
+        title = re.sub(r"\b(by|developed by|written by|produced by|from)\b.*", "", title)
+
+        # Remove trailing punctuation and extra spaces
+        title = re.sub(r"[:\-]+$", "", title).strip()
+        title = re.sub(r"\s{2,}", " ", title)
+        title = title.strip(" :;-,")
+        return title
+
+
+    def normalize_acronyms(title: str) -> str:
+        # Insert space between letters and numbers (e.g. PES2017 → PES 2017)
+        title = re.sub(r"([A-Za-z])(\d)", r"\1 \2", title)
+        title = re.sub(r"(\d)([A-Za-z])", r"\1 \2", title)
+        return title
+
+
+    def generate_title_variants(title: str):
+        title = title.strip().lower()
+
+        clean = clean_title(title)
+        normalized = normalize_acronyms(clean)
+        variants = [title.strip(), clean, normalized]
+
+        # Try splitting on colon or dash — sometimes the second half is the real title
+        parts = [p.strip() for p in re.split(r"[:\-]", title) if len(p.strip()) > 3]
+        variants.extend(parts)
+
+        # Deduplicate while preserving order
+        seen = set()
+        ordered = []
+        for v in variants:
+            if v and v not in seen:
+                seen.add(v)
+                ordered.append(v)
+        return ordered
+
+    def adjusted_similarity(a, b):
+        """Compare two titles but penalize long candidates with extra tokens."""
+        base = fuzz.token_set_ratio(a, b)
+        len_ratio = len(a) / max(len(b), 1)
+        length_penalty = min(1.0, len_ratio)  # don’t reward longer strings
+        return base * length_penalty
 
     def extract_igdb_data(result):
         return {
@@ -68,6 +138,7 @@ def enrich_with_igdb(games_file, output_file):
         }
 
     def fetch_igdb_results(title, platform):
+        rate_limit()
         query = build_query(title, platform)
         response = requests.post(IGDB_URL, headers=HEADERS, data=query)
         response.raise_for_status()
@@ -83,25 +154,26 @@ def enrich_with_igdb(games_file, output_file):
     for game in tqdm(games, desc="Enriching games with IGDB"):
         title = game["dmc"]["title"]
         platform = game["dmc"]["platform_id_guess"]
+        
+        # generate title variants
+        possible_titles = generate_title_variants(title)
+        results = dict() 
 
-        try:
-            results = fetch_igdb_results(title, platform)
-            if not results:
-                # TODO : make this logic better...probably tokenize, currently shortens title statically from / but it should be dynamic
-                short_title = title.split("/")[0]
-                results = fetch_igdb_results(short_title, platform)
+        # search each title variant and keep track of results
+        for possible_title in possible_titles:
+            igdb_query = fetch_igdb_results(possible_title, platform)
+            for hit in igdb_query:
+                results[hit["id"]] = hit
 
-            if results:
-                igdb_data = max(results, key=lambda r: fuzz.ratio(r.get("name", ""), title))
-            else:
-                igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
-
-
-        except Exception as e:
-            with open("debug.txt", "a") as file:
-                file.write(f"{title}\n{str(e)}\n")
-
+        # find best option of all results
+        if results:
+            igdb_data = max(
+                results.values(),
+                key=lambda r: max(adjusted_similarity(r.get("name", ""), v) for v in possible_titles)
+            )
+        else:
             igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
+
 
         enriched_games.append({
             "game": {
@@ -109,9 +181,6 @@ def enrich_with_igdb(games_file, output_file):
                 "igdb": igdb_data
             }
         })
-
-        # Rate limiting (max 4 req/sec)
-        time.sleep(0.20)
 
     # Save enriched data
     with open(output_file, "w", encoding="utf-8") as f:
@@ -215,6 +284,6 @@ def search_msu_catalog():
     print(f"Saved {len(all_games)} games to games.json")
 
 if __name__ == "__main__":
-    search_msu_catalog()
-    # enrich_with_igdb("games.json", "temp.json")
+    # search_msu_catalog()
+    enrich_with_igdb("games.json", "temp.json")
     pass
