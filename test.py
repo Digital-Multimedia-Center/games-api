@@ -21,9 +21,6 @@ with open(args.filename, 'r') as enriched:
             }
             failed_game_entry_retry = {
                 "dmc": game["dmc"],
-                "igdb": {
-                    "platform_id": igdb.get("platform_id")
-                }
             }
             failed_games.append(failed_game)
             failed_games_retry.append(failed_game_entry_retry)

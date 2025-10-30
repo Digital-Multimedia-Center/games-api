@@ -36,20 +36,17 @@ HEADERS = {
 
 def enrich_with_igdb(games_file, output_file):
     def build_query(title, platform):
-        if platform != -1:
-            return f"""
+        base_query = """
             fields id, name, summary, category, platforms, status, game_type, rating, cover.image_id, genres.name;
             search "{title}";
-            where platforms = ({platform}) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
+            where {conditions};
             limit 100;
-            """
-        else:
-            return f"""
-            fields id, name, summary, category, platforms, status, game_type, rating, cover.image_id, genres.name;
-            search "{title}";
-            where game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
-            limit 100;
-            """
+        """
+
+        platform_filter = f"platforms = ({platform}) & " if platform != -1 else ""
+        conditions = f"{platform_filter}game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null)"
+
+        return base_query.format(title=title, conditions=conditions)
 
     def extract_igdb_data(result):
         return {
@@ -84,17 +81,13 @@ def enrich_with_igdb(games_file, output_file):
     enriched_games = []
 
     for game in tqdm(games, desc="Enriching games with IGDB"):
-
-        print()
-
         title = game["dmc"]["title"]
         platform = game["dmc"]["platform_id_guess"]
 
         try:
             results = fetch_igdb_results(title, platform)
-
             if not results:
-                # TODO : make this logic better...probably tokenize, currently shortens title
+                # TODO : make this logic better...probably tokenize, currently shortens title statically from / but it should be dynamic
                 short_title = title.split("/")[0]
                 results = fetch_igdb_results(short_title, platform)
 
@@ -118,7 +111,7 @@ def enrich_with_igdb(games_file, output_file):
         })
 
         # Rate limiting (max 4 req/sec)
-        time.sleep(0.25)
+        time.sleep(0.20)
 
     # Save enriched data
     with open(output_file, "w", encoding="utf-8") as f:
@@ -162,26 +155,26 @@ def search_msu_catalog():
         platform_data = json.load(platform_data_file)
 
     def compare_platform(dmc_platform):
-        for meta_data in platform_data.values():
-            abbreivation = meta_data.get("abbreviation").lower()
-            alternative_names = meta_data.get("alternative_name", "").split(',')
-            if  abbreivation and abbreivation == dmc_platform.lower() or dmc_platform.lower() in [i.lower() for i in alternative_names]:
-                return meta_data["id"]
-        
+        # for meta_data in platform_data.values():
+        #     abbreivation = meta_data.get("abbreviation").lower()
+        #     alternative_names = meta_data.get("alternative_name", "").split(',')
+        #     if  abbreivation and abbreivation == dmc_platform.lower() or dmc_platform.lower() in [i.lower() for i in alternative_names]:
+        #         return meta_data["id"]
+
         platform_id = -1
-        ratio = 80
+        best_score = 0
 
         for meta_data in platform_data.values():
-            comparison = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
+            similarity = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
 
-            if ratio == 100 and meta_data["name"].lower() != dmc_platform.lower():
-                comparison -= 1
+            if similarity == 100 and meta_data["name"].lower() != dmc_platform.lower():
+                similarity = similarity / 1.75
 
-            if comparison >= ratio:
-                ratio = comparison
+            if similarity >= best_score:
+                best_score = similarity
                 platform_id = meta_data["id"]
 
-        return platform_id
+        return platform_id if best_score >= 50 else -1
 
     all_games = []
 
