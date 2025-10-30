@@ -172,7 +172,11 @@ def search_msu_catalog():
         ratio = 80
 
         for meta_data in platform_data.values():
-            comparison = fuzz.ratio(dmc_platform.lower(), meta_data["name"].lower())
+            comparison = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
+
+            if ratio == 100 and meta_data["name"].lower() != dmc_platform.lower():
+                comparison -= 1
+
             if comparison >= ratio:
                 ratio = comparison
                 platform_id = meta_data["id"]

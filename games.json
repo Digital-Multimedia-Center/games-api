@@ -44,7 +44,7 @@
         "Sega of America (Firm)"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -103,7 +103,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -164,7 +164,7 @@
         "Capcom USA,"
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -275,7 +275,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -348,7 +348,7 @@
         "Microsoft Corporation."
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -422,7 +422,7 @@
         "TT Games (Firm),"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -754,7 +754,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo 64 edition",
-      "platform_id_guess": -1
+      "platform_id_guess": 4
     }
   },
   {
@@ -1030,7 +1030,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1042,7 +1042,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1055,7 +1055,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1067,7 +1067,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1079,7 +1079,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1091,7 +1091,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1186,7 +1186,7 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -1200,7 +1200,7 @@
         "WB Games (Firm)"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1321,7 +1321,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -1356,7 +1356,7 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -1394,7 +1394,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1406,7 +1406,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1500,7 +1500,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1633,7 +1633,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -1888,7 +1888,7 @@
         "Black Lantern Studios, Inc.,"
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -2153,7 +2153,7 @@
         "Genius Sonority Inc."
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -2214,7 +2214,7 @@
         "Capcom USA,"
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -2273,7 +2273,7 @@
         "Microsoft Game Studios."
       ],
       "edition": "xbox 36",
-      "platform_id_guess": 12
+      "platform_id_guess": 11
     }
   },
   {
@@ -2347,7 +2347,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -2372,7 +2372,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -2491,7 +2491,7 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -2514,7 +2514,7 @@
         "Nintendo of America Inc."
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -2560,7 +2560,7 @@
         "Pokémon Company International,"
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -2573,7 +2573,7 @@
         "KOEI Corporation,"
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -3118,7 +3118,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -3130,7 +3130,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -3141,7 +3141,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -3152,7 +3152,7 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -3839,7 +3839,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -4023,7 +4023,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -4255,7 +4255,7 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -4655,7 +4655,7 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -4737,7 +4737,7 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -4871,7 +4871,7 @@
         "Capcom USA,"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -4882,7 +4882,7 @@
         "Capcom USA,"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -5132,7 +5132,7 @@
         "Microsoft Corporation,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -5167,7 +5167,7 @@
         "2K Games, Inc.,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -5284,7 +5284,7 @@
         "Namco Bandai Games America (Firm)"
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -5323,7 +5323,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -5444,7 +5444,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -5482,7 +5482,7 @@
         "20th Century Games (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -5635,7 +5635,7 @@
         "Nintendo of America Inc."
       ],
       "edition": "gamecube",
-      "platform_id_guess": -1
+      "platform_id_guess": 21
     }
   },
   {
@@ -5749,7 +5749,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6196,7 +6196,7 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -6257,7 +6257,7 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6492,7 +6492,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6503,7 +6503,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6515,7 +6515,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6528,7 +6528,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -6962,7 +6962,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -7179,7 +7179,7 @@
         "Capcom USA."
       ],
       "edition": "nintendo ds",
-      "platform_id_guess": 4
+      "platform_id_guess": 20
     }
   },
   {
@@ -7277,7 +7277,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -7492,7 +7492,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -7776,7 +7776,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -8034,7 +8034,7 @@
         "Sega of America (Firm),"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -8684,7 +8684,7 @@
         "Namco Bandai Games America (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -8801,7 +8801,7 @@
         "Capcom USA,"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -8814,7 +8814,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -8900,7 +8900,7 @@
         "Arc System Works (Firm),"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -8912,7 +8912,7 @@
         "Kojima Productions,"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -8923,7 +8923,7 @@
         "Capcom USA,"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -9075,7 +9075,7 @@
         "Capcom USA,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9134,7 +9134,7 @@
         "Papaya Studios,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9182,7 +9182,7 @@
         "Ludia,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9205,7 +9205,7 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9495,7 +9495,7 @@
         "Badland Games,"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -9566,7 +9566,7 @@
         "Retro Studios (firm),"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9698,7 +9698,7 @@
         "Gathering (Firm),"
       ],
       "edition": "sega dreamcast",
-      "platform_id_guess": -1
+      "platform_id_guess": 23
     }
   },
   {
@@ -9771,7 +9771,7 @@
         "TT Games (Firm),"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9793,7 +9793,7 @@
         "Ubi Soft Entertainment (Firm),"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9805,7 +9805,7 @@
         "Ludia,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -9866,7 +9866,7 @@
         "Nippon Ichi Software,"
       ],
       "edition": "playstation vita",
-      "platform_id_guess": 167
+      "platform_id_guess": 7
     }
   },
   {
@@ -9912,7 +9912,7 @@
         "Ubisoft (Firm),"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -10119,7 +10119,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -10581,7 +10581,7 @@
         "Pokémon Company International,"
       ],
       "edition": "nintendo wii u",
-      "platform_id_guess": -1
+      "platform_id_guess": 41
     }
   },
   {
@@ -10685,7 +10685,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -11049,7 +11049,7 @@
         "Sony Computer Entertainment."
       ],
       "edition": "playstation4",
-      "platform_id_guess": 48
+      "platform_id_guess": 7
     }
   },
   {
@@ -11088,7 +11088,7 @@
         "Maximum Games (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -11181,7 +11181,7 @@
         "Rockstar Games (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -11345,7 +11345,7 @@
         "Sony Computer Entertainment,"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -11356,7 +11356,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -11379,7 +11379,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii u",
-      "platform_id_guess": -1
+      "platform_id_guess": 41
     }
   },
   {
@@ -11626,7 +11626,7 @@
         "Motive Studio,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -11919,7 +11919,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -11943,7 +11943,7 @@
         "CokeM Interactive,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -12003,7 +12003,7 @@
         "Sony Interactive Entertainment America LLC,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -12075,7 +12075,7 @@
         "Electronic Arts (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -12361,7 +12361,7 @@
         "Warner Bros. Interactive Entertainment,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -12395,7 +12395,7 @@
         "Bethesda Softworks (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -12785,7 +12785,7 @@
         "Warhorse Studios (Firm),"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -13203,7 +13203,7 @@
         "XSEED JKS Games (Firm),"
       ],
       "edition": "playstation portable",
-      "platform_id_guess": -1
+      "platform_id_guess": 38
     }
   },
   {
@@ -13273,7 +13273,7 @@
         "Capcom USA,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -13335,7 +13335,7 @@
         "Bandai Namco Entertainment America Inc.,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
@@ -13396,7 +13396,7 @@
         "Nintendo of America Inc.,"
       ],
       "edition": "nintendo wii",
-      "platform_id_guess": 130
+      "platform_id_guess": 5
     }
   },
   {
@@ -13418,7 +13418,7 @@
         "Capcom USA,"
       ],
       "edition": "xbox series x",
-      "platform_id_guess": 169
+      "platform_id_guess": 11
     }
   },
   {
