@@ -9,11 +9,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -26,11 +22,7 @@
             "edition": "[model no.] psp1001"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -43,11 +35,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -61,11 +49,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -80,11 +64,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -98,11 +78,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -116,11 +92,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -135,21 +107,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "id": 347866,
-            "cover": {
-                "id": 464046,
-                "image_id": "co9y26"
-            },
-            "name": "Cat Quest III: Tavern Tales",
-            "platforms": [
-                169,
-                48,
-                6,
-                167,
-                49,
-                130
-            ],
-            "game_type": 14
+            "platform_id": null
         }
     },
     {
@@ -163,11 +121,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -180,11 +134,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -198,11 +148,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -216,11 +162,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -231,11 +173,7 @@
             "edition": "paperback edition"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -246,11 +184,7 @@
             "edition": "[macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -261,11 +195,7 @@
             "edition": "n/a"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -278,11 +208,7 @@
             "edition": "nintendo 64 edition"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -296,11 +222,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -315,11 +237,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -333,11 +251,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -351,11 +265,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -370,11 +280,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -388,11 +294,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -406,11 +308,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -424,11 +322,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -442,11 +336,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -460,11 +350,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -477,11 +363,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -497,11 +379,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -515,11 +393,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -533,11 +407,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -550,11 +420,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -567,11 +433,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -585,11 +447,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -603,11 +461,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -622,11 +476,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -639,11 +489,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -657,11 +503,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -675,22 +517,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "id": 44661,
-            "cover": {
-                "id": 161195,
-                "image_id": "co3gdn"
-            },
-            "genres": [
-                {
-                    "id": 4,
-                    "name": "Fighting"
-                }
-            ],
-            "name": "Naruto: Ultimate Ninja Storm - Limited Edition",
-            "platforms": [
-                9
-            ],
-            "game_type": 0
+            "platform_id": null
         }
     },
     {
@@ -704,11 +531,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -722,11 +545,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -742,11 +561,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -761,16 +576,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "id": 315513,
-            "cover": {
-                "id": 409085,
-                "image_id": "co8rnh"
-            },
-            "name": "Guilty Gear Xrd: Sign - Character Colors Christmas Set",
-            "platforms": [
-                48
-            ],
-            "game_type": 13
+            "platform_id": null
         }
     },
     {
@@ -784,11 +590,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -802,11 +604,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -820,11 +618,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -839,11 +633,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -857,11 +647,7 @@
             "edition": "playstation 2"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -876,11 +662,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -893,11 +675,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -912,11 +690,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -929,11 +703,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -948,11 +718,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -966,11 +732,7 @@
             "edition": "xbox 36"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -985,11 +747,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1005,11 +763,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1023,11 +777,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1038,11 +788,7 @@
             "edition": "[pc or macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1055,11 +801,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1074,11 +816,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1092,11 +830,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1110,11 +844,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1127,11 +857,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1144,11 +870,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1162,11 +884,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1179,11 +897,7 @@
             "edition": "nintedo 64"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1197,11 +911,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1214,11 +924,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1231,11 +937,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1250,11 +952,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1269,11 +967,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1287,11 +981,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1305,11 +995,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1323,11 +1009,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1341,11 +1023,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1360,11 +1038,7 @@
             "edition": "ps4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1378,11 +1052,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1396,11 +1066,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1415,11 +1081,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1433,11 +1095,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1451,11 +1109,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1469,11 +1123,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1486,11 +1136,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1503,11 +1149,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1521,11 +1163,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1539,11 +1177,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1556,11 +1190,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1574,11 +1204,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1593,23 +1219,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 167299,
-            "genres": [
-                {
-                    "id": 13,
-                    "name": "Simulator"
-                },
-                {
-                    "id": 14,
-                    "name": "Sport"
-                }
-            ],
-            "name": "Tennis World Tour 2: Legends Pack",
-            "platforms": [
-                130
-            ],
-            "summary": "The Legends pack unlocks 2 players who left their mark on tennis history in the 2000s: Gustavo Kuerten and Marat Safin.",
-            "game_type": 1
+            "platform_id": null
         }
     },
     {
@@ -1623,11 +1233,7 @@
             "edition": "windows 95 & dos cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1640,11 +1246,7 @@
             "edition": "[windows or dos]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1657,11 +1259,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1675,13 +1273,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "id": 249963,
-            "name": "Cuphead: Limited Edition",
-            "platforms": [
-                48,
-                130
-            ],
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -1695,11 +1287,7 @@
             "edition": "players choice"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1714,11 +1302,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1732,11 +1316,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1749,11 +1329,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1767,11 +1343,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1785,11 +1357,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1804,11 +1372,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1824,11 +1388,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1841,11 +1401,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1858,11 +1414,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1877,11 +1429,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1894,11 +1442,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1911,11 +1455,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1929,11 +1469,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1947,11 +1483,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1965,11 +1497,7 @@
             "edition": "game of the year edition"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -1983,11 +1511,7 @@
             "edition": "playstation 5"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2000,11 +1524,7 @@
             "edition": "dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2018,11 +1538,7 @@
             "edition": "windows, pc cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2036,11 +1552,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2055,11 +1567,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2073,11 +1581,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2091,11 +1595,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2109,11 +1609,7 @@
             "edition": "pc cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2126,11 +1622,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2144,11 +1636,7 @@
             "edition": "gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2162,11 +1650,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2181,11 +1665,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2200,11 +1680,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2218,11 +1694,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2236,11 +1708,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2254,11 +1722,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2272,11 +1736,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2289,12 +1749,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 238037,
-            "name": "Touhou Kobuto V: Burst Battle - Koishi Komeiji",
-            "platforms": [
-                130
-            ],
-            "game_type": 13
+            "platform_id": null
         }
     },
     {
@@ -2308,13 +1763,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 249963,
-            "name": "Cuphead: Limited Edition",
-            "platforms": [
-                48,
-                130
-            ],
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -2329,14 +1778,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 305856,
-            "name": "Mortal Kombat 11: Double Feature Skin Pack",
-            "platforms": [
-                48,
-                49,
-                130
-            ],
-            "game_type": 13
+            "platform_id": null
         }
     },
     {
@@ -2350,11 +1792,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2367,11 +1805,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2385,21 +1819,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 347866,
-            "cover": {
-                "id": 464046,
-                "image_id": "co9y26"
-            },
-            "name": "Cat Quest III: Tavern Tales",
-            "platforms": [
-                169,
-                48,
-                6,
-                167,
-                49,
-                130
-            ],
-            "game_type": 14
+            "platform_id": null
         }
     },
     {
@@ -2413,11 +1833,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2431,11 +1847,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2448,11 +1860,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2466,11 +1874,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2485,11 +1889,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2502,11 +1902,7 @@
             "edition": "model no. hkt-7620"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2520,11 +1916,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2538,11 +1930,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2556,11 +1944,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2574,11 +1958,7 @@
             "edition": "nintendo ds"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2592,11 +1972,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2609,11 +1985,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2626,11 +1998,7 @@
             "edition": "nintendo 64"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2644,11 +2012,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2662,11 +2026,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2679,11 +2039,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2697,29 +2053,7 @@
             "edition": "playstation 5"
         },
         "igdb": {
-            "id": 311071,
-            "cover": {
-                "id": 401068,
-                "image_id": "co8lgs"
-            },
-            "genres": [
-                {
-                    "id": 4,
-                    "name": "Fighting"
-                },
-                {
-                    "id": 33,
-                    "name": "Arcade"
-                }
-            ],
-            "name": "Mortal Kombat 1: Invasions - Season of the Storms",
-            "platforms": [
-                169,
-                6,
-                167,
-                130
-            ],
-            "game_type": 7
+            "platform_id": null
         }
     },
     {
@@ -2732,11 +2066,7 @@
             "edition": "playstation 5"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2750,11 +2080,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2768,11 +2094,7 @@
             "edition": "playstation"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2785,22 +2107,7 @@
             "edition": "nintendo gamecube"
         },
         "igdb": {
-            "id": 353528,
-            "genres": [
-                {
-                    "id": 11,
-                    "name": "Real Time Strategy (RTS)"
-                },
-                {
-                    "id": 15,
-                    "name": "Strategy"
-                }
-            ],
-            "name": "Pikmin 2",
-            "platforms": [
-                21
-            ],
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -2813,11 +2120,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2830,11 +2133,7 @@
             "edition": "nintendo 64"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2847,11 +2146,7 @@
             "edition": "n/a"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2865,11 +2160,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2882,11 +2173,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2900,11 +2187,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2918,11 +2201,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2935,11 +2214,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2953,11 +2228,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -2972,31 +2243,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 224220,
-            "genres": [
-                {
-                    "id": 13,
-                    "name": "Simulator"
-                },
-                {
-                    "id": 14,
-                    "name": "Sport"
-                },
-                {
-                    "id": 15,
-                    "name": "Strategy"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "Hunting Simulator 2: Beretta Weapon Pack",
-            "platforms": [
-                130
-            ],
-            "summary": "This weapons pack includes 7 Beretta shotguns for hunting small game, such as ducks, pheasants and rabbits.",
-            "game_type": 13
+            "platform_id": null
         }
     },
     {
@@ -3009,18 +2256,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 283586,
-            "cover": {
-                "id": 386623,
-                "image_id": "co8abj"
-            },
-            "name": "A Space for the Unbound: Special Edition",
-            "platforms": [
-                48,
-                167,
-                130
-            ],
-            "game_type": 0
+            "platform_id": null
         }
     },
     {
@@ -3033,11 +2269,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3050,11 +2282,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3067,11 +2295,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3086,11 +2310,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3104,11 +2324,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3122,11 +2338,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3139,11 +2351,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3157,11 +2365,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3175,11 +2379,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3192,11 +2392,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3209,11 +2405,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3228,11 +2420,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3246,11 +2434,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3263,11 +2447,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3283,11 +2463,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3301,11 +2477,7 @@
             "edition": "nintendo 64"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3319,11 +2491,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3337,11 +2505,7 @@
             "edition": "players choice"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3356,11 +2520,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3374,11 +2534,7 @@
             "edition": "xbox one"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3392,19 +2548,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "id": 42950,
-            "genres": [
-                {
-                    "id": 15,
-                    "name": "Strategy"
-                }
-            ],
-            "name": "Grand Ages: Medieval - Limited Special Edition",
-            "platforms": [
-                48
-            ],
-            "summary": "It is the year 1050 AD. At the beginning of the High Middle Ages development in Europe has seen an unprecedented level of progress and a rapidly growing population spreads across the length and breadth of the continent. New frontiers are explored, settlements founded and vast trading routes established. As the head of one of these small settlements, it falls upon you to lead your people towards greatness.\nExplore a vast world, gather resources, encounter other societies and use your trading expertise to expand and make your fortune. Found new cities, progress your nation with inventive technology and protect your trade routes against barbarian attacks until you are powerful enough to begin your conquest over Europe and forge a bold new empire.\n\nLimited Edition Includes:\n2 DLC's - Camelot and Ancient Worlds\nA 2-sided Tech Tree Poster",
-            "game_type": 0
+            "platform_id": null
         }
     },
     {
@@ -3418,11 +2562,7 @@
             "edition": "sega dreamcast"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3436,11 +2576,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3453,11 +2589,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3471,11 +2603,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3489,11 +2617,7 @@
             "edition": "playstation vita"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3506,11 +2630,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3524,11 +2644,7 @@
             "edition": "wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3542,11 +2658,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3561,11 +2673,7 @@
             "edition": "n/a"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3579,11 +2687,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3597,11 +2701,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3615,11 +2715,7 @@
             "edition": "games for windows"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3632,11 +2728,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3651,16 +2743,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 238146,
-            "cover": {
-                "id": 389660,
-                "image_id": "co8cnw"
-            },
-            "name": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings - Ilmeria",
-            "platforms": [
-                130
-            ],
-            "game_type": 13
+            "platform_id": null
         }
     },
     {
@@ -3675,11 +2758,7 @@
             "edition": "nintendo wii u"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3692,11 +2771,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3710,11 +2785,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3727,11 +2798,7 @@
             "edition": "playstation 2"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3745,30 +2812,7 @@
             "edition": "xbox 360"
         },
         "igdb": {
-            "id": 142110,
-            "cover": {
-                "id": 315219,
-                "image_id": "co6r83"
-            },
-            "genres": [
-                {
-                    "id": 8,
-                    "name": "Platform"
-                },
-                {
-                    "id": 25,
-                    "name": "Hack and slash/Beat 'em up"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "LEGO Indiana Jones: The Original Adventures / Kung Fu Panda",
-            "platforms": [
-                12
-            ],
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -3783,28 +2827,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "id": 154511,
-            "cover": {
-                "id": 156867,
-                "image_id": "co3d1f"
-            },
-            "genres": [
-                {
-                    "id": 9,
-                    "name": "Puzzle"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "Little Nightmares II: Deluxe Edition",
-            "platforms": [
-                48,
-                6,
-                167
-            ],
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -3818,11 +2841,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3835,11 +2854,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3852,11 +2867,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3869,11 +2880,7 @@
             "edition": "nintendo wii u"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3889,11 +2896,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3907,11 +2910,7 @@
             "edition": "ibm pc & compatibles cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3922,11 +2921,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3940,11 +2935,7 @@
             "edition": "macintosh"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -3959,19 +2950,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "id": 307236,
-            "genres": [
-                {
-                    "id": 16,
-                    "name": "Turn-based strategy (TBS)"
-                }
-            ],
-            "name": "XCOM: Enemy Within - Commander Edition",
-            "platforms": [
-                9
-            ],
-            "summary": "Once upon a time XCOM: Enemy Within was going to be a simple add-on pack for Enemy Unknown, but it ended up adding so much to the core game that 2K opted to release it as part of a bundle that includes the main game and all the previous DLC. Enemy Unknown takes place on a modern Earth, under attack from an alien invasion.",
-            "game_type": 3
+            "platform_id": null
         }
     },
     {
@@ -3984,11 +2963,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4001,11 +2976,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4018,11 +2989,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4036,11 +3003,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4055,16 +3018,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 209839,
-            "cover": {
-                "id": 268714,
-                "image_id": "co5rca"
-            },
-            "name": "Bayonetta 3: Trinity Masquerade Edition",
-            "platforms": [
-                130
-            ],
-            "game_type": 0
+            "platform_id": null
         }
     },
     {
@@ -4077,11 +3031,7 @@
             "edition": "cd-rom for windows"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4095,11 +3045,7 @@
             "edition": "windows 95/98/nt/power macintosh ; version 1.05"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4114,11 +3060,7 @@
             "edition": "windows 95/98 cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4131,11 +3073,7 @@
             "edition": "[windows/mac cd-rom]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4149,11 +3087,7 @@
             "edition": "macintosh"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4166,11 +3100,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4185,11 +3115,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4202,11 +3128,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4219,22 +3141,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 330200,
-            "genres": [
-                {
-                    "id": 13,
-                    "name": "Simulator"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "Hello Kitty Island Adventure: Deluxe Edition",
-            "platforms": [
-                130
-            ],
-            "game_type": 0
+            "platform_id": null
         }
     },
     {
@@ -4247,18 +3154,7 @@
             "edition": "playstation 5"
         },
         "igdb": {
-            "id": 369922,
-            "cover": {
-                "id": 492249,
-                "image_id": "coajtl"
-            },
-            "name": "Monster Hunter Wilds: Title Update 4",
-            "platforms": [
-                169,
-                6,
-                167
-            ],
-            "game_type": 14
+            "platform_id": null
         }
     },
     {
@@ -4272,11 +3168,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4290,21 +3182,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "id": 360076,
-            "cover": {
-                "id": 477882,
-                "image_id": "coa8qi"
-            },
-            "name": "Little Kitty, Big City: Picture Purrfect",
-            "platforms": [
-                169,
-                48,
-                6,
-                167,
-                49,
-                130
-            ],
-            "game_type": 14
+            "platform_id": null
         }
     },
     {
@@ -4318,11 +3196,7 @@
             "edition": "playstation 4"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4336,11 +3210,7 @@
             "edition": "xbox"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4351,11 +3221,7 @@
             "edition": "n/a"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4369,11 +3235,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4387,11 +3249,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4404,11 +3262,7 @@
             "edition": "games for windows"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4421,11 +3275,7 @@
             "edition": "[pc of macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4438,11 +3288,7 @@
             "edition": "[pc or mac]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4455,11 +3301,7 @@
             "edition": "playstation portable"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4472,11 +3314,7 @@
             "edition": "nintendo gamecube"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4490,11 +3328,7 @@
             "edition": "playstation 3"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4507,11 +3341,7 @@
             "edition": "nintendo wii"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4526,11 +3356,7 @@
             "edition": "ibm pc at"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4544,11 +3370,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4561,11 +3383,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4578,11 +3396,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4596,11 +3410,7 @@
             "edition": "pc cd-rom"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4613,11 +3423,7 @@
             "edition": "[pc or macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4630,11 +3436,7 @@
             "edition": "[pc or macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4645,11 +3447,7 @@
             "edition": "[windows version]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4662,11 +3460,7 @@
             "edition": "[pc or macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4679,11 +3473,7 @@
             "edition": "windows 2000/98/95/nt"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4698,11 +3488,7 @@
             "edition": "playstation 2"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4715,11 +3501,7 @@
             "edition": "[pc or mac]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4734,11 +3516,7 @@
             "edition": "[pc or macintosh]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4753,11 +3531,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4768,11 +3542,7 @@
             "edition": "n/a"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4785,11 +3555,7 @@
             "edition": "nintendo switch"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4802,11 +3568,7 @@
             "edition": "[pc]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4820,11 +3582,7 @@
             "edition": "[pc edition]"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     },
     {
@@ -4835,11 +3593,7 @@
             "edition": "piano solo"
         },
         "igdb": {
-            "title": "",
-            "summary": "",
-            "tags": [],
-            "cover": "",
-            "other": {}
+            "platform_id": null
         }
     }
 ]

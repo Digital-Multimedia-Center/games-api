@@ -5,6 +5,7 @@ import time
 from tqdm import tqdm
 from dotenv import load_dotenv
 import os
+import math
 
 # Load credentials from .env file
 load_dotenv()
@@ -83,8 +84,11 @@ def enrich_with_igdb(games_file, output_file):
     enriched_games = []
 
     for game in tqdm(games, desc="Enriching games with IGDB"):
+
+        print()
+
         title = game["dmc"]["title"]
-        platform = game["igdb"]["platform_id"]
+        platform = game["dmc"]["platform_id_guess"]
 
         try:
             results = fetch_igdb_results(title, platform)
@@ -96,8 +100,6 @@ def enrich_with_igdb(games_file, output_file):
 
             if results:
                 igdb_data = max(results, key=lambda r: fuzz.ratio(r.get("name", ""), title))
-
-
             else:
                 igdb_data = {"title": "", "summary": "", "tags": [], "cover": "", "other": {}}
 
@@ -120,80 +122,102 @@ def enrich_with_igdb(games_file, output_file):
 
     # Save enriched data
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(enriched_games, f, indent=2, ensure_ascii=False)
+        json.dump(enriched_games, f, indent=2) 
 
     print(f"Enriched data saved to {output_file}")
 
 def search_msu_catalog():
-    curr_page = 1
-    results_left = True
+    url = "https://catalog.lib.msu.edu/api/v1/search"
+
+    params = {
+        "lookfor": "genre:video+games",
+        "type": "AllFields",
+        "field[]": ["edition", "authors", "title", "id"],
+        "limit": 100,
+        "page": 1,
+        "sort": "relevance",
+        "prettyPrint": "false",
+        "lng": "en"
+    }
+
+    headers = {"accept": "application/json"}
+
+    # initial request to find total number of results
+    response = requests.get(url, params=params, headers=headers)
+    if response.status_code != 200:
+        print(f"Initial request failed: {response.status_code}")
+        print(response.text)
+        return []
+
+    data = response.json()
+    result_count = data.get("resultCount", 0)
+    total_pages = math.ceil(result_count / 100) if result_count else 0
+
+    if total_pages == 0:
+        print("No results found.")
+        return []
+
+    # load platform data once
+    with open("platforms.json") as platform_data_file:
+        platform_data = json.load(platform_data_file)
+
+    def compare_platform(dmc_platform):
+        for meta_data in platform_data.values():
+            abbreivation = meta_data.get("abbreviation").lower()
+            alternative_names = meta_data.get("alternative_name", "").split(',')
+            if  abbreivation and abbreivation == dmc_platform.lower() or dmc_platform.lower() in [i.lower() for i in alternative_names]:
+                return meta_data["id"]
+        
+        platform_id = -1
+        ratio = 80
+
+        for meta_data in platform_data.values():
+            comparison = fuzz.ratio(dmc_platform.lower(), meta_data["name"].lower())
+            if comparison >= ratio:
+                ratio = comparison
+                platform_id = meta_data["id"]
+
+        return platform_id
+
     all_games = []
 
-    while results_left:
-        url = "https://catalog.lib.msu.edu/api/v1/search"
+    with tqdm(total=total_pages, desc="Fetching pages", unit="page") as page_bar:
+        for curr_page in range(1, total_pages + 1):
+            params["page"] = curr_page
+            response = requests.get(url, params=params, headers=headers)
 
-        params = {
-            "lookfor": "genre:video+games",
-            "type": "AllFields",
-            "field[]": ["edition","authors", "title", "id"],
-            "limit": 100,
-            "page": curr_page,
-            "sort": "relevance",
-            "prettyPrint": "false",
-            "lng": "en"
-        }
+            if response.status_code != 200:
+                print(f"Request failed on page {curr_page}: {response.status_code}")
+                print(response.text)
+                break
 
-        headers = {
-            "accept": "application/json"
-        }
-
-        response = requests.get(url, params=params, headers=headers)
-
-        if response.status_code == 200:
             data = response.json()
-            for record in data.get("records", []):
+            records = data.get("records", [])
 
-                with open("platforms.json") as platform_data_file:
-                    platform_id = -1
-                    ratio = 80
-                    platform_data = json.load(platform_data_file)
-                    for meta_data in platform_data.values():
-                        comparison = fuzz.ratio(record.get("edition","N/A"), meta_data["name"])
-                        if comparison >= ratio:
-                            ratio = comparison
-                            platform_id = meta_data["id"]
+            for record in tqdm(records, desc=f"Page {curr_page}", unit="record", leave=False):
+                edition = record.get("edition", "N/A").rstrip('.').lower()
+                
+                platform_id = compare_platform(edition)
 
                 game = {
                     "dmc": {
                         "id": record.get("id", "N/A"),
-                        "title": record.get("title", "N/A"),
-                        "authors": list(record["authors"]["corporate"]),
-                        "edition": record.get("edition", "N/A").lower().rstrip('.')
+                        "title": record.get("title", "N/A").rstrip('.'),
+                        "authors": list(record.get("authors", {}).get("corporate", [])),
+                        "edition": edition,
+                        "platform_id_guess": platform_id
                     },
-                    "igdb": {
-                        "platform_id" :  platform_id
-                    }
                 }
                 all_games.append(game)
 
-            # check if more pages exist
-            if curr_page * 100 >= data.get('resultCount', 0):
-                results_left = False
-            else:
-                curr_page += 1
-        else:
-            print(f"Request failed: {response.status_code}")
-            print(response.text)
-            results_left = False
+            page_bar.update(1)
 
-    # Save results to JSON file
     with open("games.json", "w", encoding="utf-8") as f:
         json.dump(all_games, f, indent=2, ensure_ascii=False)
 
     print(f"Saved {len(all_games)} games to games.json")
 
-
 if __name__ == "__main__":
-    # search_msu_catalog()
-    enrich_with_igdb("games.json", "temp.json")
+    search_msu_catalog()
+    # enrich_with_igdb("games.json", "temp.json")
     pass

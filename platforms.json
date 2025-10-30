@@ -216,6 +216,23 @@
         "checksum": "32ada501-fe9c-d1e5-0c7e-f6e2fc725ef8",
         "platform_type": 1
     },
+    "Xbox": {
+        "id": 11,
+        "abbreviation": "XBOX",
+        "created_at": 1297639288,
+        "generation": 6,
+        "name": "Xbox",
+        "platform_logo": 266,
+        "platform_family": 2,
+        "slug": "xbox",
+        "updated_at": 1718027289,
+        "url": "https://www.igdb.com/platforms/xbox",
+        "versions": [
+            77
+        ],
+        "checksum": "3438659e-2da9-6326-2906-5e645694b976",
+        "platform_type": 1
+    },
     "Xbox 360": {
         "id": 12,
         "abbreviation": "X360",

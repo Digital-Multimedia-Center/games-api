@@ -7,17 +7,32 @@ args = parser.parse_args()
 
 with open(args.filename, 'r') as enriched:
     data = json.load(enriched)
-    count = 0
     failed_games = []
+    failed_games_retry = []
 
-    for game in data:
-        if not (game["game"]["igdb"].get("cover") and game["game"]["igdb"].get("summary")):
-            count += 1
-            failed_games.append(game)
+    for entry in data:
+        game = entry["game"]
+        igdb = game["igdb"]
 
-# Always overwrite the previous failed_games.json file
+        if not (igdb.get("cover") and igdb.get("summary")):
+            failed_game = {
+                "dmc": game["dmc"],
+                "igdb": igdb
+            }
+            failed_game_entry_retry = {
+                "dmc": game["dmc"],
+                "igdb": {
+                    "platform_id": igdb.get("platform_id")
+                }
+            }
+            failed_games.append(failed_game)
+            failed_games_retry.append(failed_game_entry_retry)
+
+# Overwrite the previous failed_games.json file
 with open("failed_games.json", 'w') as f:
     json.dump(failed_games, f, indent=4)
 
-print("Percentage of games that failed", count / len(data))
+with open("failed_games_retry.json", 'w') as f:
+    json.dump(failed_games_retry, f, indent=4)
 
+print("Percentage of games that failed", len(failed_games) / len(data))

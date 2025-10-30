@@ -35,8 +35,8 @@ limit 20;
 
 query = """
 fields name, category, platforms, status, game_type, rating;
-search "Overcooked!";
-where platforms = (49) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
+search "P.N.03";
+where platforms = (21) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
 limit 100;
 """
 
