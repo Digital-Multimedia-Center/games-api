@@ -86,6 +86,49 @@
         "checksum": "8c936c6a-beaf-a199-c360-276e30d3b2e1",
         "platform_type": 1
     },
+    "Nintendo DS": {
+        "id": 20,
+        "abbreviation": "NDS",
+        "alternative_name": "NDS",
+        "created_at": 1297941701,
+        "generation": 7,
+        "name": "Nintendo DS",
+        "platform_logo": 245,
+        "platform_family": 5,
+        "slug": "nds",
+        "updated_at": 1718027289,
+        "url": "https://www.igdb.com/platforms/nds",
+        "versions": [
+            52,
+            191,
+            192,
+            190
+        ],
+        "checksum": "7bda3398-07a7-7692-038c-cb639f13f1b8",
+        "platform_type": 5
+    },
+    "Playstation Portable": {
+        "id": 38,
+        "abbreviation": "PSP",
+        "alternative_name": "PSP",
+        "created_at": 1317648479,
+        "generation": 7,
+        "name": "PlayStation Portable",
+        "platform_logo": 214,
+        "platform_family": 1,
+        "slug": "psp",
+        "updated_at": 1718027289,
+        "url": "https://www.igdb.com/platforms/psp",
+        "versions": [
+            59,
+            279,
+            277,
+            276,
+            278
+        ],
+        "checksum": "2c99032d-0a06-6aa3-9652-f38b3ae05102",
+        "platform_type": 5
+    },
     "Playstation": {
         "id": 7,
         "abbreviation": "PS1",

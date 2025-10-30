@@ -26,13 +26,13 @@ HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
-platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5"]
+platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", "Playstation Portable", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5"]
 
 def build_query(platform):
     return f"""
     fields *;
     search "{platform}";
-    where platform_type = 1;
+    where platform_type = (1, 5);
     limit 1;
     """
 
