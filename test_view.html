@@ -62,7 +62,6 @@
     const dropZone = document.getElementById("dropZone");
     const container = document.getElementById("games");
 
-    // Drag visual feedback
     dropZone.addEventListener("dragover", (e) => {
       e.preventDefault();
       dropZone.classList.add("dragover");
@@ -71,7 +70,6 @@
       dropZone.classList.remove("dragover");
     });
 
-    // Handle dropped file
     dropZone.addEventListener("drop", (e) => {
       e.preventDefault();
       dropZone.classList.remove("dragover");
@@ -93,7 +91,7 @@
     });
 
     function renderGames(data) {
-      container.innerHTML = ""; // clear previous content
+      container.innerHTML = "";
 
       data.forEach(entry => {
         const game = entry.game || {};
@@ -103,17 +101,24 @@
         const gameDiv = document.createElement("div");
         gameDiv.className = "game";
 
-        if (igdb.cover) {
+        // Build IGDB image URL (IGDB standard pattern)
+        let coverUrl = null;
+        if (igdb.cover && igdb.cover.image_id) {
+          coverUrl = `https://images.igdb.com/igdb/image/upload/t_cover_big/${igdb.cover.image_id}.jpg`;
+        }
+
+        if (coverUrl) {
           const coverImg = document.createElement("img");
-          coverImg.src = igdb.cover;
-          coverImg.alt = igdb.title || dmc.title || "No title";
+          coverImg.src = coverUrl;
+          coverImg.alt = igdb.name || dmc.title || "No title";
           gameDiv.appendChild(coverImg);
         }
 
         const infoDiv = document.createElement("div");
 
         const title = document.createElement("h2");
-        title.textContent = igdb.title || dmc.title || "Untitled";
+        title.textContent = igdb.name || dmc.title || "Untitled";
+        infoDiv.appendChild(title);
 
         if (dmc.edition) {
           const edition = document.createElement("p");
@@ -121,11 +126,18 @@
           infoDiv.appendChild(edition);
         }
 
-        if (Array.isArray(igdb.tags) && igdb.tags.length) {
+        if (igdb.genres && Array.isArray(igdb.genres)) {
           const tags = document.createElement("div");
           tags.className = "tags";
-          tags.textContent = igdb.tags.join(", ");
+          tags.textContent = igdb.genres.map(g => g.name).join(", ");
           infoDiv.appendChild(tags);
+        }
+
+        if (igdb.rating) {
+          const rating = document.createElement("div");
+          rating.className = "tags";
+          rating.textContent = `Rating: ${igdb.rating.toFixed(1)}`;
+          infoDiv.appendChild(rating);
         }
 
         if (igdb.summary) {
@@ -135,7 +147,6 @@
           infoDiv.appendChild(summary);
         }
 
-        infoDiv.insertBefore(title, infoDiv.firstChild);
         gameDiv.appendChild(infoDiv);
         container.appendChild(gameDiv);
       });
