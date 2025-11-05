@@ -1,15 +1,10 @@
 import requests
+import json
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-
-IDENTIFIER = "folio.in00006997485"
-url = f"https://catalog.lib.msu.edu/OAI/Server?verb=GetRecord&identifier={IDENTIFIER}&metadataPrefix=marc21"
-
-
-
-def metadata_from_msu(url):
-
+def metadata_from_msu(id):
+    url = f"https://catalog.lib.msu.edu/OAI/Server?verb=GetRecord&identifier={id}&metadataPrefix=marc21"
     response = requests.get(url)
     xml_data = response.text
 
@@ -51,17 +46,25 @@ def metadata_from_msu(url):
         subfields = {sf.get('code'): sf.text for sf in df.findall('{http://www.loc.gov/MARC21/slim}subfield')}
         datafields_by_tag[tag].append(subfields)
 
+    title = [item['a'] for item in datafields_by_tag.get("245", [])]
+    alternative_titles = [item['a'] for item in datafields_by_tag.get("246", [])]
+    authors = [item['a'] for item in datafields_by_tag.get("710", [])]
+    edition = [item['a'] for item in datafields_by_tag.get("250", [])]
+    platform = [item['a'] for item in datafields_by_tag.get("753", [])]
 
-    
-    title = [item['a'] for item in datafields_by_tag.get("245")] if datafields_by_tag.get("245") else []
-    alternative_titles = [item['a'] for item in datafields_by_tag.get("246")]
-    authors = [item['a'] for item in datafields_by_tag.get("710")]
-    edition = [item['a'] for item in datafields_by_tag.get("250")]
-    platform = [item['a'] for item in datafields_by_tag.get("753")]
     print(title)
     print(alternative_titles)
     print(authors)
     print(edition)
     print(platform)
 
-metadata_from_msu(url)
+
+with open("Database/games_small.json") as db:
+    game_data = json.load(db)      
+    for game in game_data:
+        print(game['id'])
+        metadata_from_msu(game['id'])
+        print("\n")
+
+# IDENTIFIER = "folio.in00006740811"
+# metadata_from_msu(IDENTIFIER)
