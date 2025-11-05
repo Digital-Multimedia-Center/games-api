@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Inspector</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .game {
+      display: flex;
+      background: white;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .game img {
+      width: 100px;
+      height: auto;
+      margin-right: 16px;
+      border-radius: 4px;
+    }
+    .game h2 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .tags {
+      margin: 6px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+    .summary {
+      font-size: 0.9em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Game Inspector</h1>
+  <div id="games"></div>
+
+  <!-- Load your JSON data wrapped in a JS const -->
+  <script src="data.js"></script>
+
+  <script>
+    const container = document.getElementById("games");
+
+    function renderGames(data) {
+      container.innerHTML = "";
+
+      data.forEach(entry => {
+        const game = entry.game || {};
+        const dmc = game.dmc || {};
+        const igdb = game.igdb || {};
+
+        const gameDiv = document.createElement("div");
+        gameDiv.className = "game";
+
+        // Build IGDB image URL (IGDB standard pattern)
+        let coverUrl = null;
+        if (igdb.cover && igdb.cover.image_id) {
+          coverUrl = `https://images.igdb.com/igdb/image/upload/t_cover_big/${igdb.cover.image_id}.jpg`;
+        }
+
+        if (coverUrl) {
+          const coverImg = document.createElement("img");
+          coverImg.src = coverUrl;
+          coverImg.alt = igdb.name || dmc.title || "No title";
+          gameDiv.appendChild(coverImg);
+        }
+
+        const infoDiv = document.createElement("div");
+
+        const title = document.createElement("h2");
+        title.textContent = igdb.name || dmc.title || "Untitled";
+        infoDiv.appendChild(title);
+
+        if (dmc.edition) {
+          const edition = document.createElement("p");
+          edition.textContent = dmc.edition;
+          infoDiv.appendChild(edition);
+        }
+
+        if (igdb.genres && Array.isArray(igdb.genres)) {
+          const tags = document.createElement("div");
+          tags.className = "tags";
+          tags.textContent = igdb.genres.map(g => g.name).join(", ");
+          infoDiv.appendChild(tags);
+        }
+
+        if (igdb.rating) {
+          const rating = document.createElement("div");
+          rating.className = "tags";
+          rating.textContent = `Rating: ${igdb.rating.toFixed(1)}`;
+          infoDiv.appendChild(rating);
+        }
+
+        if (igdb.summary) {
+          const summary = document.createElement("div");
+          summary.className = "summary";
+          summary.textContent = igdb.summary;
+          infoDiv.appendChild(summary);
+        }
+
+        gameDiv.appendChild(infoDiv);
+        container.appendChild(gameDiv);
+      });
+    }
+
+    // Render immediately on page load using db from data.js
+    renderGames(db);
+  </script>
+</body>
+</html>
+
