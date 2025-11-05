@@ -129,6 +129,29 @@
         "checksum": "2c99032d-0a06-6aa3-9652-f38b3ae05102",
         "platform_type": 5
     },
+    "Playstation Vita": {
+        "id": 46,
+        "abbreviation": "Vita",
+        "alternative_name": "PS Vita",
+        "created_at": 1321701445,
+        "generation": 8,
+        "name": "PlayStation Vita",
+        "platform_logo": 232,
+        "platform_family": 1,
+        "slug": "psvita",
+        "updated_at": 1718027289,
+        "url": "https://www.igdb.com/platforms/psvita",
+        "versions": [
+            275,
+            274,
+            60
+        ],
+        "websites": [
+            34
+        ],
+        "checksum": "92a7a9a6-f543-4356-6466-08f3ca06958d",
+        "platform_type": 5
+    },
     "Playstation": {
         "id": 7,
         "abbreviation": "PS1",

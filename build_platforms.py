@@ -50,7 +50,7 @@ for platform in platforms:
     all_results[platform] = response.json()[0]
 
 # Write to one combined JSON file
-with open("platforms.json", "w", encoding="utf-8") as f:
+with open("Database/platforms.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, indent=4, ensure_ascii=False)
 
 print("Saved to platforms.json")

@@ -50,7 +50,7 @@ def generate_title_variants(title: str):
 
 # --- Main execution ---
 
-def main(input_file="games.json", output_file="title_variants.json"):
+def main(input_file="../Database/games.json", output_file="../Inspection/title_variants.json"):
     with open(input_file, "r", encoding="utf-8") as f:
         games = json.load(f)
 
