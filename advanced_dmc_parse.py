@@ -1,7 +1,13 @@
 import requests
+from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-url = "https://catalog.lib.msu.edu/OAI/Server?verb=GetRecord&identifier=folio.in00006748922&metadataPrefix=marc21"
+
+IDENTIFIER = "folio.in00006997485"
+
+url = f"https://catalog.lib.msu.edu/OAI/Server?verb=GetRecord&identifier={IDENTIFIER}&metadataPrefix=marc21"
+
+print(url)
 
 response = requests.get(url)
 xml_data = response.text
@@ -39,12 +45,12 @@ leader = leader_elem.text
 # Datafields
 print("\nDatafields:")
 
-# Build a dictionary of datafields by tag
-datafields_by_tag = {}
+datafields_by_tag = defaultdict(list)
+
 for df in record_elem.findall('{http://www.loc.gov/MARC21/slim}datafield'):
     tag = df.get('tag')
-    datafields_by_tag[tag] = {sf.get('code'): sf.text for sf in df.findall('{http://www.loc.gov/MARC21/slim}subfield')}
+    subfields = {sf.get('code'): sf.text for sf in df.findall('{http://www.loc.gov/MARC21/slim}subfield')}
+    datafields_by_tag[tag].append(subfields)
 
-# Now you can index directly
-print(datafields_by_tag.get("753"))
+print(datafields_by_tag.get("246"))
 
