@@ -35,8 +35,15 @@ limit 20;
 
 query = """
 fields name, category, platforms, status, game_type, rating;
-search "The last of us. Part II ";
-where platforms = (48) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
+search "battle revolution";
+where platforms = (20) & game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null);
+limit 100;
+"""
+
+query = """
+fields name, category, platforms, status, game_type, rating;
+search "pokemon battle revolution";
+where platforms = (20);
 limit 100;
 """
 
