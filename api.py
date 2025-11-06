@@ -9,6 +9,98 @@ import os
 import math
 from collections import deque
 
+from advanced_dmc_parse import metadata_from_msu
+
+def search_msu_catalog():
+    url = "https://catalog.lib.msu.edu/api/v1/search"
+
+    params = {
+        "lookfor": "genre:video+games",
+        "type": "AllFields",
+        "field[]": ["edition", "authors", "title", "id"],
+        "limit": 100,
+        "page": 1,
+        "sort": "relevance",
+        "prettyPrint": "false",
+        "lng": "en"
+    }
+
+    headers = {"accept": "application/json"}
+
+    # initial request to find total number of results
+    response = requests.get(url, params=params, headers=headers)
+    if response.status_code != 200:
+        print(f"Initial request failed: {response.status_code}")
+        print(response.text)
+        return []
+
+    data = response.json()
+    result_count = data.get("resultCount", 0)
+    total_pages = math.ceil(result_count / 100) if result_count else 0
+
+    if total_pages == 0:
+        print("No results found.")
+        return []
+
+    # load platform data once
+    with open("Database/platforms.json") as platform_data_file:
+        platform_data = json.load(platform_data_file)
+
+    def compare_platform(dmc_platform):
+        platform_id = -1
+        best_score = 0
+
+        for meta_data in platform_data.values():
+            similarity = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
+
+            if similarity == 100 and meta_data["name"].lower() != dmc_platform.lower():
+                similarity = similarity / 1.75
+
+            if similarity >= best_score:
+                best_score = similarity
+                platform_id = meta_data["id"]
+
+        return platform_id if best_score >= 50 else -1
+
+    all_games = []
+
+    with tqdm(total=total_pages, desc="Fetching pages", unit="page") as page_bar:
+        for curr_page in range(1, total_pages + 1):
+            params["page"] = curr_page
+            response = requests.get(url, params=params, headers=headers)
+
+            if response.status_code != 200:
+                print(f"Request failed on page {curr_page}: {response.status_code}")
+                print(response.text)
+                break
+
+            data = response.json()
+            records = data.get("records", [])
+
+            for record in tqdm(records, desc=f"Page {curr_page}", unit="record", leave=False):
+                id = record.get("id", "N/A")
+                data = metadata_from_msu(id) 
+                
+                game = {
+                    "dmc": {
+                        "id": id,
+                        "title": data["title"],
+                        "alternative_titles": data["alternative_titles"],
+                        "authors": data["authors"],
+                        "edition": data["edition"],
+                        "platform": data["platform"],
+                        "platform_id_guess": compare_platform(data["edition"][0]) if data["edition"] else -1
+                    },
+                }
+                all_games.append(game)
+
+            page_bar.update(1)
+
+    with open("Database/games.json", "w", encoding="utf-8") as f:
+        json.dump(all_games, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved {len(all_games)} games to games.json")
+
 # Load credentials from .env file
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
@@ -68,7 +160,7 @@ def enrich_with_igdb(games_file, output_file):
         return base_query.format(title=title, conditions=conditions)
 
 
-    def clean_title(raw_title: str) -> str:
+    def clean_title(raw_title):
         title = raw_title.lower().strip()
 
         # Remove common separators and metadata
@@ -152,11 +244,12 @@ def enrich_with_igdb(games_file, output_file):
     enriched_games = []
 
     for game in tqdm(games, desc="Enriching games with IGDB"):
-        title = game["dmc"]["title"]
+        title = game["dmc"]["title"][0]
         platform = game["dmc"]["platform_id_guess"]
         
         # generate title variants
         possible_titles = generate_title_variants(title)
+        possible_titles.extend(game["dmc"]["alternative_titles"])
         results = dict() 
 
         # search each title variant and keep track of results
@@ -188,102 +281,7 @@ def enrich_with_igdb(games_file, output_file):
 
     print(f"Enriched data saved to {output_file}")
 
-def search_msu_catalog():
-    url = "https://catalog.lib.msu.edu/api/v1/search"
-
-    params = {
-        "lookfor": "genre:video+games",
-        "type": "AllFields",
-        "field[]": ["edition", "authors", "title", "id"],
-        "limit": 100,
-        "page": 1,
-        "sort": "relevance",
-        "prettyPrint": "false",
-        "lng": "en"
-    }
-
-    headers = {"accept": "application/json"}
-
-    # initial request to find total number of results
-    response = requests.get(url, params=params, headers=headers)
-    if response.status_code != 200:
-        print(f"Initial request failed: {response.status_code}")
-        print(response.text)
-        return []
-
-    data = response.json()
-    result_count = data.get("resultCount", 0)
-    total_pages = math.ceil(result_count / 100) if result_count else 0
-
-    if total_pages == 0:
-        print("No results found.")
-        return []
-
-    # load platform data once
-    with open("platforms.json") as platform_data_file:
-        platform_data = json.load(platform_data_file)
-
-    def compare_platform(dmc_platform):
-        # for meta_data in platform_data.values():
-        #     abbreivation = meta_data.get("abbreviation").lower()
-        #     alternative_names = meta_data.get("alternative_name", "").split(',')
-        #     if  abbreivation and abbreivation == dmc_platform.lower() or dmc_platform.lower() in [i.lower() for i in alternative_names]:
-        #         return meta_data["id"]
-
-        platform_id = -1
-        best_score = 0
-
-        for meta_data in platform_data.values():
-            similarity = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
-
-            if similarity == 100 and meta_data["name"].lower() != dmc_platform.lower():
-                similarity = similarity / 1.75
-
-            if similarity >= best_score:
-                best_score = similarity
-                platform_id = meta_data["id"]
-
-        return platform_id if best_score >= 50 else -1
-
-    all_games = []
-
-    with tqdm(total=total_pages, desc="Fetching pages", unit="page") as page_bar:
-        for curr_page in range(1, total_pages + 1):
-            params["page"] = curr_page
-            response = requests.get(url, params=params, headers=headers)
-
-            if response.status_code != 200:
-                print(f"Request failed on page {curr_page}: {response.status_code}")
-                print(response.text)
-                break
-
-            data = response.json()
-            records = data.get("records", [])
-
-            for record in tqdm(records, desc=f"Page {curr_page}", unit="record", leave=False):
-                edition = record.get("edition", "N/A").rstrip('.').lower()
-                
-                platform_id = compare_platform(edition)
-
-                game = {
-                    "dmc": {
-                        "id": record.get("id", "N/A"),
-                        "title": record.get("title", "N/A").rstrip('.'),
-                        "authors": list(record.get("authors", {}).get("corporate", [])),
-                        "edition": edition,
-                        "platform_id_guess": platform_id
-                    },
-                }
-                all_games.append(game)
-
-            page_bar.update(1)
-
-    with open("games.json", "w", encoding="utf-8") as f:
-        json.dump(all_games, f, indent=2, ensure_ascii=False)
-
-    print(f"Saved {len(all_games)} games to games.json")
-
 if __name__ == "__main__":
     # search_msu_catalog()
-    enrich_with_igdb("games.json", "temp.json")
+    enrich_with_igdb("Database/games.json", "temp.json")
     pass
