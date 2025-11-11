@@ -184,8 +184,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -232,8 +231,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -280,8 +278,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -355,8 +352,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -382,8 +378,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -407,8 +402,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -642,8 +636,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -760,8 +753,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -903,8 +895,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -925,8 +916,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -950,8 +940,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -1187,7 +1176,9 @@
       "authors": [],
       "edition": [],
       "platform": [],
-      "platform_id_guess": []
+      "platform_id_guess": [
+        -1
+      ]
     }
   },
   {
@@ -1837,8 +1828,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -2364,80 +2354,6 @@
   },
   {
     "dmc": {
-      "id": "folio.in00005874061",
-      "title": [
-        "Naruto shippuden: Ultimate ninja storm 4."
-      ],
-      "alternative_titles": [
-        "Ultimate ninja storm 4",
-        "Road to Boruto"
-      ],
-      "authors": [
-        "Namco Bandai Games America (Firm),",
-        "Microsoft Corporation."
-      ],
-      "edition": [
-        "Xbox One."
-      ],
-      "platform": [
-        "Microsoft Xbox One"
-      ],
-      "platform_id_guess": [
-        49
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005921859",
-      "title": [
-        "Naruto shippuden: ultimate ninja storm 4."
-      ],
-      "alternative_titles": [
-        "Ultimate ninja storm four"
-      ],
-      "authors": [
-        "Namco Bandai Games America (Firm),",
-        "Microsoft Corporation."
-      ],
-      "edition": [
-        "Xbox One."
-      ],
-      "platform": [
-        "Microsoft Xbox One"
-      ],
-      "platform_id_guess": [
-        49
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005923340",
-      "title": [
-        "Mighty No. 9."
-      ],
-      "alternative_titles": [
-        "Mighty Number 9",
-        "Mighty Number Nine"
-      ],
-      "authors": [
-        "Deep Silver (Firm),",
-        "Microsoft Corporation."
-      ],
-      "edition": [
-        "Xbox One."
-      ],
-      "platform": [
-        "Microsoft Xbox One"
-      ],
-      "platform_id_guess": [
-        49
-      ]
-    }
-  },
-  {
-    "dmc": {
       "id": "folio.in00005541916",
       "title": [
         "Pokémon XD: Gale of darkness."
@@ -2605,6 +2521,80 @@
       "platform_id_guess": [
         49,
         169
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005874061",
+      "title": [
+        "Naruto shippuden: Ultimate ninja storm 4."
+      ],
+      "alternative_titles": [
+        "Ultimate ninja storm 4",
+        "Road to Boruto"
+      ],
+      "authors": [
+        "Namco Bandai Games America (Firm),",
+        "Microsoft Corporation."
+      ],
+      "edition": [
+        "Xbox One."
+      ],
+      "platform": [
+        "Microsoft Xbox One"
+      ],
+      "platform_id_guess": [
+        49
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005921859",
+      "title": [
+        "Naruto shippuden: ultimate ninja storm 4."
+      ],
+      "alternative_titles": [
+        "Ultimate ninja storm four"
+      ],
+      "authors": [
+        "Namco Bandai Games America (Firm),",
+        "Microsoft Corporation."
+      ],
+      "edition": [
+        "Xbox One."
+      ],
+      "platform": [
+        "Microsoft Xbox One"
+      ],
+      "platform_id_guess": [
+        49
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005923340",
+      "title": [
+        "Mighty No. 9."
+      ],
+      "alternative_titles": [
+        "Mighty Number 9",
+        "Mighty Number Nine"
+      ],
+      "authors": [
+        "Deep Silver (Firm),",
+        "Microsoft Corporation."
+      ],
+      "edition": [
+        "Xbox One."
+      ],
+      "platform": [
+        "Microsoft Xbox One"
+      ],
+      "platform_id_guess": [
+        49
       ]
     }
   },
@@ -2863,8 +2853,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -2932,8 +2921,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -3109,28 +3097,6 @@
   },
   {
     "dmc": {
-      "id": "folio.in00006939221",
-      "title": [
-        "Cocoon /"
-      ],
-      "alternative_titles": [],
-      "authors": [
-        "Annapurna Interactive (Firm),",
-        "Geometric Interactive (Firm),"
-      ],
-      "edition": [
-        "Nintendo Switch."
-      ],
-      "platform": [
-        "Nintendo Switch"
-      ],
-      "platform_id_guess": [
-        130
-      ]
-    }
-  },
-  {
-    "dmc": {
       "id": "folio.in00006484600",
       "title": [
         "Grip."
@@ -3199,6 +3165,28 @@
       ],
       "platform_id_guess": [
         5
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00006939221",
+      "title": [
+        "Cocoon /"
+      ],
+      "alternative_titles": [],
+      "authors": [
+        "Annapurna Interactive (Firm),",
+        "Geometric Interactive (Firm),"
+      ],
+      "edition": [
+        "Nintendo Switch."
+      ],
+      "platform": [
+        "Nintendo Switch"
+      ],
+      "platform_id_guess": [
+        130
       ]
     }
   },
@@ -3314,8 +3302,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -3336,8 +3323,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -3457,8 +3443,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -3532,8 +3517,7 @@
         "Nintendo Wii"
       ],
       "platform_id_guess": [
-        5,
-        -1
+        5
       ]
     }
   },
@@ -3797,8 +3781,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -3871,8 +3854,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -3945,8 +3927,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -4392,6 +4373,106 @@
   },
   {
     "dmc": {
+      "id": "folio.in00005541867",
+      "title": [
+        "Psychonauts."
+      ],
+      "alternative_titles": [],
+      "authors": [
+        "Double Fine Productions, Inc.",
+        "Majesco Sales, Inc.,",
+        "Majesco Entertainment (Firm)",
+        "Microsoft Corporation."
+      ],
+      "edition": [
+        "Xbox."
+      ],
+      "platform": [
+        "Microsoft Xbox"
+      ],
+      "platform_id_guess": [
+        11
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005541875",
+      "title": [
+        "P.N.03. :"
+      ],
+      "alternative_titles": [
+        "PN03.",
+        "Product number 03.",
+        "Product number three."
+      ],
+      "authors": [
+        "Nintendo of America Inc.",
+        "Capcom USA,"
+      ],
+      "edition": [
+        "GameCube."
+      ],
+      "platform": [
+        "Nintendo GameCube"
+      ],
+      "platform_id_guess": [
+        21
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005541949",
+      "title": [
+        "Star Trek: D-A-C."
+      ],
+      "alternative_titles": [
+        "Stark Trek DAC"
+      ],
+      "authors": [],
+      "edition": [
+        "[PC or Macintosh]."
+      ],
+      "platform": [
+        "Microsoft Windows XP",
+        "Microsoft Windows 7",
+        "Apple Mac X 10.5",
+        "Microsoft Windows Vista"
+      ],
+      "platform_id_guess": [
+        -1
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00006748726",
+      "title": [
+        "Dragon age origins."
+      ],
+      "alternative_titles": [
+        "Dragonage origins."
+      ],
+      "authors": [
+        "BioWare Corp.",
+        "Electronic Arts (Firm),",
+        "Edge of Reality (Firm)",
+        "Sony Computer Entertainment."
+      ],
+      "edition": [
+        "PlayStation 3."
+      ],
+      "platform": [
+        "Sony PlayStation 3"
+      ],
+      "platform_id_guess": [
+        9
+      ]
+    }
+  },
+  {
+    "dmc": {
       "id": "folio.in00005541768",
       "title": [
         "Final fantasy VII."
@@ -4436,8 +4517,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -4546,106 +4626,6 @@
       "platform_id_guess": [
         49,
         169
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005541867",
-      "title": [
-        "Psychonauts."
-      ],
-      "alternative_titles": [],
-      "authors": [
-        "Double Fine Productions, Inc.",
-        "Majesco Sales, Inc.,",
-        "Majesco Entertainment (Firm)",
-        "Microsoft Corporation."
-      ],
-      "edition": [
-        "Xbox."
-      ],
-      "platform": [
-        "Microsoft Xbox"
-      ],
-      "platform_id_guess": [
-        11
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005541875",
-      "title": [
-        "P.N.03. :"
-      ],
-      "alternative_titles": [
-        "PN03.",
-        "Product number 03.",
-        "Product number three."
-      ],
-      "authors": [
-        "Nintendo of America Inc.",
-        "Capcom USA,"
-      ],
-      "edition": [
-        "GameCube."
-      ],
-      "platform": [
-        "Nintendo GameCube"
-      ],
-      "platform_id_guess": [
-        21
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005541949",
-      "title": [
-        "Star Trek: D-A-C."
-      ],
-      "alternative_titles": [
-        "Stark Trek DAC"
-      ],
-      "authors": [],
-      "edition": [
-        "[PC or Macintosh]."
-      ],
-      "platform": [
-        "Microsoft Windows XP",
-        "Microsoft Windows 7",
-        "Apple Mac X 10.5",
-        "Microsoft Windows Vista"
-      ],
-      "platform_id_guess": [
-        -1
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00006748726",
-      "title": [
-        "Dragon age origins."
-      ],
-      "alternative_titles": [
-        "Dragonage origins."
-      ],
-      "authors": [
-        "BioWare Corp.",
-        "Electronic Arts (Firm),",
-        "Edge of Reality (Firm)",
-        "Sony Computer Entertainment."
-      ],
-      "edition": [
-        "PlayStation 3."
-      ],
-      "platform": [
-        "Sony PlayStation 3"
-      ],
-      "platform_id_guess": [
-        9
       ]
     }
   },
@@ -4815,8 +4795,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -5170,8 +5149,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -5193,8 +5171,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -5490,8 +5467,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -5970,8 +5946,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -6370,8 +6345,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -6589,8 +6563,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -6613,8 +6586,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -7170,8 +7142,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -7199,8 +7170,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -7526,8 +7496,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -7762,8 +7731,7 @@
         "Nintendo Wii"
       ],
       "platform_id_guess": [
-        5,
-        -1
+        5
       ]
     }
   },
@@ -7811,8 +7779,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -7881,8 +7848,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -8468,8 +8434,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -8520,8 +8485,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -8544,8 +8508,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -8709,8 +8672,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -8784,8 +8746,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -8928,8 +8889,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -8954,8 +8914,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -9608,8 +9567,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -9734,8 +9692,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -9779,8 +9736,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -10063,8 +10019,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -10163,8 +10118,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -10218,8 +10172,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -10242,8 +10195,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -10451,8 +10403,7 @@
         "Microsoft Xbox Series X"
       ],
       "platform_id_guess": [
-        169,
-        -1
+        169
       ]
     }
   },
@@ -10591,8 +10542,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -10859,8 +10809,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -11053,7 +11002,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -11081,8 +11029,7 @@
         "Microsoft Xbox Series X"
       ],
       "platform_id_guess": [
-        169,
-        -1
+        169
       ]
     }
   },
@@ -11106,8 +11053,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -12301,8 +12247,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -12378,8 +12323,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -12588,8 +12532,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -12732,8 +12675,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -12920,8 +12862,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -13015,8 +12956,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -13039,8 +12979,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -13061,8 +13000,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -13333,8 +13271,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -13722,8 +13659,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -13796,8 +13732,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -13843,7 +13778,6 @@
         "Sega Dreamcast"
       ],
       "platform_id_guess": [
-        -1,
         23
       ]
     }
@@ -13992,8 +13926,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -14094,8 +14027,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -14170,8 +14102,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -14561,8 +14492,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -14660,8 +14590,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -14947,8 +14876,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -14969,8 +14897,7 @@
         "Ninetendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -15019,8 +14946,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -15270,8 +15196,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -15453,6 +15378,47 @@
       ],
       "platform_id_guess": [
         9
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005541808",
+      "title": [
+        "Starfox64."
+      ],
+      "alternative_titles": [
+        "Star Fox 64",
+        "Starfox 64"
+      ],
+      "authors": [
+        "Nintendo of America Inc."
+      ],
+      "edition": [
+        "Nintendo 64."
+      ],
+      "platform": [
+        "Nintendo 64"
+      ],
+      "platform_id_guess": [
+        4
+      ]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00005750183",
+      "title": [
+        "Namco tv games video game system."
+      ],
+      "alternative_titles": [],
+      "authors": [
+        "Namco Bandai Games America (Firm)"
+      ],
+      "edition": [],
+      "platform": [],
+      "platform_id_guess": [
+        -1
       ]
     }
   },
@@ -15829,8 +15795,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -15882,8 +15847,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -16001,8 +15965,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -16083,8 +16046,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -16185,46 +16147,6 @@
   },
   {
     "dmc": {
-      "id": "folio.in00005541808",
-      "title": [
-        "Starfox64."
-      ],
-      "alternative_titles": [
-        "Star Fox 64",
-        "Starfox 64"
-      ],
-      "authors": [
-        "Nintendo of America Inc."
-      ],
-      "edition": [
-        "Nintendo 64."
-      ],
-      "platform": [
-        "Nintendo 64"
-      ],
-      "platform_id_guess": [
-        4,
-        -1
-      ]
-    }
-  },
-  {
-    "dmc": {
-      "id": "folio.in00005750183",
-      "title": [
-        "Namco tv games video game system."
-      ],
-      "alternative_titles": [],
-      "authors": [
-        "Namco Bandai Games America (Firm)"
-      ],
-      "edition": [],
-      "platform": [],
-      "platform_id_guess": []
-    }
-  },
-  {
-    "dmc": {
       "id": "folio.in00005541739",
       "title": [
         "Quake."
@@ -16312,8 +16234,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -16452,8 +16373,7 @@
         "Playstation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -16773,7 +16693,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -16953,8 +16872,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -17120,7 +17038,6 @@
       ],
       "platform_id_guess": [
         8,
-        -1,
         7
       ]
     }
@@ -17536,7 +17453,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -17792,8 +17708,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -18125,8 +18040,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -18222,8 +18136,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -18250,8 +18163,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -18882,8 +18794,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -18977,8 +18888,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -19055,8 +18965,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -19222,7 +19131,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -19290,8 +19198,7 @@
         "Sony PlayStation Vita"
       ],
       "platform_id_guess": [
-        46,
-        -1
+        46
       ]
     }
   },
@@ -19386,8 +19293,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -19508,8 +19414,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -19556,8 +19461,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -19653,8 +19557,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -19679,8 +19582,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -19706,7 +19608,6 @@
         "Sega Dreamcast"
       ],
       "platform_id_guess": [
-        -1,
         23
       ]
     }
@@ -19941,8 +19842,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -20070,8 +19970,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -20260,8 +20159,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -20385,8 +20283,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -20477,8 +20374,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -20527,8 +20423,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -20650,8 +20545,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -20723,8 +20617,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -20749,8 +20642,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -20774,8 +20666,7 @@
       ],
       "platform": [],
       "platform_id_guess": [
-        21,
-        -1
+        21
       ]
     }
   },
@@ -20966,8 +20857,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -20993,8 +20883,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -21087,8 +20976,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -21279,8 +21167,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -21306,8 +21193,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -21335,8 +21221,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -21587,8 +21472,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -22051,8 +21935,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -22332,8 +22215,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -22360,8 +22242,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -22386,8 +22267,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -22436,7 +22316,6 @@
       ],
       "platform_id_guess": [
         48,
-        -1,
         7
       ]
     }
@@ -22587,8 +22466,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -22617,8 +22495,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -23233,8 +23110,7 @@
         "Nintendo DS"
       ],
       "platform_id_guess": [
-        20,
-        -1
+        20
       ]
     }
   },
@@ -23350,8 +23226,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -23396,8 +23271,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -23678,8 +23552,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -23733,8 +23606,7 @@
         "Microsoft Xbox 360"
       ],
       "platform_id_guess": [
-        12,
-        -1
+        12
       ]
     }
   },
@@ -23804,7 +23676,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -23878,8 +23749,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -23948,8 +23818,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -24301,8 +24170,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -24694,7 +24562,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -24817,7 +24684,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -25579,8 +25445,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -25627,8 +25492,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -25680,8 +25544,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -25728,7 +25591,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -25904,7 +25766,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -25954,8 +25815,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -25998,7 +25858,9 @@
       "authors": [],
       "edition": [],
       "platform": [],
-      "platform_id_guess": []
+      "platform_id_guess": [
+        -1
+      ]
     }
   },
   {
@@ -26022,8 +25884,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -26098,8 +25959,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -26174,8 +26034,7 @@
       ],
       "platform": [],
       "platform_id_guess": [
-        21,
-        -1
+        21
       ]
     }
   },
@@ -26325,8 +26184,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -26624,8 +26482,7 @@
         "Nintendo 64"
       ],
       "platform_id_guess": [
-        4,
-        -1
+        4
       ]
     }
   },
@@ -27093,8 +26950,7 @@
         "Microsoft Xbox Series X"
       ],
       "platform_id_guess": [
-        169,
-        -1
+        169
       ]
     }
   },
@@ -27141,8 +26997,7 @@
         "Nintendo Switch"
       ],
       "platform_id_guess": [
-        130,
-        -1
+        130
       ]
     }
   },
@@ -27417,8 +27272,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -27444,8 +27298,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -27543,8 +27396,7 @@
       ],
       "platform_id_guess": [
         49,
-        169,
-        -1
+        169
       ]
     }
   },
@@ -27963,8 +27815,7 @@
         "Sony PlayStation 3"
       ],
       "platform_id_guess": [
-        9,
-        -1
+        9
       ]
     }
   },
@@ -28031,7 +27882,6 @@
         "Sony PlayStation 5"
       ],
       "platform_id_guess": [
-        -1,
         167
       ]
     }
@@ -28134,8 +27984,7 @@
         "Sony PlayStation 4"
       ],
       "platform_id_guess": [
-        48,
-        -1
+        48
       ]
     }
   },
@@ -28346,8 +28195,7 @@
         "Microsoft Xbox One"
       ],
       "platform_id_guess": [
-        49,
-        -1
+        49
       ]
     }
   },
@@ -28384,7 +28232,9 @@
       "authors": [],
       "edition": [],
       "platform": [],
-      "platform_id_guess": []
+      "platform_id_guess": [
+        -1
+      ]
     }
   },
   {

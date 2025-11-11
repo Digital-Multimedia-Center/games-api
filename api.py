@@ -90,6 +90,9 @@ def search_msu_catalog():
 
                 for platform in data["edition"] + data["platform"]:
                     platforms.add(compare_platform(platform))
+
+                if platforms != set([-1]):
+                    platforms.discard(-1)
                 
                 game = {
                     "dmc": {
@@ -99,7 +102,7 @@ def search_msu_catalog():
                         "authors": data["authors"],
                         "edition": data["edition"],
                         "platform": data["platform"],
-                        "platform_id_guess": list(platforms)
+                        "platform_id_guess": list(platforms) if platforms else [-1]
                     },
                 }
                 all_games.append(game)
@@ -164,7 +167,7 @@ def enrich_with_igdb(games_file, output_file):
             limit 100;
         """
 
-        platform_filter = f"platforms = ({platform}) & " if platform != -1 else ""
+        platform_filter = f"platforms = ({','.join(map(str, platform))}) & " if platform != {-1} else ""
         conditions = f"{platform_filter}game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null)"
 
         return base_query.format(title=title, conditions=conditions)
@@ -292,6 +295,6 @@ def enrich_with_igdb(games_file, output_file):
     print(f"Enriched data saved to {output_file}")
 
 if __name__ == "__main__":
-    search_msu_catalog()
-    # enrich_with_igdb("Database/games.json", "temp.json")
+    # search_msu_catalog()
+    enrich_with_igdb("Database/games.json", "temp.json")
     pass

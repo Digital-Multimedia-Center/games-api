@@ -1,25 +1,188 @@
 [
     {
         "dmc": {
-            "id": "folio.in00006746062",
+            "id": "folio.in00006050366",
             "title": [
-                "Pok\u00e9mon battle revolution /"
+                "PlayStation portable /"
             ],
             "alternative_titles": [
-                "Battle revolution"
+                "Sony PlayStation portable",
+                "PSP",
+                "Sony PSP",
+                "Play station portable"
             ],
             "authors": [
-                "Nintendo of America Inc.",
-                "Pok\u00e9mon USA, Inc.",
-                "Genius Sonority Inc."
+                "Sony Computer Entertainment."
             ],
             "edition": [
-                "Nintendo Wii."
+                "[Model no.] PSP1001."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00007010516",
+            "title": [
+                "Pok\u00e9mon: sapphire /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Nintendo of America Inc.,",
+                "Game Freak (Firm),"
+            ],
+            "edition": [
+                "Game Boy Advance."
             ],
             "platform": [
-                "Nintendo Wii"
+                "Nintendo Game Boy Advance"
             ],
-            "platform_id_guess": 20
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00007010601",
+            "title": [
+                "Pok\u00e9mon: blue /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Nintendo of America Inc.,",
+                "Game Freak (Firm),"
+            ],
+            "edition": [
+                "Game Boy."
+            ],
+            "platform": [
+                "Nintendo Game Boy"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005079388",
+            "title": [
+                "Super Mario :"
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [
+                "Paperback edition."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541702",
+            "title": [
+                "Carmageddon."
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [
+                "[Macintosh]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "hlm.ebs4839447e",
+            "title": [
+                "Game camp"
+            ],
+            "alternative_titles": [
+                "Game Camp: Out-of-School Language and Literacy Development"
+            ],
+            "authors": [],
+            "edition": [],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00007010599",
+            "title": [
+                "Pok\u00e9mon: ruby /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Game Freak (Firm),",
+                "Nintendo of America Inc.,"
+            ],
+            "edition": [
+                "Game Boy Advance."
+            ],
+            "platform": [
+                "Nintendo Game Boy Advance"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541946",
+            "title": [
+                "Dead Island /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Deep Silver (Firm)"
+            ],
+            "edition": [
+                "[PC]."
+            ],
+            "platform": [
+                "Microsoft Windows"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541949",
+            "title": [
+                "Star Trek: D-A-C."
+            ],
+            "alternative_titles": [
+                "Stark Trek DAC"
+            ],
+            "authors": [],
+            "edition": [
+                "[PC or Macintosh]."
+            ],
+            "platform": [
+                "Microsoft Windows XP",
+                "Microsoft Windows 7",
+                "Apple Mac X 10.5",
+                "Microsoft Windows Vista"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -42,7 +205,9 @@
             "platform": [
                 "Sony PlayStation 3"
             ],
-            "platform_id_guess": 9
+            "platform_id_guess": [
+                9
+            ]
         }
     },
     {
@@ -65,7 +230,9 @@
             "platform": [
                 "Microsoft Xbox One"
             ],
-            "platform_id_guess": 49
+            "platform_id_guess": [
+                49
+            ]
         }
     },
     {
@@ -88,7 +255,9 @@
             "platform": [
                 "Sony PlayStation 4"
             ],
-            "platform_id_guess": 48
+            "platform_id_guess": [
+                48
+            ]
         }
     },
     {
@@ -110,7 +279,9 @@
             "platform": [
                 "Sony PlayStation 4"
             ],
-            "platform_id_guess": 48
+            "platform_id_guess": [
+                48
+            ]
         }
     },
     {
@@ -134,29 +305,56 @@
             "platform": [
                 "Nintendo Switch"
             ],
-            "platform_id_guess": 130
+            "platform_id_guess": [
+                130
+            ]
         }
     },
     {
         "dmc": {
-            "id": "folio.in00006750875",
+            "id": "folio.in00005541762",
             "title": [
-                "Kirby's dream collection :"
+                "Command & conquer: red alert."
             ],
             "alternative_titles": [
-                "Kirby's dream collection special edition"
+                "Command and conquer: red alert.",
+                "Red alert."
             ],
             "authors": [
-                "Nintendo of America Inc.,"
+                "Westwood Studios,",
+                "Electronic Arts (Firm),"
             ],
             "edition": [
-                "Nintendo Wii.",
-                "Special edition."
+                "Windows 95 & DOS CD-ROM.",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541764",
+            "title": [
+                "Fallout :"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Interplay Productions,"
+            ],
+            "edition": [
+                "[Windows or DOS].",
+                "[PC]."
             ],
             "platform": [
-                "Nintendo Wii"
+                "Microsoft Windows 95 or higher",
+                "DOS 5.0 or higher"
             ],
-            "platform_id_guess": 20
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -175,7 +373,56 @@
             "platform": [
                 "Sega Dreamcast"
             ],
-            "platform_id_guess": 23
+            "platform_id_guess": [
+                23
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541830",
+            "title": [
+                "Star wars: knights of the old republic."
+            ],
+            "alternative_titles": [
+                "Knights of the old republic."
+            ],
+            "authors": [
+                "BioWare Corp.",
+                "LucasArts (Firm),"
+            ],
+            "edition": [
+                "Windows, PC CD-ROM.",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541907",
+            "title": [
+                "Age of empires III."
+            ],
+            "alternative_titles": [
+                "Age of empires 3.",
+                "Age of empires three."
+            ],
+            "authors": [
+                "Ensemble Studios.",
+                "Microsoft Corporation,"
+            ],
+            "edition": [
+                "PC CD-ROM.",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -197,7 +444,9 @@
             "platform": [
                 "Sony PlayStation 4"
             ],
-            "platform_id_guess": 48
+            "platform_id_guess": [
+                48
+            ]
         }
     },
     {
@@ -216,7 +465,9 @@
             "platform": [
                 "Nintendo Switch"
             ],
-            "platform_id_guess": 130
+            "platform_id_guess": [
+                130
+            ]
         }
     },
     {
@@ -238,7 +489,9 @@
             "platform": [
                 "Sega Dreamcast"
             ],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                23
+            ]
         }
     },
     {
@@ -257,7 +510,26 @@
             "platform": [
                 "Ninetendo 64"
             ],
-            "platform_id_guess": 4
+            "platform_id_guess": [
+                4
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005750183",
+            "title": [
+                "Namco tv games video game system."
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Namco Bandai Games America (Firm)"
+            ],
+            "edition": [],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -279,44 +551,9 @@
             "platform": [
                 "Nintendo GameCube"
             ],
-            "platform_id_guess": 21
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006750535",
-            "title": [
-                "Mario party 9."
-            ],
-            "alternative_titles": [
-                "Marioparty 9",
-                "Mario party nine"
-            ],
-            "authors": [
-                "Nintendo of America Inc.,"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00005750183",
-            "title": [
-                "Namco tv games video game system."
-            ],
-            "alternative_titles": [],
-            "authors": [
-                "Namco Bandai Games America (Firm)"
-            ],
-            "edition": [],
-            "platform": [],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                21
+            ]
         }
     },
     {
@@ -338,72 +575,9 @@
             "platform": [
                 "Microsoft Windows 95"
             ],
-            "platform_id_guess": -1
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006939421",
-            "title": [
-                "Wario ware: smooth moves /"
-            ],
-            "alternative_titles": [
-                "WarioWare : smooth moves",
-                "Smooth moves"
-            ],
-            "authors": [
-                "Intelligent Systems (Firm),",
-                "Nintend\u014d Kabushiki Kaisha,",
-                "Nintendo of America Inc.,"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006750463",
-            "title": [
-                "Hasbro family game night fun pack /"
-            ],
-            "alternative_titles": [
-                "Family game night fun pack"
-            ],
-            "authors": [
-                "Electronic Arts (Firm),"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006930429",
-            "title": [
-                "Metroid prime 3: corruption /"
-            ],
-            "alternative_titles": [],
-            "authors": [
-                "Nintendo of America Inc.,",
-                "Retro Studios (firm),"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -425,7 +599,9 @@
             "platform": [
                 "Microsoft Xbox One"
             ],
-            "platform_id_guess": 49
+            "platform_id_guess": [
+                49
+            ]
         }
     },
     {
@@ -448,181 +624,95 @@
             "platform": [
                 "Sony PlayStation 4"
             ],
-            "platform_id_guess": 48
+            "platform_id_guess": [
+                48
+            ]
         }
     },
     {
         "dmc": {
-            "id": "folio.in00006749927",
+            "id": "folio.in00005541763",
             "title": [
-                "Hollywood squares /"
+                "Tomb raider."
             ],
             "alternative_titles": [],
             "authors": [
-                "Ubi Soft Entertainment (Firm),",
-                "Ludia,"
+                "Core Design (Firm)",
+                "Eidos Interactive (Firm),"
             ],
             "edition": [
-                "Nintendo Wii."
+                "IBM PC & compatibles CD-ROM.",
+                "[PC]."
             ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
         "dmc": {
-            "id": "folio.in00006748100",
+            "id": "folio.in00005541765",
             "title": [
-                "Dance dance revolution: hottest party 2 /"
-            ],
-            "alternative_titles": [
-                "DDR hottest party 2",
-                "Hottest party 2",
-                "DanceDanceRevolution: hottest party 2"
-            ],
-            "authors": [
-                "Konami of America Inc.,",
-                "Nintendo of America Inc.,"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006843391",
-            "title": [
-                "Pokk\u00e9n tournament /"
-            ],
-            "alternative_titles": [
-                "Pokemon tournament"
-            ],
-            "authors": [
-                "Namco Bandai Games (Firm),",
-                "Nintendo of America Inc.,",
-                "Pok\u00e9mon Company International,"
-            ],
-            "edition": [
-                "Nintendo Wii U."
-            ],
-            "platform": [
-                "Nintendo Wii U"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006792046",
-            "title": [
-                "Mass effect :"
+                "Myst /"
             ],
             "alternative_titles": [],
-            "authors": [
-                "Electronic Arts (Firm),",
-                "BioWare Corp.,",
-                "Sony Computer Entertainment."
-            ],
+            "authors": [],
             "edition": [
-                "PlayStation4.",
-                "Legendary edition."
+                "[PC]."
             ],
             "platform": [
-                "Sony PlayStation 4"
+                "Microsoft Windows 3.1"
             ],
-            "platform_id_guess": 7
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
         "dmc": {
-            "id": "folio.in00006930430",
+            "id": "folio.in00005541828",
             "title": [
-                "Super Mario galaxy 2 /"
+                "Escape from Monkey Island /"
             ],
             "alternative_titles": [
-                "Super Mario galaxy two"
+                "Lucasarts Entertainment Company presents"
             ],
             "authors": [
-                "Nintendo of America Inc.,"
+                "LucasArts (Firm)",
+                "Aspyr Media, Inc."
             ],
             "edition": [
-                "Nintendo Wii."
+                "Macintosh."
             ],
             "platform": [
-                "Nintendo Wii"
+                "Apple Mac OS 9"
             ],
-            "platform_id_guess": 20
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
         "dmc": {
-            "id": "folio.in00006932069",
+            "id": "folio.in00005541703",
             "title": [
-                "Nintendo land /"
+                "Command & conquer."
             ],
             "alternative_titles": [
-                "Nintendoland"
+                "Command and conquer."
             ],
             "authors": [
-                "Nintendo of America Inc.,"
+                "Westwood Studios,"
             ],
             "edition": [
-                "Nintendo Wii U."
+                "CD-ROM for Windows.",
+                "[PC]."
             ],
-            "platform": [
-                "Nintendo Wii U"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006747232",
-            "title": [
-                "Mario kart Wii /"
-            ],
-            "alternative_titles": [
-                "Mariokart Wii."
-            ],
-            "authors": [
-                "Nintendo of America Inc.,"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
-        }
-    },
-    {
-        "dmc": {
-            "id": "folio.in00006750057",
-            "title": [
-                "Brunswick zone cosmic bowling /"
-            ],
-            "alternative_titles": [
-                "Cosmic bowling"
-            ],
-            "authors": [
-                "GameMill Entertainment, Inc.,",
-                "CokeM Interactive,"
-            ],
-            "edition": [
-                "Nintendo Wii."
-            ],
-            "platform": [
-                "Nintendo Wii"
-            ],
-            "platform_id_guess": 20
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -646,7 +736,144 @@
                 "[PC or Macintosh]."
             ],
             "platform": [],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541810",
+            "title": [
+                "Baldur's gate II: shadows of Amn /"
+            ],
+            "alternative_titles": [
+                "Baldur's gate 2: shadows of Amn.",
+                "Baldur's gate two: shadows of Amn.",
+                "Shadows of Amn."
+            ],
+            "authors": [
+                "BioWare Corp.",
+                "Black Isle Studios.",
+                "Interplay Entertainment Corporation,"
+            ],
+            "edition": [
+                "Windows 95/98 CD-ROM.",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541824",
+            "title": [
+                "StarCraft."
+            ],
+            "alternative_titles": [
+                "Star craft."
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm),"
+            ],
+            "edition": [
+                "[Windows/Mac CD-ROM].",
+                "Version 1.05b.",
+                "[PC or Macintosh]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541864",
+            "title": [
+                "Return to Castle Wolfenstein /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Activision (Firm)",
+                "Id Software, Inc."
+            ],
+            "edition": [
+                "Macintosh."
+            ],
+            "platform": [
+                "Apple Mac OS 9"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541877",
+            "title": [
+                "MTV celebrity deathmatch."
+            ],
+            "alternative_titles": [
+                "Celebrity deathmatch"
+            ],
+            "authors": [
+                "MTV Networks."
+            ],
+            "edition": [
+                "[PC]."
+            ],
+            "platform": [
+                "Microsoft Windows XP"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00006759915",
+            "title": [
+                "Bloodborne :"
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541869",
+            "title": [
+                "Doom II /"
+            ],
+            "alternative_titles": [
+                "Doom 2.",
+                "Doom two.",
+                "Doom II : Hell on earth.",
+                "Hell on earth."
+            ],
+            "authors": [
+                "Id Software, Inc.",
+                "Activision (Firm),"
+            ],
+            "edition": [
+                "[PC].",
+                "[US version]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -668,7 +895,39 @@
                 "[PC]."
             ],
             "platform": [],
-            "platform_id_guess": 21
+            "platform_id_guess": [
+                21
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541934",
+            "title": [
+                "Starcraft II: heart of the swarm /"
+            ],
+            "alternative_titles": [
+                "Starcraft two: heart of the swarm",
+                "Starcraft 2: heart of the swarm",
+                "Heart of the swarm"
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm)"
+            ],
+            "edition": [
+                "[PC of Macintosh].",
+                "Collector's Edition."
+            ],
+            "platform": [
+                "Microsoft Windows XP",
+                "Microsoft Windows Vista",
+                "Microsoft Windows 7",
+                "Microsoft Windows 8",
+                "Apple Mac OS X v10.7"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -688,7 +947,9 @@
                 "Apple Mac OS 8",
                 "Microsoft Windows 95"
             ],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -712,7 +973,290 @@
             "platform": [
                 "IBM Personal Computer/AT"
             ],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541771",
+            "title": [
+                "Final fantasy VII :"
+            ],
+            "alternative_titles": [
+                "Final fantasy 7",
+                "Final fantasy seven"
+            ],
+            "authors": [
+                "Eidos Interactive (Firm)",
+                "Squaresoft (Firm)"
+            ],
+            "edition": [
+                "[PC]."
+            ],
+            "platform": [
+                "Microsoft Windows 95"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541942",
+            "title": [
+                "Alice madness returns /"
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Electronic Arts (Firm)"
+            ],
+            "edition": [
+                "[PC]."
+            ],
+            "platform": [
+                "Microsoft Windows XP"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541873",
+            "title": [
+                "Uplink :"
+            ],
+            "alternative_titles": [
+                "Hacker elite.",
+                "Uplink :"
+            ],
+            "authors": [
+                "Introversion Software.",
+                "Strategy First Inc.,"
+            ],
+            "edition": [
+                "PC CD-ROM.",
+                "[PC].",
+                "[Version 1.0]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541923",
+            "title": [
+                "Starcraft II: wings of liberty /"
+            ],
+            "alternative_titles": [
+                "Starcraft two",
+                "Wings of liberty"
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm)"
+            ],
+            "edition": [
+                "[PC or Macintosh]."
+            ],
+            "platform": [
+                "Microsoft Windows XP",
+                "Microsoft Windows Vista",
+                "Microsoft Windows 7",
+                "Apple Mac OS X v10.5",
+                "Apple Mac OS X v10.6"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541827",
+            "title": [
+                "Diablo II expansion set :"
+            ],
+            "alternative_titles": [
+                "Diablo 2 expansion set",
+                "Diablo two expansion set",
+                "Lord of destruction"
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm)"
+            ],
+            "edition": [
+                "[PC or Macintosh]."
+            ],
+            "platform": [
+                "Microsoft Windows",
+                "Apple Mac OS"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541862",
+            "title": [
+                "Grim fandango /"
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [
+                "[Windows version].",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541823",
+            "title": [
+                "Diablo II :"
+            ],
+            "alternative_titles": [
+                "Diablo 2",
+                "Diablo two"
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm)"
+            ],
+            "edition": [
+                "[PC or Macintosh]."
+            ],
+            "platform": [
+                "Microsoft Windows 95",
+                "Microsoft Windows 98",
+                "Apple Mac OS 8"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541773",
+            "title": [
+                "Diablo II."
+            ],
+            "alternative_titles": [
+                "Diablo 2.",
+                "Diablo two."
+            ],
+            "authors": [
+                "Blizzard Entertainment (Firm),"
+            ],
+            "edition": [
+                "Windows 2000/98/95/NT.",
+                "Version 1.0.",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541777",
+            "title": [
+                "The Oregon Trail."
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Minnesota Educational Computing Corporation."
+            ],
+            "edition": [
+                "[PC or Mac].",
+                "Macintosh/Windows hybrid, Version 1.0."
+            ],
+            "platform": [
+                "Windows 3.1",
+                "Apple Mac"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541883",
+            "title": [
+                "Batman: toxic chill /"
+            ],
+            "alternative_titles": [
+                "Toxic chill"
+            ],
+            "authors": [
+                "Learning Company.",
+                "Riverdeep Interactive Learning Limited.",
+                "DC Comics, Inc."
+            ],
+            "edition": [
+                "[PC or Macintosh].",
+                "Version 1.0."
+            ],
+            "platform": [
+                "Microsoft Windows XP",
+                "Apple Mac OS X v10.2"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541787",
+            "title": [
+                "Unreal tournament."
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "GT Software (Firm)",
+                "Epic Games, Inc.",
+                "Digital Extremes (Firm)"
+            ],
+            "edition": [
+                "[PC]."
+            ],
+            "platform": [
+                "Microsoft Windows 95"
+            ],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00006373245",
+            "title": [
+                "Fantasy worlds /"
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     },
     {
@@ -731,7 +1275,47 @@
             "platform": [
                 "Microsoft Windows 95"
             ],
-            "platform_id_guess": -1
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00005541803",
+            "title": [
+                "Deus ex."
+            ],
+            "alternative_titles": [],
+            "authors": [
+                "Ion Storm (Firm)",
+                "Eidos Interactive (Firm),"
+            ],
+            "edition": [
+                "[PC edition].",
+                "[PC]."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
+        }
+    },
+    {
+        "dmc": {
+            "id": "folio.in00006900583",
+            "title": [
+                "Music from the video game series The Sims."
+            ],
+            "alternative_titles": [],
+            "authors": [],
+            "edition": [
+                "Piano solo."
+            ],
+            "platform": [],
+            "platform_id_guess": [
+                -1
+            ]
         }
     }
 ]
