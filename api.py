@@ -47,6 +47,11 @@ def search_msu_catalog():
         platform_data = json.load(platform_data_file)
 
     def compare_platform(dmc_platform):
+        dmc_platform = dmc_platform.lower()
+
+        for manufacturer in ["nintendo", "microsoft", "sony", "sega"]:
+            dmc_platform = dmc_platform.replace(manufacturer, "").strip()
+        
         platform_id = -1
         best_score = 0
 
@@ -60,7 +65,7 @@ def search_msu_catalog():
                 best_score = similarity
                 platform_id = meta_data["id"]
 
-        return platform_id if best_score >= 50 else -1
+        return platform_id if best_score >= 51 else -1
 
     all_games = []
 
@@ -80,6 +85,11 @@ def search_msu_catalog():
             for record in tqdm(records, desc=f"Page {curr_page}", unit="record", leave=False):
                 id = record.get("id", "N/A")
                 data = metadata_from_msu(id) 
+
+                platforms = set()
+
+                for platform in data["edition"] + data["platform"]:
+                    platforms.add(compare_platform(platform))
                 
                 game = {
                     "dmc": {
@@ -89,7 +99,7 @@ def search_msu_catalog():
                         "authors": data["authors"],
                         "edition": data["edition"],
                         "platform": data["platform"],
-                        "platform_id_guess": compare_platform(data["edition"][0]) if data["edition"] else -1
+                        "platform_id_guess": list(platforms)
                     },
                 }
                 all_games.append(game)
@@ -282,6 +292,6 @@ def enrich_with_igdb(games_file, output_file):
     print(f"Enriched data saved to {output_file}")
 
 if __name__ == "__main__":
-    # search_msu_catalog()
-    enrich_with_igdb("Database/games.json", "temp.json")
+    search_msu_catalog()
+    # enrich_with_igdb("Database/games.json", "temp.json")
     pass
