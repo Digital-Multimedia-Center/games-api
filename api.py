@@ -242,13 +242,24 @@ def enrich_with_igdb(games_file, output_file):
             }
         }
 
-    def fetch_igdb_results(title, platform):
-        rate_limit()
+
+    def fetch_igdb_results(title, platform, max_retries=5):
         query = build_query(title, platform)
-        response = requests.post(IGDB_URL, headers=HEADERS, data=query)
-        response.raise_for_status()
-        results = response.json()
-        return results
+        retries = 0
+
+        while retries < max_retries:
+            rate_limit()
+            response = requests.post(IGDB_URL, headers=HEADERS, data=query)
+
+            if response.status_code == 429:
+                time.sleep(1)
+                retries += 1
+                continue
+
+            response.raise_for_status()
+            results = response.json()
+            return results
+        return {}
 
     # Load MSU catalog games
     with open(games_file, "r", encoding="utf-8") as f:
@@ -296,5 +307,5 @@ def enrich_with_igdb(games_file, output_file):
 
 if __name__ == "__main__":
     # search_msu_catalog()
-    enrich_with_igdb("Database/games.json", "temp.json")
+    enrich_with_igdb("Inspection/failed_games_retry.json", "temp.json")
     pass
