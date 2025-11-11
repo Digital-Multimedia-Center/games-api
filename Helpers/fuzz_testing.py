@@ -2,16 +2,13 @@ from rapidfuzz import fuzz
 import json
 
 # --- Minimal test data (subset of your platforms.js) ---
-with open("platforms.json") as platform_data_file:
+with open("Database/platforms.json") as platform_data_file:
     platform_data = json.load(platform_data_file)
 
 # --- Function under test ---
 def compare_platform(dmc_platform):
-    # for meta_data in platform_data.values():
-    #     abbreivation = meta_data.get("abbreviation").lower()
-    #     alternative_names = meta_data.get("alternative_name", "").split(',')
-    #     if  abbreivation and abbreivation == dmc_platform.lower() or dmc_platform.lower() in [i.lower() for i in alternative_names]:
-    #         return meta_data["id"]
+    for i in ["nintendo", "microsoft", "sony", "sega"]:
+        dmc_platform = dmc_platform.lower().replace(i, "").strip()
 
     platform_id = -1
     best_score = 0
@@ -33,7 +30,7 @@ def compare_platform(dmc_platform):
 # --- Run a few test cases ---
 if __name__ == "__main__":
     tests = [
-        "sega dreamcast",
+        "Nintendo Wii"
     ]
 
     for t in tests:
