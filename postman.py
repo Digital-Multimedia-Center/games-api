@@ -42,8 +42,8 @@ limit 100;
 
 query = """
 fields name, category, platforms, status, game_type, rating;
-search "pokemon battle revolution";
-where platforms = (20);
+search "Grand ages: medieval.";
+where platforms = (48);
 limit 100;
 """
 
@@ -54,4 +54,19 @@ response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=
 response.raise_for_status()
 
 results = response.json()
-print(json.dumps(results, indent=4, ensure_ascii=False))
+# print(json.dumps(results, indent=4, ensure_ascii=False))
+
+
+for i in range(50):
+    try:
+        response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=query)
+        print(f"Request {i+1}: HTTP {response.status_code}")
+        if response.status_code == 429:
+            print("Rate limit hit! Response headers:")
+            print(response.headers)
+            break
+        else:
+            data = response.json()
+            print(f"Got {len(data)} results")
+    except requests.HTTPError as e:
+        print(f"Request {i+1} failed: {e}")
