@@ -1,182 +1,260 @@
 [
   {
-    "id": "folio.in00006940644",
-    "title": "The making of Karateka / [developed by] Digital Eclipse",
-    "authors": [
-      "Clear River Games,",
-      "Digital Eclipse (Firm),"
-    ],
-    "edition": "nintendo switch",
-    "platform_id_guess": 130
+    "dmc": {
+      "id": "folio.in00006940644",
+      "title": ["The making of Karateka / [developed by] Digital Eclipse"],
+      "alternative_titles": [],
+      "authors": [
+        "Clear River Games,",
+        "Digital Eclipse (Firm),"
+      ],
+      "edition": ["nintendo switch"],
+      "platform": ["nintendo switch"],
+      "platform_id_guess": [130]
+    }
   },
   {
-    "id": "folio.in00005541915",
-    "title": "Sonic gems collection",
-    "authors": [
-      "Sega of America (Firm)",
-      "Nintendo of America Inc."
-    ],
-    "edition": "nintendo gamecube",
-    "platform_id_guess": 21
+    "dmc": {
+      "id": "folio.in00005541915",
+      "title": ["Sonic gems collection"],
+      "alternative_titles": [],
+      "authors": [
+        "Sega of America (Firm)",
+        "Nintendo of America Inc."
+      ],
+      "edition": ["nintendo gamecube"],
+      "platform": ["nintendo gamecube"],
+      "platform_id_guess": [21]
+    }
   },
   {
-    "id": "folio.in00005541905",
-    "title": "Tom Clancy's Rainbow six: lockdown",
-    "authors": [
-      "Red Storm Entertainment (Firm)",
-      "Ubi Soft Entertainment (Firm),",
-      "Sony Computer Entertainment."
-    ],
-    "edition": "playstation 2",
-    "platform_id_guess": 8
+    "dmc": {
+      "id": "folio.in00005541905",
+      "title": ["Tom Clancy's Rainbow six: lockdown"],
+      "alternative_titles": [],
+      "authors": [
+        "Red Storm Entertainment (Firm)",
+        "Ubi Soft Entertainment (Firm),",
+        "Sony Computer Entertainment."
+      ],
+      "edition": ["playstation 2"],
+      "platform": ["playstation 2"],
+      "platform_id_guess": [8]
+    }
   },
   {
-    "id": "folio.in00005541815",
-    "title": "Shenmue = Shenm\u016b",
-    "authors": [
-      "Sega of America (Firm)"
-    ],
-    "edition": "sega dreamcast",
-    "platform_id_guess": 23
+    "dmc": {
+      "id": "folio.in00005541815",
+      "title": ["Shenmue = Shenmū"],
+      "alternative_titles": [],
+      "authors": ["Sega of America (Firm)"],
+      "edition": ["sega dreamcast"],
+      "platform": ["sega dreamcast"],
+      "platform_id_guess": [23]
+    }
   },
   {
-    "id": "folio.in00006050366",
-    "title": "PlayStation portable / Sony",
-    "authors": [
-      "Sony Computer Entertainment."
-    ],
-    "edition": "[model no.] psp1001",
-    "platform_id_guess": -1
+    "dmc": {
+      "id": "folio.in00006050366",
+      "title": ["PlayStation portable / Sony"],
+      "alternative_titles": [],
+      "authors": ["Sony Computer Entertainment."],
+      "edition": ["[model no.] psp1001"],
+      "platform": ["[model no.] psp1001"],
+      "platform_id_guess": [-1]
+    }
   },
   {
-    "id": "folio.in00007001679",
-    "title": "Rhythm heaven / developed by Nintendo",
-    "authors": [
-      "Nintendo of America Inc.,"
-    ],
-    "edition": "nintendo ds",
-    "platform_id_guess": 20
+    "dmc": {
+      "id": "folio.in00007001679",
+      "title": ["Rhythm heaven / developed by Nintendo"],
+      "alternative_titles": [],
+      "authors": ["Nintendo of America Inc.,"],
+      "edition": ["nintendo ds"],
+      "platform": ["nintendo ds"],
+      "platform_id_guess": [20]
+    }
   },
   {
-    "id": "folio.in00006746519",
-    "title": "Halo wars",
-    "authors": [
-      "Ensemble Studios.",
-      "Microsoft Game Studios,"
-    ],
-    "edition": "xbox 360",
-    "platform_id_guess": 12
+    "dmc": {
+      "id": "folio.in00006746519",
+      "title": ["Halo wars"],
+      "alternative_titles": [],
+      "authors": [
+        "Ensemble Studios.",
+        "Microsoft Game Studios,"
+      ],
+      "edition": ["xbox 360"],
+      "platform": ["xbox 360"],
+      "platform_id_guess": [12]
+    }
   },
   {
-    "id": "folio.in00005541796",
-    "title": "Tom Clancy's Rainbow six",
-    "authors": [
-      "Saffire Corporation.",
-      "Red Storm Entertainment (Firm),",
-      "Nintendo of America Inc."
-    ],
-    "edition": "nintendo 64",
-    "platform_id_guess": 4
+    "dmc": {
+      "id": "folio.in00005541796",
+      "title": ["Tom Clancy's Rainbow six"],
+      "alternative_titles": [],
+      "authors": [
+        "Saffire Corporation.",
+        "Red Storm Entertainment (Firm),",
+        "Nintendo of America Inc."
+      ],
+      "edition": ["nintendo 64"],
+      "platform": ["nintendo 64"],
+      "platform_id_guess": [4]
+    }
   },
   {
-    "id": "folio.in00006802170",
-    "title": "Soulcalibur VI ; Tekken 7 / Bandai Namco",
-    "authors": [
-      "Bandai Namco Entertainment Europe Inc.,"
-    ],
-    "edition": "playstation 4",
-    "platform_id_guess": 48
+    "dmc": {
+      "id": "folio.in00006802170",
+      "title": ["Soulcalibur VI ; Tekken 7 / Bandai Namco"],
+      "alternative_titles": [],
+      "authors": ["Bandai Namco Entertainment Europe Inc.,"],
+      "edition": ["playstation 4"],
+      "platform": ["playstation 4"],
+      "platform_id_guess": [48]
+    }
   },
   {
-    "id": "folio.in00005916898",
-    "title": "Overcooked! / Microsoft ; developed by Ghost Town Games and Team17",
-    "authors": [
-      "Sold Out (Firm),",
-      "Microsoft Corporation,",
-      "Team17 (Firm),"
-    ],
-    "edition": "xbox one",
-    "platform_id_guess": 49
+    "dmc": {
+      "id": "folio.in00005916898",
+      "title": ["Overcooked! / Microsoft ; developed by Ghost Town Games and Team17"],
+      "alternative_titles": [],
+      "authors": [
+        "Sold Out (Firm),",
+        "Microsoft Corporation,",
+        "Team17 (Firm),"
+      ],
+      "edition": ["xbox one"],
+      "platform": ["xbox one"],
+      "platform_id_guess": [49]
+    }
   },
   {
-    "id": "folio.in00006749149",
-    "title": "Monster hunter tri",
-    "authors": [
-      "Capcom USA,",
-      "Nintendo of America Inc."
-    ],
-    "edition": "wii",
-    "platform_id_guess": 5
+    "dmc": {
+      "id": "folio.in00006749149",
+      "title": ["Monster hunter tri"],
+      "alternative_titles": [],
+      "authors": [
+        "Capcom USA,",
+        "Nintendo of America Inc."
+      ],
+      "edition": ["wii"],
+      "platform": ["wii"],
+      "platform_id_guess": [5]
+    }
   },
   {
-    "id": "folio.in00006052415",
-    "title": "Puzzle chronicles",
-    "authors": [
-      "Konami of America Inc.",
-      "Sony Computer Entertainment."
-    ],
-    "edition": "playstation portable",
-    "platform_id_guess": 38
+    "dmc": {
+      "id": "folio.in00006052415",
+      "title": ["Puzzle chronicles"],
+      "alternative_titles": [],
+      "authors": [
+        "Konami of America Inc.",
+        "Sony Computer Entertainment."
+      ],
+      "edition": ["playstation portable"],
+      "platform": ["playstation portable"],
+      "platform_id_guess": [38]
+    }
   },
   {
-    "id": "folio.in00006789319",
-    "title": "Microsoft flight simulator",
-    "authors": [
-      "Xbox Game Studios,",
-      "Asobo Studio (Firm),",
-      "Microsoft Corporation."
-    ],
-    "edition": "xbox series x",
-    "platform_id_guess": 169
+    "dmc": {
+      "id": "folio.in00006789319",
+      "title": ["Microsoft flight simulator"],
+      "alternative_titles": [],
+      "authors": [
+        "Xbox Game Studios,",
+        "Asobo Studio (Firm),",
+        "Microsoft Corporation."
+      ],
+      "edition": ["xbox series x"],
+      "platform": ["xbox series x"],
+      "platform_id_guess": [169]
+    }
   },
   {
-    "id": "folio.in00007001652",
-    "title": "LEGO Marvel super heroes: universe in peril / developed by TT Games",
-    "authors": [
-      "WB Games (Firm),",
-      "TT Games (Firm),"
-    ],
-    "edition": "playstation vita",
-    "platform_id_guess": 167
+    "dmc": {
+      "id": "folio.in00007001652",
+      "title": ["LEGO Marvel super heroes: universe in peril / developed by TT Games"],
+      "alternative_titles": [],
+      "authors": [
+        "WB Games (Firm),",
+        "TT Games (Firm)"
+      ],
+      "edition": ["playstation vita"],
+      "platform": ["playstation vita"],
+      "platform_id_guess": [167]
+    }
   },
   {
-    "id": "folio.in00005541948",
-    "title": "Resident evil: Operation Raccoon City",
-    "authors": [
-      "Capcom USA,"
-    ],
-    "edition": "playstation 3",
-    "platform_id_guess": 9
+    "dmc": {
+      "id": "folio.in00005541948",
+      "title": ["Resident evil: Operation Raccoon City"],
+      "alternative_titles": [],
+      "authors": ["Capcom USA,"],
+      "edition": ["playstation 3"],
+      "platform": ["playstation 3"],
+      "platform_id_guess": [9]
+    }
   },
   {
-    "id": "folio.in00005541769",
-    "title": "Oddworld: Abe's Oddysee",
-    "authors": [
-      "Oddworld Inhabitants Inc.",
-      "GT Software (Firm),",
-      "Sony Computer Entertainment."
-    ],
-    "edition": "playstation",
-    "platform_id_guess": 7
+    "dmc": {
+      "id": "folio.in00005541769",
+      "title": ["Oddworld: Abe's Oddysee"],
+      "alternative_titles": [],
+      "authors": [
+        "Oddworld Inhabitants Inc.",
+        "GT Software (Firm),",
+        "Sony Computer Entertainment."
+      ],
+      "edition": ["playstation"],
+      "platform": ["playstation"],
+      "platform_id_guess": [7]
+    }
   },
   {
-    "id": "folio.in00005541767",
-    "title": "Nights into dreams",
-    "authors": [
-      "SEGA Ent\u0101puraizesu.",
-      "Sega of America (Firm)"
-    ],
-    "edition": "sega saturn",
-    "platform_id_guess": 32
+    "dmc": {
+      "id": "folio.in00005541767",
+      "title": ["Nights into dreams"],
+      "alternative_titles": [],
+      "authors": [
+        "SEGA Entāpuraizesu.",
+        "Sega of America (Firm)"
+      ],
+      "edition": ["sega saturn"],
+      "platform": ["sega saturn"],
+      "platform_id_guess": [32]
+    }
   },
   {
-    "id": "folio.in00005541871",
-    "title": "Halo 2",
-    "authors": [
-      "Bungie (Firm)",
-      "Microsoft Game Studios."
-    ],
-    "edition": "xbox",
-    "platform_id_guess": 11
+    "dmc": {
+      "id": "folio.in00005541871",
+      "title": ["Halo 2"],
+      "alternative_titles": [],
+      "authors": [
+        "Bungie (Firm)",
+        "Microsoft Game Studios."
+      ],
+      "edition": ["xbox"],
+      "platform": ["xbox"],
+      "platform_id_guess": [11]
+    }
+  },
+  {
+    "dmc": {
+      "id": "folio.in00006747922",
+      "title": ["Sonic unleashed."],
+      "alternative_titles": [],
+      "authors": [
+        "Sega of America (Firm)",
+        "Sony Computer Entertainment.",
+        "Havok (Firm)"
+      ],
+      "edition": ["Playstation 3."],
+      "platform": ["Sony PlayStation 3"],
+      "platform_id_guess": [9, 167]
+    }
   }
 ]
+
