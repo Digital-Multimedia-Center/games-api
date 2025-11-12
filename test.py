@@ -27,9 +27,9 @@ with open(args.filename, 'r') as enriched:
 
 # Overwrite the previous failed_games.json file
 with open("Inspection/failed_games.json", 'w') as f:
-    json.dump(failed_games, f, indent=4)
+    json.dump(failed_games, f, indent=4, ensure_ascii=False)
 
 with open("Inspection/failed_games_retry.json", 'w') as f:
-    json.dump(failed_games_retry, f, indent=4)
+    json.dump(failed_games_retry, f, indent=4, ensure_ascii=False)
 
 print("Percentage of games that failed", len(failed_games) / len(data))
