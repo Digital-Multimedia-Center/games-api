@@ -301,7 +301,7 @@ def enrich_with_igdb(games_file, output_file):
 
     # Save enriched data
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(enriched_games, f, indent=2) 
+        json.dump(enriched_games, f, indent=2, ensure_ascii=False) 
 
     print(f"Enriched data saved to {output_file}")
 
