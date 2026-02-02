@@ -94,8 +94,9 @@
       container.innerHTML = "";
 
       data.forEach(entry => {
-        const dmc = entry.dmc || {};
-        const igdb = entry.igdb || {};
+        const gameData = entry.game || {}; 
+        const dmc = gameData.dmc || {};
+        const igdb = gameData.igdb || {};
 
         const gameDiv = document.createElement("div");
         gameDiv.className = "game";
