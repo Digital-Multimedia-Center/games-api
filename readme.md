@@ -8,16 +8,29 @@ Eventual schema for schema
 
 ```yaml
 game:
-  dmc:
-    title: string        # from MSU catalog
-    edition: string      # edition/version info
-    call_number: string? # optional, library call number
-  igdb:
-    title: string        # from IGDB API
-    cover: string        # cover image URL/ID
-    tags: [string]       # list of tags/genres
-    summary: string      # game summary/description
-    other: object?       # extra metadata (platforms, release year, etc.)
+  folio_id:
+    title: string
+    alternative_title: [string]
+    authors: [string]
+    edition: [string]
+    platform: [string]
+    platform_id_guess : int
+
+enriched:
+  igdb_id: int
+  name: string
+  cover:
+    id: int
+    image_id: string
+  genres: [
+    {
+      id: int,
+      name: string
+    }
+  ]
+  summary: string
+  game_type: int
+  dmc_entries: [folio_id]
 ```
 
 current error rate : 0.13
