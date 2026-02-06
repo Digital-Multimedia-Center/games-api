@@ -95,8 +95,7 @@ def search_msu_catalog():
                     platforms.discard(-1)
                 
                 game = {
-                    "dmc": {
-                        "id": id,
+                    id: {
                         "title": data["title"],
                         "alternative_titles": data["alternative_titles"],
                         "authors": data["authors"],
@@ -306,6 +305,6 @@ def enrich_with_igdb(games_file, output_file):
     print(f"Enriched data saved to {output_file}")
 
 if __name__ == "__main__":
-    # search_msu_catalog()
-    enrich_with_igdb("Inspection/failed_games_retry.json", "temp.json")
+    search_msu_catalog()
+    # enrich_with_igdb("Inspection/failed_games_retry.json", "temp.json")
     pass
