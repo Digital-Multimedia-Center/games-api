@@ -4,7 +4,7 @@ Code to combine existing DB with IGDB and consolidate.
 
 ### Schema
 
-Eventual schema for schema
+Eventual schema for Database
 
 ```yaml
 game:
