@@ -1,11 +1,13 @@
-import os
-import requests
 import json
+import os
+
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+
 
 # Get Twitch/IGDB access token
 def get_access_token():
@@ -13,18 +15,16 @@ def get_access_token():
     payload = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
-        "grant_type": "client_credentials"
+        "grant_type": "client_credentials",
     }
     response = requests.post(url, data=payload)
     response.raise_for_status()
     return response.json()["access_token"]
 
+
 ACCESS_TOKEN = get_access_token()
 
-HEADERS = {
-    "Client-ID": CLIENT_ID,
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
-}
+HEADERS = {"Client-ID": CLIENT_ID, "Authorization": f"Bearer {ACCESS_TOKEN}"}
 
 query = """
 fields id, name, summary, genres.name, cover.image_id, platforms.name, first_release_date, status, game_type;
@@ -41,7 +41,7 @@ limit 100;
 """
 
 query = """
-fields name, category, platforms, status, game_type, rating;
+fields name, category, platforms, status, game_type, rating, first_release_date;
 search "Grand ages: medieval.";
 where platforms = (48);
 limit 100;
@@ -54,19 +54,21 @@ response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=
 response.raise_for_status()
 
 results = response.json()
-# print(json.dumps(results, indent=4, ensure_ascii=False))
+print(json.dumps(results, indent=4, ensure_ascii=False))
 
 
-for i in range(50):
-    try:
-        response = requests.post("https://api.igdb.com/v4/games", headers=HEADERS, data=query)
-        print(f"Request {i+1}: HTTP {response.status_code}")
-        if response.status_code == 429:
-            print("Rate limit hit! Response headers:")
-            print(response.headers)
-            break
-        else:
-            data = response.json()
-            print(f"Got {len(data)} results")
-    except requests.HTTPError as e:
-        print(f"Request {i+1} failed: {e}")
+# for i in range(50):
+#     try:
+#         response = requests.post(
+#             "https://api.igdb.com/v4/games", headers=HEADERS, data=query
+#         )
+#         print(f"Request {i + 1}: HTTP {response.status_code}")
+#         if response.status_code == 429:
+#             print("Rate limit hit! Response headers:")
+#             print(response.headers)
+#             break
+#         else:
+#             data = response.json()
+#             print(f"Got {len(data)} results")
+#     except requests.HTTPError as e:
+#         print(f"Request {i + 1} failed: {e}")

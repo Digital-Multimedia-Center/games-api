@@ -7,7 +7,7 @@ Code to combine existing DB with IGDB and consolidate.
 Eventual schema for Database
 
 ```yaml
-game:
+dmc-items:
   folio_id:
     title: string
     alternative_title: [string]
@@ -16,7 +16,7 @@ game:
     platform: [string]
     platform_id_guess : int
 
-enriched:
+enriched-items:
   igdb_id: int
   name: string
   cover:
