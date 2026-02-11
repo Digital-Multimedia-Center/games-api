@@ -19,6 +19,7 @@ dmc-items:
 enriched-items:
   igdb_id: int
   name: string
+  release_date: int
   cover:
     id: int
     image_id: string
