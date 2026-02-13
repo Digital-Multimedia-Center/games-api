@@ -99,6 +99,7 @@ def search_msu_catalog():
     # load platform data once
     with open("Database/platforms.json") as platform_data_file:
         platform_data = json.load(platform_data_file)
+        platform_by_id = {v["id"]: v for v in platform_data.values()}
 
     def compare_platform(dmc_platform):
         dmc_platform = dmc_platform.lower()
@@ -148,6 +149,8 @@ def search_msu_catalog():
                 if platforms != set([-1]):
                     platforms.discard(-1)
                 
+                resolved_platforms = [platform_by_id[p] for p in platforms if p in platform_by_id]
+
                 game = {
                     "_id": id,
                     "title": data["title"],
@@ -155,7 +158,7 @@ def search_msu_catalog():
                     "authors": data["authors"],
                     "edition": data["edition"],
                     "platform": data["platform"],
-                    "platform_id_guess": list(platforms) if platforms else [-1]
+                    "platform_id_guess": resolved_platforms if resolved_platforms else [-1]
                 }
                 all_games.append(game)
 
@@ -334,6 +337,6 @@ def enrich_with_igdb():
         print(f"Successfully inserted {len(enriched_games)} new enriched games.")
 
 if __name__ == "__main__":
-    # search_msu_catalog()
-    enrich_with_igdb()
+    search_msu_catalog()
+    # enrich_with_igdb()
     pass
