@@ -158,7 +158,8 @@ def search_msu_catalog():
                     "authors": data["authors"],
                     "edition": data["edition"],
                     "platform": data["platform"],
-                    "platform_id_guess": resolved_platforms if resolved_platforms else [-1]
+                    "platform_id_guess": resolved_platforms if resolved_platforms else [-1],
+                     "callnumber" : data["callnumber"]
                 }
                 all_games.append(game)
 

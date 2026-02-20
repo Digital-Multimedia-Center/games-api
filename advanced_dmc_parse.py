@@ -33,7 +33,6 @@ def metadata_from_msu(id):
     # Leader
     leader_elem = record_elem.find('{http://www.loc.gov/MARC21/slim}leader')
     assert leader_elem is not None, "Leader not found!"
-    leader = leader_elem.text
 
     # Controlfields
     # print("Controlfields:")
@@ -53,17 +52,18 @@ def metadata_from_msu(id):
     results["authors"]  = [item['a'] for item in datafields_by_tag.get("710", []) if 'a' in item]
     results["edition"]  = [item['a'] for item in datafields_by_tag.get("250", []) if 'a' in item]
     results["platform"] = [item['a'] for item in datafields_by_tag.get("753", []) if 'a' in item]
+    results["callnumber"] = datafields_by_tag.get("099", [])[0]['a'] if len(datafields_by_tag.get("099", [])) > 0 else ''
 
     return results
 
 
 if __name__ == "__main__":
-    with open("Inspection/failed_games_retry.json") as db:
-        game_data = json.load(db)      
-        for game in game_data:
-            print(game['dmc']['id'])
-            metadata_from_msu(game['dmc']['id'])
-            print("\n")
+    # with open("Inspection/failed_games_retry.json") as db:
+        # game_data = json.load(db)      
+        # for game in game_data:
+        #     print(game['dmc']['id'])
+        #     metadata_from_msu(game['dmc']['id'])
+        #     print("\n")
 
-    # IDENTIFIER = "folio.in00006740811"
-    # metadata_from_msu(IDENTIFIER)
+    IDENTIFIER = "folio.in00006740811"
+    print(metadata_from_msu(IDENTIFIER))
