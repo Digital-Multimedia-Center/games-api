@@ -1,4 +1,5 @@
 import os
+import pymongo
 import requests
 import json
 from dotenv import load_dotenv
@@ -54,3 +55,24 @@ with open("Database/platforms.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, indent=4, ensure_ascii=False)
 
 print("Saved to platforms.json")
+
+for i in all_results:
+    all_results[i]["_id"] =  all_results[i]["id"]
+    del all_results[i]["id"]
+
+all_results = all_results.values()
+
+load_dotenv()
+
+user = os.getenv("MONGO_USER")
+password = os.getenv("MONGO_PASSWORD")
+
+CONNECTION_STRING = f"mongodb+srv://{user}:{password}@dmc-games-collection.5usd8rs.mongodb.net/"
+
+client = pymongo.MongoClient(CONNECTION_STRING)
+db = client["enriched-game-data"]
+
+db["platform-data"].insert_many(all_results, ordered=False)
+print(f"Successfully inserted {len(all_results)} platform data.")
+
+ 

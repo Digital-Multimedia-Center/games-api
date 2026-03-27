@@ -165,11 +165,11 @@
         "updated_at": 1718027289,
         "url": "https://www.igdb.com/platforms/ps",
         "versions": [
+            57,
             653,
-            654,
-            57
+            654
         ],
-        "checksum": "66fca61c-9f53-48a0-3b46-e78dcc76938b",
+        "checksum": "54b6c8e8-54c2-b887-b668-e44425cca7a6",
         "platform_type": 1
     },
     "Playstation 2": {
@@ -250,13 +250,13 @@
         "url": "https://www.igdb.com/platforms/switch",
         "versions": [
             282,
-            173,
-            503
+            503,
+            173
         ],
         "websites": [
             16
         ],
-        "checksum": "54ffcc6e-0d90-5924-6dfa-d03dc5f313a4",
+        "checksum": "62aa896e-a3d6-2d19-dcfb-5b5c6f6c3e54",
         "platform_type": 1
     },
     "playstation 3": {
