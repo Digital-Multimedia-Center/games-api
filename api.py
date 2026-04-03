@@ -9,8 +9,65 @@ from dotenv import load_dotenv
 import os
 import math
 from collections import deque
+from sentence_transformers import SentenceTransformer, util
 
 from advanced_dmc_parse import metadata_from_msu
+
+
+class PlatformMatcher:
+    def __init__(self, platform_data):
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        self.platform_map = [] 
+        self.corpus_strings = []
+        
+        # Build search space from IGDB JSON
+        for name, data in platform_data.items():
+            p_id = data["id"]
+            options = [data["name"], data.get("abbreviation")]
+            if data.get("alternative_name"):
+                options.extend([s.strip() for s in data["alternative_name"].split(',')])
+            
+            for opt in options:
+                if opt:
+                    self.corpus_strings.append(opt.lower())
+                    self.platform_map.append(p_id)
+        
+        self.corpus_embeddings = self.model.encode(self.corpus_strings, convert_to_tensor=True)
+
+    def clean(self, text):
+        text = re.sub(r'http\S+|\[.*?\]|\$\d+|gcipplatform', '', text)
+        noise = r'\b(edition|anniversary|deluxe|collector\'s|standard|version|launch|limited|special|complete|gold|ultimate|director\'s cut)\b'
+        return re.sub(noise, '', text, flags=re.IGNORECASE).strip().lower()
+
+    def get_version(self, text):
+        match = re.search(r'\b(\d+|one|series|vita|portable)\b', text.lower())
+        return match.group(1) if match else None
+
+    def match(self, input_str, threshold=0.75):
+        cleaned_input = self.clean(input_str)
+        if not cleaned_input: return -1
+        
+        input_ver = self.get_version(cleaned_input)
+        
+        # Vector search
+        query_embedding = self.model.encode(cleaned_input, convert_to_tensor=True)
+        hits = util.semantic_search(query_embedding, self.corpus_embeddings, top_k=5)[0]
+
+        for hit in hits:
+            if hit['score'] < threshold: continue
+            
+            idx = hit['corpus_id']
+            candidate_id = self.platform_map[idx]
+            candidate_name = self.corpus_strings[idx]
+            candidate_ver = self.get_version(candidate_name)
+            
+            # Version Lock: Numbers must match exactly
+            if input_ver != candidate_ver:
+                continue
+                
+            return candidate_id
+            
+        return -1
 
 # Load credentials from .env file
 load_dotenv()
@@ -101,26 +158,11 @@ def search_msu_catalog():
         platform_data = json.load(platform_data_file)
         platform_by_id = {v["id"]: v for v in platform_data.values()}
 
+    matcher = PlatformMatcher(platform_data)
+
     def compare_platform(dmc_platform):
         dmc_platform = dmc_platform.lower()
-
-        for manufacturer in ["nintendo", "microsoft", "sony", "sega"]:
-            dmc_platform = dmc_platform.replace(manufacturer, "").strip()
-        
-        platform_id = -1
-        best_score = 0
-
-        for meta_data in platform_data.values():
-            similarity = fuzz.token_ratio(dmc_platform.lower(), meta_data["name"].lower())
-
-            if similarity == 100 and meta_data["name"].lower() != dmc_platform.lower():
-                similarity = similarity / 1.75
-
-            if similarity >= best_score:
-                best_score = similarity
-                platform_id = meta_data["id"]
-
-        return platform_id if best_score >= 51 else -1
+        return matcher.match(dmc_platform)
 
     all_games = []
 
