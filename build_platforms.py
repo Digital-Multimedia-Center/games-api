@@ -27,7 +27,7 @@ HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
-platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", "Playstation Portable", "Playstation Vita", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5"]
+platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", "Playstation Portable", "Playstation Vita", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5", "Switch 2"]
 
 def build_query(platform):
     return f"""
@@ -72,6 +72,7 @@ CONNECTION_STRING = f"mongodb+srv://{user}:{password}@dmc-games-collection.5usd8
 client = pymongo.MongoClient(CONNECTION_STRING)
 db = client["enriched-game-data"]
 
+# TODO : check if _id isn't already in DB to add only new _ids
 db["platform-data"].insert_many(all_results, ordered=False)
 print(f"Successfully inserted {len(all_results)} platform data.")
 

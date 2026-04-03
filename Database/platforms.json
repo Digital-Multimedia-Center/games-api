@@ -418,5 +418,26 @@
         ],
         "checksum": "53874689-0d86-1098-3299-4e9611491aed",
         "platform_type": 1
+    },
+    "Switch 2": {
+        "id": 508,
+        "abbreviation": "Switch 2",
+        "alternative_name": "Switch 2",
+        "created_at": 1737039360,
+        "generation": 9,
+        "name": "Nintendo Switch 2",
+        "platform_logo": 896,
+        "platform_family": 5,
+        "slug": "switch-2",
+        "updated_at": 1744035497,
+        "url": "https://www.igdb.com/platforms/switch-2",
+        "versions": [
+            728
+        ],
+        "websites": [
+            407
+        ],
+        "checksum": "33cbc8f5-4297-a2c2-025e-7b913d0470be",
+        "platform_type": 1
     }
 }
