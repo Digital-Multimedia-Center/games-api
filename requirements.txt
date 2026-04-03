@@ -1,8 +1,16 @@
 certifi==2025.8.3
 charset-normalizer==3.4.3
+dnspython==2.8.0
 idna==3.10
+lxml==6.0.2
+numpy==2.4.4
+pandas==3.0.2
+pymarc==5.3.1
+pymongo==4.16.0
+python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 RapidFuzz==3.14.1
 requests==2.32.5
+six==1.17.0
 tqdm==4.67.1
 urllib3==2.5.0
