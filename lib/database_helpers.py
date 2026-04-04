@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import json
 import os
 import pymongo
-from .api_helpers import IGDB_GAMES_ENDPOINT, query_endpoint
+from .api_helpers import IGDB_GAMES_ENDPOINT, query_igdb_endpoint
 
 load_dotenv()
 
@@ -42,7 +42,7 @@ def build_platforms(platforms, debug = False):
     all_results = []
     
     for platform in platforms:
-            response = query_endpoint(IGDB_GAMES_ENDPOINT, build_query(platform))
+            response = query_igdb_endpoint(IGDB_GAMES_ENDPOINT, build_query(platform))
             if not response:
                 continue
                 

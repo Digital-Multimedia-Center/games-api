@@ -8,8 +8,8 @@ class PlatformMatcher:
         self.corpus_strings = []
         
         # Build search space from IGDB JSON
-        for name, data in platform_data.items():
-            p_id = data["id"]
+        for data in platform_data:
+            p_id = data["_id"]
             options = [data["name"], data.get("abbreviation")]
             if data.get("alternative_name"):
                 options.extend([s.strip() for s in data["alternative_name"].split(',')])
