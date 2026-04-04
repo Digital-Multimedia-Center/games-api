@@ -1,6 +1,5 @@
-{
-    "Nintendo 64": {
-        "id": 4,
+[
+    {
         "abbreviation": "N64",
         "alternative_name": "N64",
         "created_at": 1297639288,
@@ -19,10 +18,10 @@
             35
         ],
         "checksum": "bdd70b18-e2cb-0d2e-fc8b-6d5d08daee20",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 4
     },
-    "Saturn": {
-        "id": 32,
+    {
         "abbreviation": "Saturn",
         "alternative_name": "JVC Saturn, Hi-Saturn, Samsung Saturn, V-Saturn",
         "created_at": 1302004506,
@@ -40,10 +39,10 @@
             6
         ],
         "checksum": "cdaf13fa-2d36-a314-5a4e-e729e9b7d408",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 32
     },
-    "Nintendo GameCube": {
-        "id": 21,
+    {
         "abbreviation": "NGC",
         "alternative_name": "GCN",
         "created_at": 1298032543,
@@ -63,10 +62,10 @@
             292
         ],
         "checksum": "004197bf-ded6-6f88-0780-774a936d1d74",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 21
     },
-    "Dreamcast": {
-        "id": 23,
+    {
         "abbreviation": "DC",
         "alternative_name": "DC",
         "created_at": 1300188004,
@@ -84,10 +83,10 @@
             276
         ],
         "checksum": "8c936c6a-beaf-a199-c360-276e30d3b2e1",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 23
     },
-    "Nintendo DS": {
-        "id": 20,
+    {
         "abbreviation": "NDS",
         "alternative_name": "NDS",
         "created_at": 1297941701,
@@ -100,15 +99,15 @@
         "url": "https://www.igdb.com/platforms/nds",
         "versions": [
             52,
-            191,
             192,
-            190
+            190,
+            191
         ],
-        "checksum": "7bda3398-07a7-7692-038c-cb639f13f1b8",
-        "platform_type": 5
+        "checksum": "088bac69-e1b3-a7e0-d1a2-12abba87d2b1",
+        "platform_type": 5,
+        "_id": 20
     },
-    "Playstation Portable": {
-        "id": 38,
+    {
         "abbreviation": "PSP",
         "alternative_name": "PSP",
         "created_at": 1317648479,
@@ -120,17 +119,17 @@
         "updated_at": 1718027289,
         "url": "https://www.igdb.com/platforms/psp",
         "versions": [
-            59,
-            279,
             277,
+            278,
+            59,
             276,
-            278
+            279
         ],
-        "checksum": "2c99032d-0a06-6aa3-9652-f38b3ae05102",
-        "platform_type": 5
+        "checksum": "ee91ed23-47cc-161f-3d55-92079d1870d1",
+        "platform_type": 5,
+        "_id": 38
     },
-    "Playstation Vita": {
-        "id": 46,
+    {
         "abbreviation": "Vita",
         "alternative_name": "PS Vita",
         "created_at": 1321701445,
@@ -142,18 +141,18 @@
         "updated_at": 1718027289,
         "url": "https://www.igdb.com/platforms/psvita",
         "versions": [
-            275,
+            60,
             274,
-            60
+            275
         ],
         "websites": [
             34
         ],
-        "checksum": "92a7a9a6-f543-4356-6466-08f3ca06958d",
-        "platform_type": 5
+        "checksum": "ca931cb8-f84e-db47-07bb-2ce3296a4a65",
+        "platform_type": 5,
+        "_id": 46
     },
-    "Playstation": {
-        "id": 7,
+    {
         "abbreviation": "PS1",
         "alternative_name": "PSX, PSOne, PS",
         "created_at": 1297639288,
@@ -170,10 +169,10 @@
             654
         ],
         "checksum": "54b6c8e8-54c2-b887-b668-e44425cca7a6",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 7
     },
-    "Playstation 2": {
-        "id": 8,
+    {
         "abbreviation": "PS2",
         "alternative_name": "PS2",
         "created_at": 1297639288,
@@ -189,10 +188,10 @@
             114
         ],
         "checksum": "edd15970-1e1f-6642-f792-debbe183b6f9",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 8
     },
-    "Wii U": {
-        "id": 41,
+    {
         "abbreviation": "WiiU",
         "alternative_name": "Project Cafe",
         "created_at": 1317739102,
@@ -210,10 +209,10 @@
             10
         ],
         "checksum": "f4aa89ef-5299-e9a5-e4e6-71957a0ad807",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 41
     },
-    "Wii": {
-        "id": 5,
+    {
         "abbreviation": "Wii",
         "alternative_name": "Revolution",
         "created_at": 1297639288,
@@ -234,10 +233,10 @@
             275
         ],
         "checksum": "874eb898-0730-6912-1b3d-1faa56ac318d",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 5
     },
-    "Nintendo Switch": {
-        "id": 130,
+    {
         "abbreviation": "Switch",
         "alternative_name": "NX",
         "created_at": 1465978941,
@@ -257,10 +256,10 @@
             16
         ],
         "checksum": "62aa896e-a3d6-2d19-dcfb-5b5c6f6c3e54",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 130
     },
-    "playstation 3": {
-        "id": 9,
+    {
         "abbreviation": "PS3",
         "alternative_name": "PS3",
         "created_at": 1297639288,
@@ -280,10 +279,10 @@
             3
         ],
         "checksum": "32ada501-fe9c-d1e5-0c7e-f6e2fc725ef8",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 9
     },
-    "Xbox": {
-        "id": 11,
+    {
         "abbreviation": "XBOX",
         "created_at": 1297639288,
         "generation": 6,
@@ -297,10 +296,10 @@
             77
         ],
         "checksum": "3438659e-2da9-6326-2906-5e645694b976",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 11
     },
-    "Xbox 360": {
-        "id": 12,
+    {
         "abbreviation": "X360",
         "alternative_name": "X360",
         "created_at": 1297639288,
@@ -322,10 +321,10 @@
             4
         ],
         "checksum": "438d1189-ff91-b903-3c3a-a78c43d4435a",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 12
     },
-    "Xbox One": {
-        "id": 49,
+    {
         "abbreviation": "XONE",
         "alternative_name": "XONE",
         "created_at": 1326545022,
@@ -347,10 +346,10 @@
             12
         ],
         "checksum": "26a13c99-ca70-e636-5a03-a9ffa8aaae98",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 49
     },
-    "Xbox Series": {
-        "id": 169,
+    {
         "abbreviation": "Series X|S",
         "alternative_name": "XSX",
         "created_at": 1565273347,
@@ -371,10 +370,10 @@
             36
         ],
         "checksum": "296fb992-b6b0-544b-3e58-b50f4e058070",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 169
     },
-    "Playstation 4": {
-        "id": 48,
+    {
         "abbreviation": "PS4",
         "alternative_name": "PS4",
         "created_at": 1326544944,
@@ -395,10 +394,10 @@
             11
         ],
         "checksum": "366423b7-8afa-783e-9712-a9d66fc3bfef",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 48
     },
-    "Playstation 5": {
-        "id": 167,
+    {
         "abbreviation": "PS5",
         "alternative_name": "PS5",
         "created_at": 1543501750,
@@ -417,10 +416,10 @@
             281
         ],
         "checksum": "53874689-0d86-1098-3299-4e9611491aed",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 167
     },
-    "Switch 2": {
-        "id": 508,
+    {
         "abbreviation": "Switch 2",
         "alternative_name": "Switch 2",
         "created_at": 1737039360,
@@ -438,6 +437,7 @@
             407
         ],
         "checksum": "33cbc8f5-4297-a2c2-025e-7b913d0470be",
-        "platform_type": 1
+        "platform_type": 1,
+        "_id": 508
     }
-}
+]

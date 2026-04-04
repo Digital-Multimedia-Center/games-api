@@ -5,125 +5,16 @@ import re
 import json
 import time
 from tqdm import tqdm
-from dotenv import load_dotenv
-import os
 import math
-from collections import deque
-from sentence_transformers import SentenceTransformer, util
 
 from advanced_dmc_parse import metadata_from_msu
 
-
-class PlatformMatcher:
-    def __init__(self, platform_data):
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        self.platform_map = [] 
-        self.corpus_strings = []
-        
-        # Build search space from IGDB JSON
-        for name, data in platform_data.items():
-            p_id = data["id"]
-            options = [data["name"], data.get("abbreviation")]
-            if data.get("alternative_name"):
-                options.extend([s.strip() for s in data["alternative_name"].split(',')])
-            
-            for opt in options:
-                if opt:
-                    self.corpus_strings.append(opt.lower())
-                    self.platform_map.append(p_id)
-        
-        self.corpus_embeddings = self.model.encode(self.corpus_strings, convert_to_tensor=True)
-
-    def clean(self, text):
-        text = re.sub(r'http\S+|\[.*?\]|\$\d+|gcipplatform', '', text)
-        noise = r'\b(edition|anniversary|deluxe|collector\'s|standard|version|launch|limited|special|complete|gold|ultimate|director\'s cut)\b'
-        return re.sub(noise, '', text, flags=re.IGNORECASE).strip().lower()
-
-    def get_version(self, text):
-        match = re.search(r'\b(\d+|one|series|vita|portable)\b', text.lower())
-        return match.group(1) if match else None
-
-    def match(self, input_str, threshold=0.75):
-        cleaned_input = self.clean(input_str)
-        if not cleaned_input: return -1
-        
-        input_ver = self.get_version(cleaned_input)
-        
-        # Vector search
-        query_embedding = self.model.encode(cleaned_input, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, self.corpus_embeddings, top_k=5)[0]
-
-        for hit in hits:
-            if hit['score'] < threshold: continue
-            
-            idx = hit['corpus_id']
-            candidate_id = self.platform_map[idx]
-            candidate_name = self.corpus_strings[idx]
-            candidate_ver = self.get_version(candidate_name)
-            
-            # Version Lock: Numbers must match exactly
-            if input_ver != candidate_ver:
-                continue
-                
-            return candidate_id
-            
-        return -1
-
-# Load credentials from .env file
-load_dotenv()
-
-user = os.getenv("MONGO_USER")
-password = os.getenv("MONGO_PASSWORD")
-
-CONNECTION_STRING = f"mongodb+srv://{user}:{password}@dmc-games-collection.5usd8rs.mongodb.net/"
-
-client = pymongo.MongoClient(CONNECTION_STRING)
-db = client["enriched-game-data"]
-
-CLIENT_ID = os.getenv("CLIENT_ID")
-CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-
-# Get a Twitch access token (expires in ~2 months)
-def get_access_token():
-    url = "https://id.twitch.tv/oauth2/token"
-    payload = {
-        "client_id": CLIENT_ID,
-        "client_secret": CLIENT_SECRET,
-        "grant_type": "client_credentials"
-    }
-    response = requests.post(url, data=payload)
-    response.raise_for_status()
-    return response.json()["access_token"]
-
-ACCESS_TOKEN = get_access_token()
-
-# IGDB API endpoint + headers
-IGDB_URL = "https://api.igdb.com/v4/games"
-HEADERS = {
-    "Client-ID": CLIENT_ID,
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
-}
-
-
-REQUEST_LIMIT = 4  # per second
-REQUEST_WINDOW = 1.0  # seconds
-request_times = deque()  # store timestamps of recent requests
-
-
-def rate_limit():
-    now = time.time()
-    request_times.append(now)
-    # Keep only timestamps within the last second
-    while request_times and request_times[0] < now - REQUEST_WINDOW:
-        request_times.popleft()
-
-    if len(request_times) >= REQUEST_LIMIT:
-        sleep_time = REQUEST_WINDOW - (now - request_times[0])
-        if sleep_time > 0:
-            time.sleep(sleep_time)
+from lib.api_helpers import IGDB_URL, HEADERS, rate_limit
+from lib.database_helpers import db
+from lib.string_matcher import PlatformMatcher
 
 def search_msu_catalog():
-    url = "https://catalog.lib.msu.edu/api/v1/search"
+    catalog_api_url = "https://catalog.lib.msu.edu/api/v1/search"
 
     params = {
         "lookfor": "genre:video+games",
@@ -139,7 +30,7 @@ def search_msu_catalog():
     headers = {"accept": "application/json"}
 
     # initial request to find total number of results
-    response = requests.get(url, params=params, headers=headers)
+    response = requests.get(catalog_api_url, params=params, headers=headers)
     if response.status_code != 200:
         print(f"Initial request failed: {response.status_code}")
         print(response.text)
@@ -251,7 +142,6 @@ def enrich_with_igdb():
         title = re.sub(r"([A-Za-z])(\d)", r"\1 \2", title)
         title = re.sub(r"(\d)([A-Za-z])", r"\1 \2", title)
         return title
-
 
     def generate_title_variants(title: str):
         title = title.strip().lower()
