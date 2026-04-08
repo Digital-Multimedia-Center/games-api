@@ -1,7 +1,11 @@
 """
-Helper functions for all APIs used, IGDB and MSU API
+API Helper Utilities for IGDB and MSU Library Catalog integration.
 
-author : Amrit Srivastava
+This module provides functions for authentication, rate limiting, and 
+data retrieval from the IGDB video game database and the Michigan State 
+University library catalog.
+
+Author: Amrit Srivastava
 """
 
 import os
@@ -12,14 +16,26 @@ from dotenv import load_dotenv
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-# Load IGDB API keys
+# Load environment variables
 load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
+# IGDB API Configuration
+IGDB_URL = "https://api.igdb.com/v4/games"
+IGDB_GAMES_ENDPOINT = "https://api.igdb.com/v4/platforms" 
+
+# Rate Limiting Configuration
+REQUEST_LIMIT = 4       # Max requests allowed per window
+REQUEST_WINDOW = 1.0    # Window duration in seconds
+request_times = deque() # History of request timestamps
+
 def get_access_token():
     """
-    Get a Twitch access token, required to make calls to IGDB
+    Retrieves an OAuth2 access token from Twitch for IGDB API authentication.
+
+    Returns:
+        str: Valid access token for IGDB API calls.
     """
     url = "https://id.twitch.tv/oauth2/token"
     payload = {
@@ -31,27 +47,22 @@ def get_access_token():
     response.raise_for_status()
     return response.json()["access_token"]
 
+# Initialize global access token
 ACCESS_TOKEN = get_access_token()
-
-# Define IGDB API endpoints
-IGDB_URL = "https://api.igdb.com/v4/games"
-IGDB_GAMES_ENDPOINT = "https://api.igdb.com/v4/platforms" 
-
-# This logic is used to slow our API calls to stay within the API limit
-
-REQUEST_LIMIT = 4       # per second
-REQUEST_WINDOW = 1.0    # seconds
-request_times = deque() # store timestamps of recent requests
 
 def rate_limit():
     """
-    Call this function between API calls to stay within rate limit
+    Implements a sliding window rate limiter to prevent API 429 errors.
+    Should be called immediately before or after every API request.
     """ 
     now = time.time()
     request_times.append(now)
+    
+    # Remove timestamps older than the current window
     while request_times and request_times[0] < now - REQUEST_WINDOW:
         request_times.popleft()
 
+    # If limit reached, sleep for the remainder of the window
     if len(request_times) >= REQUEST_LIMIT:
         sleep_time = REQUEST_WINDOW - (now - request_times[0])
         if sleep_time > 0:
@@ -59,35 +70,47 @@ def rate_limit():
 
 def query_igdb_endpoint(endpoint, query):
     """
-    Builds the post request needed to query IGDB endpoints
-    
-    endpoint : string with URL endpoint
-    query : query parameters for the request
-    """
+    Executes a POST request to a specific IGDB endpoint.
 
+    Args:
+        endpoint (str): The IGDB API endpoint URL.
+        query (str): The query string in IGDB's wrapper syntax.
+
+    Returns:
+        list/dict: Parsed JSON response from the API.
+    """
     IGDB_HEADERS = {
         "Client-ID": CLIENT_ID,
         "Authorization": f"Bearer {ACCESS_TOKEN}"
     }
 
     response = requests.post(endpoint, headers=IGDB_HEADERS, data=query)
-    # If query isn't built properly or endpoint is deprecated we shouldn't silently fail
+    
+    # If query fails we shouldn't silently fail
     try:
         response.raise_for_status()
     except Exception as e:
-        print(f"Couldn't query {endpoint} with query:")
-        print(query)
+        print(f"Error querying {endpoint}")
+        print(f"Query: {query}")
         print(e)
         exit(1)
+        
     return response.json()
 
 def build_igdb_search_game_query(title, platforms):
     """
-    Builds query for the games endpoint in IGDB, we fetch the first 100 results and filter by platform to get valid candidates
+    Constructs a filtered IGDB search query for game titles.
 
-    title : string for game title
-    platforms : list of platform ids supported for this title
-    return
+    Filters out:
+    - Non-standalone games (DLCs, mods, etc.)
+    - Unreleased or cancelled statuses (Alpha, Beta)
+
+    Args:
+        title (str): Game title to search for.
+        platforms (list): List of IGDB platform IDs to filter by.
+
+    Returns:
+        str: Formatted IGDB query string.
     """
     base_query = """
         fields id, name, summary, first_release_date, category, platforms, status, game_type, rating, cover.image_id, genres.name;
@@ -96,20 +119,25 @@ def build_igdb_search_game_query(title, platforms):
         limit 100;
     """
 
-    # build query to filter only valid platforms. We additionally filter out invalid games:
-    # game type cannot be dlc addon, mod, fork, or update
-    # game status cannot be alpha, beta, cancelled
-    # https://api-docs.igdb.com/#game-enums
+    # Filter by specific platforms if provided, otherwise search all
     platform_filter = f"platforms = ({', '.join(map(str, platforms))}) & " if platforms != {-1} else ""
+    
+    # Logic to exclude specific game types (DLC=1, Mod=5, etc.) and statuses (Alpha=2, etc.)
+    # https://api-docs.igdb.com/#game-enums
     conditions = f"{platform_filter} game_type != (1, 5, 12, 14) & (status != (2,3,6) | status = null)"
+    
     return base_query.format(title=title, conditions=conditions)
 
 def msu_catalog_api(page, limit=100):
     """
-    Search the catalog API looking for video games
-    
-    page : the api uses pagination, with page we can specify which page we're looking to fetch results from
-    limit : how many results we want per page, the api only supports up to a 100 results per query
+    Queries the MSU Library REST API for items tagged as video games.
+
+    Args:
+        page (int): Result page number for pagination.
+        limit (int): Number of records per page (max 100).
+
+    Returns:
+        dict: JSON response containing library records.
     """
     catalog_api_url = "https://catalog.lib.msu.edu/api/v1/search"
     
@@ -125,72 +153,58 @@ def msu_catalog_api(page, limit=100):
     }
 
     headers = {"accept": "application/json"}
-
     response = requests.get(catalog_api_url, params=params, headers=headers)
     
     if response.status_code != 200:
-        print(f"MSU Catalog API failed: {response.status_code}")
-        print(response.text)
+        print(f"MSU Catalog API error: {response.status_code}")
         return {}
 
     return response.json()
 
 def msu_oai_metadata_api(id):
     """
-    Fetches and parses MARC21 metadata for a specific record via the MSU OAI-PMH server.
+    Fetches and parses granular MARC21 metadata from the MSU OAI-PMH server.
 
     Args:
-        id (str): The unique catalog identifier for the record.
+        id (str): The unique identifier for the catalog record.
 
-        Returns:
-            dict: A dictionary containing titles, alternative titles, authors, 
-                edition, platform, and call number.
+    Returns:
+        dict: Extracted metadata including titles, authors, and call numbers.
     """
-
-    # Construct OAI-PMH request URL for MARC21 metadata
     url = f"https://catalog.lib.msu.edu/OAI/Server?verb=GetRecord&identifier={id}&metadataPrefix=marc21"
     response = requests.get(url)
     xml_data = response.text
 
-    results = dict()
-
-    # Parse XML structure
+    # XML Parsing Logic
     root = ET.fromstring(xml_data)
-
-    # Define XML namespaces for OAI and MARC21 schemas
     ns = {
         'oai': 'http://www.openarchives.org/OAI/2.0/',
         'marc': 'http://www.loc.gov/MARC21/slim'
     }
 
-    # Locate the MARC record element within the OAI response structure
+    # Locate MARC record within the OAI wrapper
     record_elem = root.find('.//oai:GetRecord/oai:record/marc:record', ns)
-
-    # Alternative: sometimes the MARC record is nested with default namespace
     if record_elem is None:
         record_elem = root.find('.//{http://www.loc.gov/MARC21/slim}record')
 
     if record_elem is None:
-        raise ValueError("MARC record not found.")
+        raise ValueError(f"MARC record not found for ID: {id}")
 
-    # Validate the presence of the MARC leader element
-    leader_elem = record_elem.find('{http://www.loc.gov/MARC21/slim}leader')
-    assert leader_elem is not None, "Leader not found!"
-
-    # Map MARC tags to lists of dictionaries containing subfield codes and values
+    # Map MARC tags to subfield values
     datafields_by_tag = defaultdict(list)
-
     for df in record_elem.findall('{http://www.loc.gov/MARC21/slim}datafield'):
         tag = df.get('tag')
         subfields = {sf.get('code'): sf.text for sf in df.findall('{http://www.loc.gov/MARC21/slim}subfield')}
         datafields_by_tag[tag].append(subfields)
 
-    # Extract specific MARC fields into the results dictionary
-    results["title"] = [item['a'] for item in datafields_by_tag.get("245", [])]
-    results["alternative_titles"] = [item['a'] for item in datafields_by_tag.get("246", [])]
-    results["authors"]  = [item['a'] for item in datafields_by_tag.get("710", []) if 'a' in item]
-    results["edition"]  = [item['a'] for item in datafields_by_tag.get("250", []) if 'a' in item]
-    results["platform"] = [item['a'] for item in datafields_by_tag.get("753", []) if 'a' in item]
-    results["callnumber"] = datafields_by_tag.get("099", [])[0]['a'] if len(datafields_by_tag.get("099", [])) > 0 else ''
+    #  Field Extraction Mapping 
+    results = {
+        "title": [item['a'] for item in datafields_by_tag.get("245", [])],
+        "alternative_titles": [item['a'] for item in datafields_by_tag.get("246", [])],
+        "authors": [item['a'] for item in datafields_by_tag.get("710", []) if 'a' in item],
+        "edition": [item['a'] for item in datafields_by_tag.get("250", []) if 'a' in item],
+        "platform": [item['a'] for item in datafields_by_tag.get("753", []) if 'a' in item],
+        "callnumber": datafields_by_tag.get("099", [])[0]['a'] if datafields_by_tag.get("099") else ''
+    }
 
     return results
