@@ -1,0 +1,1033 @@
+[
+    {
+        "_id": 347661,
+        "name": "LEGO Party!",
+        "cover": {
+            "id": 463293,
+            "image_id": "co9xh9"
+        },
+        "release_date": 1759190400,
+        "genres": [
+            {
+                "id": 33,
+                "name": "Arcade"
+            },
+            {
+                "id": 35,
+                "name": "Card & Board Game"
+            }
+        ],
+        "summary": "LEGO(R) Party! is a 4-player party game that's built different! Compete against your friends in wacky Challenge Zones and 60 hilarious minigames from across your favorite LEGO sets like Pirates, Space, NINJAGO and more. Play your way! Join your friends no matter their platform locally or online!",
+        "game_type": 0,
+        "platforms": [
+            169,
+            48,
+            6,
+            167,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007093685"
+        ]
+    },
+    {
+        "_id": 329146,
+        "name": "EA Sports College Football 26",
+        "cover": {
+            "id": 467629,
+            "image_id": "coa0tp"
+        },
+        "release_date": 1752192000,
+        "genres": [
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 14,
+                "name": "Sport"
+            }
+        ],
+        "summary": "In EA SPORTS College Football 26, the playbook is yours. Rise from high school recruit to Heisman legend, or cement your legacy as a coach by leading your program to glory.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007045725"
+        ]
+    },
+    {
+        "_id": 317627,
+        "name": "Ghost of Yotei",
+        "cover": {
+            "id": 436344,
+            "image_id": "co9coo"
+        },
+        "release_date": 1759363200,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "The game takes place 300 years after Ghost of Tsushima. Set in the lands surrounding Mount Yōtei, a towering peak in the heart of Ezo, an area of Japan known as Hokkaido in present day.\n\nThe area is outside the rule of Japan, and filled with sprawling grasslands, snowy tundras, and unexpected dangers.",
+        "game_type": 0,
+        "platforms": [
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007093799"
+        ]
+    },
+    {
+        "_id": 228530,
+        "name": "Death Stranding 2: On the Beach",
+        "cover": {
+            "id": 444165,
+            "image_id": "co9ipx"
+        },
+        "release_date": 1750896000,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Embark on an inspiring mission of human connection beyond the UCA. Sam — with companions by his side — sets out on a new journey to save humanity from extinction. Join them as they traverse a world beset by otherworldly enemies, obstacles and a haunting question: should we have connected?",
+        "game_type": 0,
+        "platforms": [
+            6,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007045053"
+        ]
+    },
+    {
+        "_id": 28540,
+        "name": "Assassin's Creed Origins",
+        "cover": {
+            "id": 82058,
+            "image_id": "co1rbe"
+        },
+        "release_date": 1508976000,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Assassin’s Creed Origins is an action-adventure game set in ancient Egypt at the end of the Ptolemaic era. The story follows Bayek, a Medjay tasked with protecting the people, as personal tragedy draws him into a wider conflict that leads to the origins of the Assassin Brotherhood.\n\nThe game features a large open-world recreation of Egypt, including cities, deserts, and the Nile, with an increased emphasis on exploration. Gameplay combines stealth, melee and ranged combat, and role-playing elements such as character leveling, skill trees, and gear progression.",
+        "game_type": 0,
+        "platforms": [
+            170,
+            169,
+            48,
+            6,
+            167,
+            49
+        ],
+        "dmc_entries": [
+            "folio.in00007080005"
+        ]
+    },
+    {
+        "_id": 10760,
+        "name": "Bloodstained: Ritual of the Night",
+        "cover": {
+            "id": 528922,
+            "image_id": "cobc4a"
+        },
+        "release_date": 1560816000,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Bloodstained: Ritual of the Night is a gothic horror action side-scrolling RPG set in 19th century England. A paranormal force has summoned a demon-infested castle, revealing crystal shards infused with tremendous magical power.\n\nPlay as Miriam, an orphan scarred by an alchemist's curse which slowly crystallizes her body. To save humanity, and herself in the process, Miriam must fight through the castle and defeat the summoner, Gebel.\n\nCollect, craft and unlock a vast array of weapons, equipment and loot to defeat the countless minions and bosses of hell that await!",
+        "game_type": 0,
+        "platforms": [
+            170,
+            48,
+            6,
+            39,
+            41,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007080004"
+        ]
+    },
+    {
+        "_id": 347121,
+        "name": "Final Fantasy Tactics: The Ivalice Chronicles",
+        "cover": {
+            "id": 462546,
+            "image_id": "co9wwi"
+        },
+        "release_date": 1759190400,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 15,
+                "name": "Strategy"
+            },
+            {
+                "id": 16,
+                "name": "Turn-based strategy (TBS)"
+            },
+            {
+                "id": 24,
+                "name": "Tactical"
+            }
+        ],
+        "summary": "This dramatic tale of ambition, betrayal, and honor comes to life again with an updated and enriched script with fully voiced dialogue, alongside improved graphics that bring a new level of immersion and playability to the battlefield. Additionally, the enhanced version brings quality-of-life updates like new difficulties, a revamped UI, auto save, and more that make the game more accessible to newcomers.",
+        "game_type": 9,
+        "platforms": [
+            169,
+            48,
+            508,
+            6,
+            167,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007093718"
+        ]
+    },
+    {
+        "_id": 119521,
+        "name": "Metroid Prime Hunters: First Hunt",
+        "cover": {
+            "id": 391703,
+            "image_id": "co8e8n"
+        },
+        "release_date": 1100995200,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "An episode in the Metroid Prime series which started on the GameCube, this game takes place between Metroid Prime and Metroid Prime 2: Echoes. Interstellar bounty hunter Samus Aran is sent to the distant Alimbic Cluster by the Galactic Federation to investigate a message saying that the source of ultimate power lies in this desolate part of the galaxy, once home to an advanced culture.",
+        "game_type": 0,
+        "platforms": [
+            20
+        ],
+        "dmc_entries": [
+            "folio.in00007108322"
+        ]
+    },
+    {
+        "_id": 103054,
+        "name": "Assassin's Creed Odyssey",
+        "cover": {
+            "id": 124221,
+            "image_id": "co2nul"
+        },
+        "release_date": 1538697600,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Write your own epic odyssey and become a legendary Spartan hero in Assassin's Creed Odyssey, an inspiring adventure where you must forge your destiny and define your own path in a world on the brink of tearing itself apart. Influence how history unfolds as you experience a rich and ever-changing world shaped by your decisions.",
+        "game_type": 0,
+        "platforms": [
+            170,
+            169,
+            48,
+            6,
+            167,
+            49
+        ],
+        "dmc_entries": [
+            "folio.in00007080006"
+        ]
+    },
+    {
+        "_id": 152246,
+        "name": "The Outer Worlds 2",
+        "cover": {
+            "id": 463864,
+            "image_id": "co9xx4"
+        },
+        "release_date": 1761696000,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "The Outer Worlds 2 is the sequel to the award-winning first-person sci-fi RPG from Obsidian Entertainment.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            6,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007093833"
+        ]
+    },
+    {
+        "_id": 279630,
+        "name": "Shinobi: Art of Vengeance",
+        "cover": {
+            "id": 438103,
+            "image_id": "co9e1j"
+        },
+        "release_date": 1756425600,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 25,
+                "name": "Hack and slash/Beat 'em up"
+            }
+        ],
+        "summary": "Slay the enemies in the silence of the moment. Run through the world of Shinobi full of monsters and ninja actions. Grab Oborozuki, the legendary sword, and slay evil once more. Your clan and the world are counting on you.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            48,
+            6,
+            167,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007093866"
+        ]
+    },
+    {
+        "_id": 41862,
+        "name": "Resident Evil: Origins Collection",
+        "cover": {
+            "id": 157677,
+            "image_id": "co3dnx"
+        },
+        "release_date": 1453161600,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Experience the early days of the outbreak in Resident Evil Origins Collection, a compilation package of two with two Resident Evil origin stories: Resident Evil 0 and Resident Evil HD . Both terrifying games have been brought to new new levels of horror with new HD visuals, improved sound, widescreen support, an optional modernized control system and more.",
+        "game_type": 3,
+        "platforms": [
+            48,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007113273"
+        ]
+    },
+    {
+        "_id": 19562,
+        "name": "Resident Evil 7: Biohazard",
+        "cover": {
+            "id": 551969,
+            "image_id": "cobtwh"
+        },
+        "release_date": 1485216000,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 9,
+                "name": "Puzzle"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Resident Evil 7: Biohazard is the first game of the Resident Evil series to switch from 3rd-person to fully 1st-person perspective. A complete refresh of gameplay systems simultaneously propels the survival horror experience to another level. It is as much horror as it is survival, boosting up scare elements and minimizing downright shooting action. The game allows use of Sony's PSVR Headset to play in VR mode.",
+        "game_type": 0,
+        "platforms": [
+            170,
+            169,
+            48,
+            508,
+            165,
+            6,
+            39,
+            167,
+            14,
+            49
+        ],
+        "dmc_entries": [
+            "folio.in00007113275"
+        ]
+    },
+    {
+        "_id": 2672,
+        "name": "Guitar Hero 5",
+        "cover": {
+            "id": 237935,
+            "image_id": "co53lb"
+        },
+        "release_date": 1251763200,
+        "genres": [
+            {
+                "id": 7,
+                "name": "Music"
+            }
+        ],
+        "summary": "Guitar Hero 5 (initially referred to as Guitar Hero V) is a music rhythm game and the fifth main entry in the Guitar Hero series. The game was developed by Neversoft and published by Activision, and released internationally in September 2009 for the Xbox 360, PlayStation 2, 3 and Wii consoles. Similar to the preceding title, Guitar Hero World Tour, Guitar Hero 5 is geared towards playing in a four-person band experience, including lead and bass guitar, drums, and vocals. The game is available as a standalone title, allowing players to use existing compatible instrument controllers, and as a bundle that provides these controllers. Guitar Hero 5 adds several new features, such as drop-in/drop-out play, bands composed of any combination of available instruments, a Rockfest competitive mode consisting of several various scoring mechanisms, and both song-specific and general Challenges to unlock new avatars, clothing, and other extras in the game. Many of these changes were added to make the game a more social experience, allowing players across a range of skill levels to be able to play cooperatively and competitively against each other both locally and online.\n\nGuitar Hero 5's track list contains 85 songs by 83 separate artists, and like previous Guitar Hero games, several musicians with works in the game have been modeled through motion capture for playable characters in the game, including Johnny Cash, Carlos Santana, Shirley Manson, Matthew Bellamy, and Kurt Cobain. Players can also create their own character and instrument to play with. The game continues to support the user-created music studio introduced in World Tour through GHTunes, and additional downloadable content for the game was also made available. A majority of existing downloadable tracks from World Tour are forward-compatible with Guitar Hero 5, along with selected on-disc tracks from World Tour and Guitar Hero Smash Hits, and songs from the game could also be exported for a fee to play in its sequel, Guitar Hero: Warriors of Rock, and spin-off game Band Hero.\n\nThe game was well received by reviewers, who appreciated the improvements in the accessibility of the game, allowing players to immediately jump in and play without spending excessive time in the game's menus. The game also sold well, however, it sold about less than 50 percent of Guitar Hero: World Tour's sales, specifically selling 1.2 million copies across all platforms. Improvements to both the Career and competitive multiplayer modes were also highlights of the game. However, the game's track list was considered to be too broad, and controversy arose over the ability to use the avatar of Kurt Cobain to perform in any other song within the game.",
+        "game_type": 0,
+        "platforms": [
+            9,
+            5,
+            12,
+            8
+        ],
+        "dmc_entries": [
+            "folio.in00006748993"
+        ]
+    },
+    {
+        "_id": 2629,
+        "name": "Guitar Hero: Warriors of Rock",
+        "cover": {
+            "id": 80992,
+            "image_id": "co1qhs"
+        },
+        "release_date": 1285286400,
+        "genres": [
+            {
+                "id": 7,
+                "name": "Music"
+            }
+        ],
+        "summary": "Guitar Hero: Warriors of Rock features more than 90 tracks that include guitar shredding hits from bands such as Black Sabbath, Megadeth and Slipknot and larger than life anthems from Queen, Muse and KISS.\n\nThe sixth full title in the original play-along rock & roll series, Warriors of Rock takes Guitar Hero virtual virtuosos on a journey of metal-inspired fantasy. In the game's Quest mode, players lead eight individual characters to transform into heroic warriors, in a realm of studded black leather and dark gothic undertones. Characters use their individual special abilities to complete rock performance challenges and move the story forward, toward an ultimate battle that will determine the fate of the Demigod of Rock, and indeed, rock & roll itself.\n\nWarriors of Rock hits retail shelves with the largest out-of-the-box playlist yet in the Guitar Hero series, boasting a total of more than 90 tracks from artists including Black Sabbath, Kiss, Megadeth, Anthrax, Def Leppard, and Soundgarden. Hits by artists such as Dire Straits, The Cure, Queen, and The Rolling Stones are also featured. A Quickplay option allows players instant access to the Rock Warrior characters' special powers, outside of the Quest campaign, and players can perform any combination of guitar, bass, drums, and vocals, in Party Play and other familiar Guitar Hero modes.\n\nThe initial retail release of the PS3 version of the game is also available in an edition bundled with a hard-rock themed guitar controller, or in a \"Complete\" edition that includes a microphone and guitar, bass, and drum controllers.",
+        "game_type": 0,
+        "platforms": [
+            9,
+            5,
+            12,
+            8
+        ],
+        "dmc_entries": [
+            "folio.in00006749831"
+        ]
+    },
+    {
+        "_id": 8339,
+        "name": "Minecraft: Story Mode",
+        "cover": {
+            "id": 87487,
+            "image_id": "co1vi7"
+        },
+        "release_date": 1444694400,
+        "genres": [
+            {
+                "id": 2,
+                "name": "Point-and-click"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Minecraft: Story Mode is a five-part adventure series based on the sandbox building and exploration game Minecraft. Typical for Telltale games, it is a cinematic adventure where the story is driven through the player's choices. Decisions are carried over and influence characters and events. The game uses the original title's block design and introduces a story for the game world as there was none for the original title. At the start of the game the player can choose between six characters, three male and three female, with different appearances.",
+        "game_type": 0,
+        "platforms": [
+            82,
+            9,
+            48,
+            34,
+            6,
+            39,
+            14,
+            41,
+            46,
+            12,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007115307"
+        ]
+    },
+    {
+        "_id": 84610,
+        "name": "Minecraft: Wii U Edition",
+        "cover": {
+            "id": 119145,
+            "image_id": "co2jxl"
+        },
+        "release_date": 1450310400,
+        "genres": [
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Minecraft is a game about placing blocks and going on adventures.",
+        "game_type": 11,
+        "platforms": [
+            41
+        ],
+        "dmc_entries": [
+            "folio.in00007115312"
+        ]
+    },
+    {
+        "_id": 2671,
+        "name": "Guitar Hero III: Legends of Rock",
+        "cover": {
+            "id": 89086,
+            "image_id": "co1wqm"
+        },
+        "release_date": 1193529600,
+        "genres": [
+            {
+                "id": 7,
+                "name": "Music"
+            },
+            {
+                "id": 13,
+                "name": "Simulator"
+            }
+        ],
+        "summary": "Rock out to the third entry in in Red Octane's music series for guitar gods! Songs for Guitar Hero III include Barracuda by Heart, Sabotage by Beastie Boys, Rock And Roll All Nite by Kiss, and much more! In addition, players can experience an incredible number of added features and explosive content including a new multiplayer action-inspired battle mode, grueling boss battles, a bevy of exclusive unlockable content and authentic rock venues.",
+        "game_type": 0,
+        "platforms": [
+            9,
+            5,
+            6,
+            14,
+            12,
+            8
+        ],
+        "dmc_entries": [
+            "folio.in00007119043"
+        ]
+    },
+    {
+        "_id": 314276,
+        "name": "Mafia: The Old Country",
+        "cover": {
+            "id": 478718,
+            "image_id": "coa9dq"
+        },
+        "release_date": 1754524800,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Mafia: The Old Country is an action-adventure game part of the Mafia series. It is a prequel to the first Mafia game. The game lets players descend into Sicily's criminal underworld during the 1900s.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            6,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007093684"
+        ]
+    },
+    {
+        "_id": 119171,
+        "name": "Baldur's Gate III",
+        "cover": {
+            "id": 289025,
+            "image_id": "co670h"
+        },
+        "release_date": 1691020800,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 15,
+                "name": "Strategy"
+            },
+            {
+                "id": 16,
+                "name": "Turn-based strategy (TBS)"
+            }
+        ],
+        "summary": "An ancient evil has returned to Baldur's Gate, intent on devouring it from the inside out. The fate of Faerun lies in your hands. Alone, you may resist. But together, you can overcome.",
+        "game_type": 0,
+        "platforms": [
+            170,
+            169,
+            3,
+            6,
+            167,
+            14
+        ],
+        "dmc_entries": [
+            "folio.in00006833929"
+        ]
+    },
+    {
+        "_id": 1266,
+        "name": "Assassin's Creed III",
+        "cover": {
+            "id": 90090,
+            "image_id": "co1xii"
+        },
+        "release_date": 1351555200,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "The American Colonies, 1775. A brave young warrior fights to save his homeland. But what begins as a struggle over territory turns into an extraordinary journey that will transform him into a Master Assassin—and will forever change the destiny of a nation.\n\nYou are Connor, warrior son of a Native American mother and British father. As the colonies draw closer to revolution, you will dedicate your life to the freedom of your clan –becoming the spark that ignites the revolution into full blaze. Your crusade will take you through blood-soaked battlefields to crowded city streets, to perilous wilderness and beyond. You will not only witness history—you will make it.\nWelcome to an entirely new chapter in the Assassin’s Creed saga.",
+        "game_type": 0,
+        "platforms": [
+            9,
+            6,
+            41,
+            12
+        ],
+        "dmc_entries": [
+            "folio.in00007115317"
+        ]
+    },
+    {
+        "_id": 288327,
+        "name": "Pokémon Legends: Z-A",
+        "cover": {
+            "id": 462648,
+            "image_id": "co9wzc"
+        },
+        "release_date": 1760572800,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "A new adventure awaits within Lumiose City, where an urban redevelopment plan is underway to shape the city into a place that belongs to both people and Pokémon. Please look forward to seeing it for yourself.​​",
+        "game_type": 0,
+        "platforms": [
+            508,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007045220"
+        ]
+    },
+    {
+        "_id": 317407,
+        "name": "Battlefield 6",
+        "cover": {
+            "id": 474329,
+            "image_id": "coa5zt"
+        },
+        "release_date": 1760054400,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            }
+        ],
+        "summary": "The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            6,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007093832"
+        ]
+    },
+    {
+        "_id": 2112,
+        "name": "Mirror's Edge Catalyst",
+        "cover": {
+            "id": 104654,
+            "image_id": "co28r2"
+        },
+        "release_date": 1465257600,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Mirror's Edge Catalyst is an action-adventure game and the reboot to Mirror's Edge. The story in the game explores the past of the protagonist Faith. Like in the previous game, the main gameplay in Mirror's Edge Catalyst involves traversing the city using parkour to reach certain objectives. Unlike the linear levels in Mirror's Edge, Mirror's Edge Catalyst features an open-world free-roaming environment. Combat has been overhauled and emphasized compared to the first game and Catalyst no longer allows the player to use weapons, instead focusing on melee attacks.",
+        "game_type": 0,
+        "platforms": [
+            48,
+            6,
+            49
+        ],
+        "dmc_entries": [
+            "folio.in00007119045"
+        ]
+    },
+    {
+        "_id": 300976,
+        "name": "Assassin's Creed Shadows",
+        "cover": {
+            "id": 382782,
+            "image_id": "co87cu"
+        },
+        "release_date": 1742428800,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Experience an epic historical action-adventure story set in feudal Japan! Become a lethal shinobi Assassin and a powerful legendary samurai as you explore a beautiful open world in a time of chaos. Switch seamlessly between two unlikely allies as you discover their common destiny. Master complementary playstyles, create your shinobi league, customize your hideout, and usher in a new era for Japan.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            508,
+            6,
+            167,
+            14
+        ],
+        "dmc_entries": [
+            "folio.in00007094053"
+        ]
+    },
+    {
+        "_id": 76723,
+        "name": "Mega Man 11",
+        "cover": {
+            "id": 93270,
+            "image_id": "co1zyu"
+        },
+        "release_date": 1538438400,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 8,
+                "name": "Platform"
+            }
+        ],
+        "summary": "The classic series takes a leap forward in visual presentation in Mega Man 11 with a 2.5D design direction introducing beautiful, completely hand-drawn characters and environments. A freshly redesigned Mega Man takes on Dr. Wily’s berserk machines, defeating Robot Master bosses and taking their weapons, in an ever-evolving fight for justice with new and unique enemy designs.",
+        "game_type": 0,
+        "platforms": [
+            48,
+            6,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007119051"
+        ]
+    },
+    {
+        "_id": 262529,
+        "name": "Little Nightmares III",
+        "cover": {
+            "id": 468109,
+            "image_id": "coa171"
+        },
+        "release_date": 1760054400,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 9,
+                "name": "Puzzle"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Embark on a new adventure in the unique world of Little Nightmares.\n\nIn Little Nightmares III, you follow the journey of Low & Alone, as they search for a path that could lead them out of the Nowhere.\n\nTrapped within the Spiral, a cluster of disturbing places, the two friends will have to work together to survive in a dangerous world full of delusions and escape the grasp of an even greater threat lurking in the shadows.\n\nFor the first time in the franchise, face your childhood fears together with a friend using online co-op, or solo with an AI companion.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            48,
+            508,
+            6,
+            167,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007093576"
+        ]
+    },
+    {
+        "_id": 228525,
+        "name": "Hades II",
+        "cover": {
+            "id": 493341,
+            "image_id": "coaknx"
+        },
+        "release_date": 1758758400,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 25,
+                "name": "Hack and slash/Beat 'em up"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Indie"
+            }
+        ],
+        "summary": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            508,
+            6,
+            167,
+            14,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007080039"
+        ]
+    },
+    {
+        "_id": 12520,
+        "name": "Lovers in a Dangerous Spacetime",
+        "cover": {
+            "id": 99939,
+            "image_id": "co2543"
+        },
+        "release_date": 1441756800,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 9,
+                "name": "Puzzle"
+            },
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Indie"
+            },
+            {
+                "id": 33,
+                "name": "Arcade"
+            }
+        ],
+        "summary": "Lovers in a Dangerous Spacetime is a frantic 1- or 4-player couch co-op action space shooter set in a massive neon battleship. Only through teamwork can you triumph over the evil forces of Anti-Love, rescue kidnapped space-bunnies, and avoid a vacuumy demise. Deep space is a dangerous place, but you don’t have to face it alone!",
+        "game_type": 0,
+        "platforms": [
+            48,
+            3,
+            6,
+            14,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007116843"
+        ]
+    },
+    {
+        "_id": 171225,
+        "name": "Wuchang: Fallen Feathers",
+        "cover": {
+            "id": 463335,
+            "image_id": "co9xif"
+        },
+        "release_date": 1753315200,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 25,
+                "name": "Hack and slash/Beat 'em up"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Wuchang: Fallen Feathers is a soulslike action RPG set in the land of Shu during the dark and tumultuous late Ming Dynasty, plagued by warring factions and a mysterious illness that spawns monstrous creatures.",
+        "game_type": 0,
+        "platforms": [
+            169,
+            6,
+            167
+        ],
+        "dmc_entries": [
+            "folio.in00007116747"
+        ]
+    },
+    {
+        "_id": 134120,
+        "name": "Vampire: The Masquerade - Bloodlines 2 First Blood Edition",
+        "cover": {
+            "id": 103137,
+            "image_id": "co27kx"
+        },
+        "release_date": 0,
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            }
+        ],
+        "summary": "Vampire: The Masquerade - Bloodlines 2 is the successor to the iconic RPG Vampire: The Masquerade - Bloodlines. Set in a Seattle faithfully reimagined in the World of Darkness, Vampire: The Masquerade - Bloodlines 2 features reactive storytelling, fast-paced melee combat, and intriguing characters with their own hidden motives.\n\nThe First Blood Edition includes:\n- Main game\n- Digital Official Soundtrack\n- Engraved Pistol Weapon Skin\n- Retro Hunter Outfit\n- Civil War Saber Weapon Skin",
+        "game_type": 0,
+        "platforms": [
+            169,
+            48,
+            6,
+            167,
+            49
+        ],
+        "dmc_entries": [
+            "folio.in00007116760"
+        ]
+    },
+    {
+        "_id": 3221,
+        "name": "Rogue Legacy",
+        "cover": {
+            "id": 102942,
+            "image_id": "co27fi"
+        },
+        "release_date": 1372291200,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 9,
+                "name": "Puzzle"
+            },
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Indie"
+            }
+        ],
+        "summary": "You control a family of characters one at a time, and when your character dies, you choose who his or her successor is, whether it is a barbarian son of yours who has OCD, your daughter who became a ninja even though she can't see well, an assassin who is fighting for the gays, or a miner who wants to collect gold! Traits are randomized each time upon death, leading to multiple playthroughs with 35 traits, each character will be unique.",
+        "game_type": 0,
+        "platforms": [
+            9,
+            48,
+            3,
+            6,
+            14,
+            46,
+            49,
+            130
+        ],
+        "dmc_entries": [
+            "folio.in00007116761"
+        ]
+    }
+]

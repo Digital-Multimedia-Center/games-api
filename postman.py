@@ -92,8 +92,8 @@ limit 100;
 # else:
 #     print("No confident match found.")
 
-games = ['Live a live']
-platform = [130]
+games = ['Lego party! /']
+platform = [49, 169]
 
 def build_query(title, platform):
     base_query = """

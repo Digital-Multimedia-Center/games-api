@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import json
 import os
 import pymongo
-from .api_helpers import IGDB_GAMES_ENDPOINT, query_igdb_endpoint
+from lib.api_helpers import IGDB_GAMES_ENDPOINT, query_igdb_endpoint
 
 load_dotenv()
 
@@ -71,7 +71,38 @@ def build_platforms(platforms, debug = False):
         print("No platforms to process") 
     return
 
+def fetch_unprocessed_games():
+    # Load MSU catalog games
+    pipeline = [
+        {
+            # Join dmc-items with enriched-items
+            "$lookup": {
+                "from": "enriched-items",
+                "localField": "_id",           # The folio_id in dmc-items
+                "foreignField": "dmc_entries", # The array containing folio_ids in enriched-items
+                "as": "link_check"
+            }
+        },
+        {
+            # Filter for documents where the join result is empty
+            "$match": {
+                "link_check": {"$size": 0}
+            }
+        },
+        {
+            # Remove the temporary join field from the final output
+            "$project": {
+                "link_check": 0
+            }
+        }
+    ]
+
+    # Execute and convert cursor to list
+    return list(db["dmc-items"].aggregate(pipeline))
+
 if __name__ == "__main__":
-    platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", "Playstation Portable", "Playstation Vita", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5", "Switch 2"]
+    # platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", "Playstation Portable", "Playstation Vita", "Playstation", "Playstation 2", "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5", "Switch 2"]
     
-    build_platforms(platforms, True)
+    # build_platforms(platforms, True)
+    
+    print(fetch_unprocessed_games()[:10])

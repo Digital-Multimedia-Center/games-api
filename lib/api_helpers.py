@@ -56,7 +56,13 @@ def rate_limit():
 
 def query_igdb_endpoint(endpoint, query):
     response = requests.post(endpoint, headers=IGDB_HEADERS, data=query)
-    response.raise_for_status()
+    try:
+        response.raise_for_status()
+    except Exception as e:
+        print(f"Couldn't query {endpoint} with query:")
+        print(query)
+        print(e)
+        exit(1)
     return response.json()
 
 def msu_catalog_api(page, limit=100):
