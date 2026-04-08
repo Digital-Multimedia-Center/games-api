@@ -244,6 +244,6 @@ def enrich_with_igdb():
         print(f"Successfully inserted {len(enriched_games)} new enriched games.")
 
 if __name__ == "__main__":
-    update_dmc_catalog_data()
+    update_dmc_catalog_data(debug=True)
     # enrich_with_igdb()
     pass
