@@ -33,7 +33,7 @@ def platforms_in_db():
     """
     return list(platform_db.find({})) 
 
-def build_platforms(platforms, debug=False):
+def build_platforms(debug=False):
     """
     Fetches platform metadata from IGDB and upserts it into the database.
 
@@ -41,42 +41,35 @@ def build_platforms(platforms, debug=False):
         platforms (list): List of platform names (strings) to process.
         debug (bool): If True, writes results to a local JSON file instead of the database.
     """
-    def build_query(platform):
+    def build_query():
         """
-        Helper to construct an IGDB query for platform metadata.
+        Helper to construct an IGDB query for all platform metadata.
         Filters for console and handheld platform types (1, 5).
         """
-        return f"""
+        return """
         fields *;
-        search "{platform}";
         where platform_type = (1, 5);
-        limit 1;
+        limit 500;
         """
     
     operations = []
     all_results = []
+
+    response = query_igdb_endpoint(IGDB_GAMES_ENDPOINT, build_query())
+
+    for console in response:
+        console["_id"] = console.pop("id")
     
-    for platform in platforms:
-            # Query IGDB for platform details
-            response = query_igdb_endpoint(IGDB_GAMES_ENDPOINT, build_query(platform))
-            if not response:
-                continue
-                
-            console = response[0]
-            # Map IGDB 'id' to MongoDB '_id'
-            console["_id"] = console.pop("id")
-    
-            # Prepare bulk upsert: only set data if the document is being inserted
-            op = pymongo.UpdateOne(
+        op = pymongo.UpdateOne(
                 {"_id": console["_id"]},
                 {"$setOnInsert": console},
                 upsert=True
             )
-            
-            if debug:
-                all_results.append(console)
-            else:
-                operations.append(op)
+
+        if debug:
+            all_results.append(console)
+        else:
+            operations.append(op)
             
     if operations:
         # Execute all upserts in a single database call
@@ -89,7 +82,6 @@ def build_platforms(platforms, debug=False):
         print("Platforms written to Database/platforms.json")
     else:
         print("No platforms to process") 
-    return
 
 def fetch_unprocessed_games():
     """
@@ -128,13 +120,7 @@ def fetch_unprocessed_games():
     return list(db["dmc-items"].aggregate(pipeline))
 
 if __name__ == "__main__":
-    # Example platforms for initialization:
-    # platforms = ["Nintendo 64", "Saturn", "Nintendo GameCube", "Dreamcast", "Nintendo DS", 
-    #              "Playstation Portable", "Playstation Vita", "Playstation", "Playstation 2", 
-    #              "Wii U", "Wii", "Nintendo Switch", "playstation 3", "Xbox", "Xbox 360", 
-    #              "Xbox One", "Xbox Series", "Playstation 4", "Playstation 5"]
-    
-    # build_platforms(platforms, debug=True)
+    build_platforms(debug=True)
     
     # Preview the first 10 games needing metadata enrichment
-    print(fetch_unprocessed_games()[:10])
+    # print(fetch_unprocessed_games()[:10])
