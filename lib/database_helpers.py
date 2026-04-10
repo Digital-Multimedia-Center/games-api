@@ -15,10 +15,7 @@ from lib.api_helpers import IGDB_GAMES_ENDPOINT, query_igdb_endpoint
 
 # Load environment variables and initialize MongoDB connection
 load_dotenv()
-user = os.getenv("MONGO_USER")
-password = os.getenv("MONGO_PASSWORD")
-
-CONNECTION_STRING = f"mongodb+srv://{user}:{password}@dmc-games-collection.5usd8rs.mongodb.net/"
+CONNECTION_STRING = os.getenv("MONGODB_URI")
 
 client = pymongo.MongoClient(CONNECTION_STRING)
 db = client["enriched-game-data"]
