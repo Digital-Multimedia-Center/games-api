@@ -1,35 +1,26 @@
-import argparse
+from lib.database_helpers import fetch_unprocessed_games
+from lib.string_matcher import GameTitleMatcher
 import json
 
-parser = argparse.ArgumentParser(description='Tests json file for missing vals')
-parser.add_argument('filename')
-args = parser.parse_args()
+# TODO : this will get moved to an admin front end because a developer isn't responsible
+# for erroneous results
 
-with open(args.filename, 'r') as enriched:
-    data = json.load(enriched)
-    failed_games = []
-    failed_games_retry = []
+unprocessed_games = fetch_unprocessed_games()
+with open("Tests/unprocessed_games.json", "w", encoding="utf-8") as f:
+    json.dump(unprocessed_games, f, indent=4, ensure_ascii=False)
 
-    for entry in data:
-        game = entry["game"]
-        igdb = game["igdb"]
+with open("Database/enriched-items.json", "r", encoding="utf-8") as f:
+    enriched_items = json.load(f)
+    enriched_items = {item["_id"] : item for item in enriched_items}
 
-        if not (igdb.get("cover") and igdb.get("summary")):
-            failed_game = {
-                "dmc": game["dmc"],
-                "igdb": igdb
-            }
-            failed_game_entry_retry = {
-                "dmc": game["dmc"],
-            }
-            failed_games.append(failed_game)
-            failed_games_retry.append(failed_game_entry_retry)
+with open("Database/dmc-items.json", "r", encoding="utf-8") as f:
+    dmc_items = json.load(f)
+    dmc_items = {item["_id"] : item for item in dmc_items}
 
-# Overwrite the previous failed_games.json file
-with open("Inspection/failed_games.json", 'w') as f:
-    json.dump(failed_games, f, indent=4, ensure_ascii=False)
+with open("Tests/low_confidence.json", "w", encoding="utf-8") as f:
+    for id, game in enriched_items.items():
+        for folio_id in game["dmc_entries"]:
+            pass
+        pass
+    pass
 
-with open("Inspection/failed_games_retry.json", 'w') as f:
-    json.dump(failed_games_retry, f, indent=4, ensure_ascii=False)
-
-print("Percentage of games that failed", len(failed_games) / len(data))

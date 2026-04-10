@@ -8,7 +8,7 @@ Workflow:
 1. update_dmc_catalog_data: Scrapes MSU catalog, extracts MARC21 metadata, 
    and stores raw item data in MongoDB.
 2. enrich_with_igdb: Identifies new items, performs semantic matching against 
-   the IGDB database, and stores the merged, high-fidelity results.
+   the IGDB database, and stores the merged enriched results.
 
 Author: Amrit Srivastava
 """
