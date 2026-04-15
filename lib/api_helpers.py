@@ -84,6 +84,8 @@ def query_igdb_endpoint(endpoint, query):
         "Authorization": f"Bearer {ACCESS_TOKEN}"
     }
 
+    rate_limit()
+
     response = requests.post(endpoint, headers=IGDB_HEADERS, data=query)
     
     # If query fails we shouldn't silently fail
