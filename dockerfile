@@ -15,4 +15,5 @@ RUN echo "0 3 * * * root . /etc/environment; /usr/local/bin/python /app/main.py 
 RUN chmod 0644 /etc/cron.d/python-cron
 RUN touch /var/log/cron.log
 
-CMD ["sh", "-c", "printenv > /etc/environment && cron -f"]
+RUN ln -sf /dev/stdout /var/log/cron.log
+CMD ["sh", "-c", "printenv > /etc/environment && /usr/local/bin/python /app/main.py && cron -f"]
