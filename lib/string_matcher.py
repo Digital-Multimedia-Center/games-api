@@ -10,13 +10,14 @@ Author: Amrit Srivastava
 from sentence_transformers import SentenceTransformer, util
 import torch
 import re
+from lib.database_helpers import platforms_in_db
 
 class PlatformMatcher:
     """
     Handles mapping of platform strings to verified platform IDs.
     Uses semantic search combined with exact version matching (e.g., distinguishing Xbox vs Xbox 360).
     """
-    def __init__(self, platform_data):
+    def __init__(self):
         """
         Initializes the transformer model and builds a corpus of platform names.
         
@@ -26,6 +27,8 @@ class PlatformMatcher:
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
         self.platform_map = []
         self.corpus_strings = []
+
+        platform_data = platforms_in_db()
 
         # Map IDs to searchable strings (names, abbreviations, and alternatives)
         for data in platform_data:

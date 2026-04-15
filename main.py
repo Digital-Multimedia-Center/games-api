@@ -20,7 +20,7 @@ from tqdm import tqdm
 import math
 
 from lib.api_helpers import msu_catalog_api, msu_oai_metadata_api, query_igdb_endpoint, IGDB_URL, build_igdb_search_game_query
-from lib.database_helpers import db, platforms_in_db, fetch_unprocessed_games
+from lib.database_helpers import db, fetch_unprocessed_games, build_platforms
 from lib.string_matcher import PlatformMatcher, GameTitleMatcher
 
 def update_dmc_catalog_data(page_limit=100, debug=False):
@@ -44,9 +44,8 @@ def update_dmc_catalog_data(page_limit=100, debug=False):
         print("No results found.")
         return
 
-    # Initialize PlatformMatcher with verified platform names from the database
-    platforms_meta = platforms_in_db()
-    matcher = PlatformMatcher(platforms_meta)
+    # Initialize PlatformMatcher, matches a game to the platform it's available on
+    matcher = PlatformMatcher()
 
     all_games = []
 
@@ -183,5 +182,6 @@ def enrich_with_igdb(debug=False):
 
 if __name__ == "__main__":
     # Standard operational flow
+    build_platforms()
     update_dmc_catalog_data()
     enrich_with_igdb()
