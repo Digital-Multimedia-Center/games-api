@@ -147,26 +147,25 @@ def enrich_with_igdb(debug=False):
         if exists:
             db["enriched-items"].update_one(
                 {"_id": igdb_id},
-                {"$addToSet": {"dmc_entries": unprocessed_game["_id"]}}
+                {"$addToSet": {"dmc_entries": {"folioid": unprocessed_game["_id"], "confidence": confidence}}}
             )
         # Case 2: New IGDB ID already in the current processing buffer, Update buffer
         elif igdb_id in enriched_games:
-            if unprocessed_game["_id"] not in enriched_games[igdb_id]["dmc_entries"]:
-                enriched_games[igdb_id]["dmc_entries"].append(unprocessed_game["_id"])
+            if not any(e["folioid"] == unprocessed_game["_id"] for e in enriched_games[igdb_id]["dmc_entries"]):
+                enriched_games[igdb_id]["dmc_entries"].append({"folioid": unprocessed_game["_id"], "confidence": confidence})
         # Case 3: Completely new entry, Create new enriched record
         else:
             enriched_games[igdb_id] = {
-                "_id" : igdb_id,
-                "name" : igdb_data.get("name", "Unknown Title"),
-                "cover" : igdb_data.get("cover", {}),
-                "release_date" : igdb_data.get("first_release_date", 0),
-                "genres" : igdb_data.get("genres", []),
-                "summary" : igdb_data.get("summary", ""),
-                "game_type" : igdb_data.get("game_type", 0),
-                "platforms" : igdb_data.get("platforms", []),
-                "dmc_entries" : [unprocessed_game["_id"]]
+                "_id": igdb_id,
+                "name": igdb_data.get("name", "Unknown Title"),
+                "cover": igdb_data.get("cover", {}),
+                "release_date": igdb_data.get("first_release_date", 0),
+                "genres": igdb_data.get("genres", []),
+                "summary": igdb_data.get("summary", ""),
+                "game_type": igdb_data.get("game_type", 0),
+                "platforms": igdb_data.get("platforms", []),
+                "dmc_entries": [{"folioid": unprocessed_game["_id"], "confidence": confidence}]
             }
-
     # Final Batch Insert
     enriched_games_list = list(enriched_games.values())
     
